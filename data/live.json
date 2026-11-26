@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-26T09:00:23.958555Z",
+  "generated_at": "2026-11-26T10:58:16.342336Z",
   "mode": "automatic source headlines, not independently verified emergency alerts",
   "sources": [
     {
@@ -8,9 +8,9 @@
       "name": "Met Office · Northern Ireland warnings",
       "site": "https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings",
       "kind": "warnings",
-      "checked_at": "2026-11-26T09:00:23.958555Z",
+      "checked_at": "2026-11-26T10:58:16.342336Z",
       "status": "ok",
-      "last_success": "2026-11-26T09:00:23.958555Z",
+      "last_success": "2026-11-26T10:58:16.342336Z",
       "item_count": 0
     },
     {
@@ -18,9 +18,9 @@
       "name": "UK Health Security Agency announcements",
       "site": "https://www.gov.uk/government/organisations/uk-health-security-agency",
       "kind": "news",
-      "checked_at": "2026-11-26T09:00:23.958555Z",
+      "checked_at": "2026-11-26T10:58:16.342336Z",
       "status": "ok",
-      "last_success": "2026-11-26T09:00:23.958555Z",
+      "last_success": "2026-11-26T10:58:16.342336Z",
       "item_count": 20
     },
     {
@@ -28,9 +28,9 @@
       "name": "NI Department of Health announcements",
       "site": "https://www.health-ni.gov.uk/news",
       "kind": "news",
-      "checked_at": "2026-11-26T09:00:23.958555Z",
+      "checked_at": "2026-11-26T10:58:16.342336Z",
       "status": "ok",
-      "last_success": "2026-11-26T09:00:23.958555Z",
+      "last_success": "2026-11-26T10:58:16.342336Z",
       "item_count": 30
     },
     {
@@ -38,13 +38,139 @@
       "name": "NI Department of Education announcements",
       "site": "https://www.education-ni.gov.uk/news",
       "kind": "news",
-      "checked_at": "2026-11-26T09:00:23.958555Z",
+      "checked_at": "2026-11-26T10:58:16.342336Z",
       "status": "ok",
-      "last_success": "2026-11-26T09:00:23.958555Z",
+      "last_success": "2026-11-26T10:58:16.342336Z",
       "item_count": 30
     }
   ],
   "items": [
+    {
+      "title": "New HIV diagnoses decrease again but late diagnosis remains a concern",
+      "summary": "New HIV diagnoses decreased among Black African heterosexual men and women for the first time in several years but challenges remain.",
+      "published": "2026-11-26T10:18:40Z",
+      "url": "https://www.gov.uk/government/news/new-hiv-diagnoses-decrease-again-but-late-diagnosis-remains-a-concern",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Research: Environmental monitoring following the Grenfell Tower fire",
+      "summary": "Air quality reports for the survivors and residents of the area surrounding Grenfell Tower.",
+      "published": "2026-11-26T09:30:27Z",
+      "url": "https://www.gov.uk/government/publications/environmental-monitoring-following-the-grenfell-tower-fire",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Research: Childhood vaccine coverage: provisional monthly data (England) 2026",
+      "summary": "Monthly data and commentary on coverage achieved by the UK childhood vaccination programme in England in 2026.",
+      "published": "2026-11-26T09:30:21Z",
+      "url": "https://www.gov.uk/government/publications/childhood-vaccine-coverage-provisional-monthly-data-england-2026",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Guidance: Surveillance of bloodstream infections in intensive care, England: quality and methodology information",
+      "summary": "Quality and methodology information (QMI) for the national bloodstream infections in intensive care report.",
+      "published": "2026-11-26T09:30:19Z",
+      "url": "https://www.gov.uk/government/publications/surveillance-of-bloodstream-infections-in-intensive-care-england-quality-and-methodology-information",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Research: Group A streptococcal infections: seasonal activity in England, 2026 to 2027",
+      "summary": "Group A streptococcal infections: reports on seasonal activity in England, 2026 to 2027",
+      "published": "2026-11-26T09:30:19Z",
+      "url": "https://www.gov.uk/government/publications/group-a-streptococcal-infections-seasonal-activity-in-england-2026-to-2027",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Official Statistics: National norovirus and rotavirus surveillance reports: 2026 to 2027 season",
+      "summary": "Reports of norovirus and rotavirus laboratory surveillance and enteric virus outbreaks in hospital settings in England during the 2026 to 2027 season.",
+      "published": "2026-11-26T09:30:19Z",
+      "url": "https://www.gov.uk/government/statistics/national-norovirus-and-rotavirus-surveillance-reports-2026-to-2027-season",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Research: Pertussis: laboratory confirmed cases reported in England 2026",
+      "summary": "Laboratory confirmed cases of pertussis reported to the enhanced pertussis surveillance programme in England.",
+      "published": "2026-11-26T09:30:17Z",
+      "url": "https://www.gov.uk/government/publications/pertussis-laboratory-confirmed-cases-reported-in-england-2026",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Research: Meningococcal disease: laboratory-confirmed cases in England 2026 to 2027",
+      "summary": "Laboratory-confirmed cases of invasive meningococcal disease reported to the enhanced meningococcal surveillance programme in England.",
+      "published": "2026-11-26T09:30:17Z",
+      "url": "https://www.gov.uk/government/publications/meningococcal-disease-laboratory-confirmed-cases-in-england-2026-to-2027",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Guidance: Pre-release access list: critical care annual statistical releases",
+      "summary": "List of those receiving pre-release access to UK Health Security Agency critical care annual statistical releases.",
+      "published": "2026-11-26T09:30:15Z",
+      "url": "https://www.gov.uk/government/publications/pre-release-access-list-critical-care-annual-statistical-releases",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Research: Diphtheria in England: annual reports",
+      "summary": "Annual data on reported cases of diphtheria in England, with epidemiological commentary.",
+      "published": "2026-11-26T09:30:13Z",
+      "url": "https://www.gov.uk/government/publications/diphtheria-in-england-and-wales-annual-reports",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Guidance: Pre-release access lists: HIV annual data",
+      "summary": "Lists of those receiving pre-release access to UK Health Security Agency HIV surveillance data.",
+      "published": "2026-11-26T09:30:11Z",
+      "url": "https://www.gov.uk/government/publications/pre-release-access-lists-hiv-annual-data",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Official Statistics: Surveillance of bloodstream infections in intensive care units, England: financial year 2025 to 2026",
+      "summary": "Annual reports and data tables showing the frequency of bloodstream infections in intensive care units in England, the microbes that cause them, and linked factors.",
+      "published": "2026-11-26T09:30:07Z",
+      "url": "https://www.gov.uk/government/statistics/surveillance-of-bloodstream-infections-in-intensive-care-units-england-financial-year-2025-to-2026",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Official Statistics: Surveillance of bloodstream infections in intensive care, England",
+      "summary": "Annual reports and data tables showing the frequency of bloodstream infections in intensive care units in England, the microbes that cause them, and linked factors.",
+      "published": "2026-11-26T09:30:07Z",
+      "url": "https://www.gov.uk/government/statistics/surveillance-of-bloodstream-infections-in-intensive-care-england",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
+    {
+      "title": "Official Statistics: HIV: annual data",
+      "summary": "HIV surveillance data in the UK by demographic characteristics and geographical region.",
+      "published": "2026-11-26T09:30:06Z",
+      "url": "https://www.gov.uk/government/statistics/hiv-annual-data",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
     {
       "title": "Promotional material: Vaccine update: issue 379, November 2026",
       "summary": "Latest developments in vaccines, vaccination policies and procedures for immunisation practitioners.",
@@ -95,132 +221,6 @@
       "summary": "Insights on the vaccine uptake and commentary on the RSV (respiratory syncytial virus) vaccination programme for older adults.",
       "published": "2026-11-23T16:47:27Z",
       "url": "https://www.gov.uk/government/statistics/announcements/respiratory-syncytial-virus-rsv-older-adults-vaccination-coverage-in-england-october-2026",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Accredited official statistics: Gram-negative, MRSA, MSSA bacteraemia and C. difficile infections: monthly data, October 2025 to October 2026",
-      "summary": "Mandatory surveillance of healthcare-associated infections (HCAI), which include methicillin-resistant Staphylococcus aureus (MRSA), Methicillin-sensitive Staphylococcus aureus (MSSA), Gram-negative bacteraemia such as Escherichia coli (E. ",
-      "published": "2026-11-23T16:47:04Z",
-      "url": "https://www.gov.uk/government/statistics/announcements/monthly-mandatory-surveillance-of-mrsa-mssa-gram-negative-bacteraemia-and-c-difficile-infections-october-2025-to-october-2026",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Official Statistics: National norovirus and rotavirus report, week 48 report: data to week 47 (data up to 22 November 2026)",
-      "summary": "Summary of norovirus and rotavirus laboratory surveillance and enteric virus outbreaks in England during the 2026 to 2027 season.",
-      "published": "2026-11-23T12:57:05Z",
-      "url": "https://www.gov.uk/government/statistics/announcements/national-norovirus-and-rotavirus-report-week-48-report-data-to-week-47-data-up-to-22-november-2026",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Official Statistics: National flu and COVID-19 surveillance report, week 48 report: data to week 47 (data up to 22 November 2026)",
-      "summary": "National influenza and COVID-19 report, monitoring COVID-19 activity, seasonal flu and other seasonal respiratory illnesses.",
-      "published": "2026-11-23T12:56:40Z",
-      "url": "https://www.gov.uk/government/statistics/announcements/national-flu-and-covid-19-surveillance-report-week-48-report-data-to-week-47-data-up-to-22-november-2026",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Transparency data: UKHSA spend over £500: 2026",
-      "summary": "Details of UK Health Security Agency (UKHSA) Government Procurement Card (GPC) transactions over £500.",
-      "published": "2026-11-23T10:00:44Z",
-      "url": "https://www.gov.uk/government/publications/ukhsa-spend-over-500-2026",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Official Statistics: Weekly all-cause mortality surveillance: week ending 22 November 2026",
-      "summary": "How the actual number of deaths in England compare with expected numbers for each week.",
-      "published": "2026-11-23T09:01:18Z",
-      "url": "https://www.gov.uk/government/statistics/announcements/weekly-all-cause-mortality-surveillance-week-ending-29-november-2026",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Guidance: Rabies post-exposure risk assessment",
-      "summary": "Information for clinicians who require a rabies risk assessment.",
-      "published": "2026-11-20T17:04:05Z",
-      "url": "https://www.gov.uk/government/publications/rabies-post-exposure-risk-assessment",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Official Statistics: Weekly all-cause mortality surveillance: 2026 to 2027",
-      "summary": "How the actual number of deaths in England compare with the expected numbers of deaths for each week.",
-      "published": "2026-11-20T15:23:41Z",
-      "url": "https://www.gov.uk/government/statistics/weekly-all-cause-mortality-surveillance-2026-to-2027",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "UKHSA cold-health alerts winter 2026/27",
-      "summary": "Updates on latest cold health alerts.",
-      "published": "2026-11-20T10:06:00Z",
-      "url": "https://www.gov.uk/government/news/ukhsa-issues-first-cold-health-alert-of-winter-202627",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Thousands of young children at risk from flu with just over a third of 2-and-3-year olds vaccinated",
-      "summary": "Parents are being urged to get their young children vaccinated as only over a third of 2-and-3-year olds have received a flu vaccine.",
-      "published": "2026-11-19T16:10:58Z",
-      "url": "https://www.gov.uk/government/news/thousands-of-young-children-at-risk-from-flu-with-just-over-a-third-of-2-and-3-year-olds-vaccinated",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Ebola and Marburg haemorrhagic fevers: outbreaks and case locations",
-      "summary": "Information about incidents and outbreaks of Ebola and Marburg, both viral haemorrhagic fevers (VHF).",
-      "published": "2026-11-19T15:30:02Z",
-      "url": "https://www.gov.uk/guidance/ebola-and-marburg-haemorrhagic-fevers-outbreaks-and-case-locations",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "High consequence infectious disease: country specific risk",
-      "summary": "Listing of countries with a known occurrence of high consequence infectious disease (HCID).",
-      "published": "2026-11-19T15:30:02Z",
-      "url": "https://www.gov.uk/guidance/high-consequence-infectious-disease-country-specific-risk",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Research: Outbreaks under monitoring in 2026",
-      "summary": "Latest information on global disease events under monitoring.",
-      "published": "2026-11-19T15:30:02Z",
-      "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Latest weekly winter virus surveillance data",
-      "summary": "Report monitoring respiratory viruses for the 2026/27 season.",
-      "published": "2026-11-19T14:00:05Z",
-      "url": "https://www.gov.uk/government/news/latest-ukhsa-weekly-winter-virus-surveillance-data",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Research: GP out-of-hours syndromic surveillance: weekly bulletins for 2026",
-      "summary": "The number of people contacting their GPs outside of surgery hours under the syndromic surveillance system.",
-      "published": "2026-11-19T14:00:04Z",
-      "url": "https://www.gov.uk/government/publications/gp-out-of-hours-syndromic-surveillance-weekly-bulletins-for-2026",
       "source_id": "ukhsa",
       "source": "UK Health Security Agency announcements",
       "category": "news"
