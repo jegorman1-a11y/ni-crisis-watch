@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-26T10:58:16.342336Z",
+  "generated_at": "2026-11-26T13:15:06.761283Z",
   "mode": "automatic source headlines, not independently verified emergency alerts",
   "sources": [
     {
@@ -8,9 +8,9 @@
       "name": "Met Office · Northern Ireland warnings",
       "site": "https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings",
       "kind": "warnings",
-      "checked_at": "2026-11-26T10:58:16.342336Z",
+      "checked_at": "2026-11-26T13:15:06.761283Z",
       "status": "ok",
-      "last_success": "2026-11-26T10:58:16.342336Z",
+      "last_success": "2026-11-26T13:15:06.761283Z",
       "item_count": 0
     },
     {
@@ -18,9 +18,9 @@
       "name": "UK Health Security Agency announcements",
       "site": "https://www.gov.uk/government/organisations/uk-health-security-agency",
       "kind": "news",
-      "checked_at": "2026-11-26T10:58:16.342336Z",
+      "checked_at": "2026-11-26T13:15:06.761283Z",
       "status": "ok",
-      "last_success": "2026-11-26T10:58:16.342336Z",
+      "last_success": "2026-11-26T13:15:06.761283Z",
       "item_count": 20
     },
     {
@@ -28,9 +28,9 @@
       "name": "NI Department of Health announcements",
       "site": "https://www.health-ni.gov.uk/news",
       "kind": "news",
-      "checked_at": "2026-11-26T10:58:16.342336Z",
+      "checked_at": "2026-11-26T13:15:06.761283Z",
       "status": "ok",
-      "last_success": "2026-11-26T10:58:16.342336Z",
+      "last_success": "2026-11-26T13:15:06.761283Z",
       "item_count": 30
     },
     {
@@ -38,13 +38,22 @@
       "name": "NI Department of Education announcements",
       "site": "https://www.education-ni.gov.uk/news",
       "kind": "news",
-      "checked_at": "2026-11-26T10:58:16.342336Z",
+      "checked_at": "2026-11-26T13:15:06.761283Z",
       "status": "ok",
-      "last_success": "2026-11-26T10:58:16.342336Z",
+      "last_success": "2026-11-26T13:15:06.761283Z",
       "item_count": 30
     }
   ],
   "items": [
+    {
+      "title": "Research: Streptococcal bacteraemia: annual data from voluntary surveillance",
+      "summary": "Voluntary surveillance of streptococcal bacteraemia in England.",
+      "published": "2026-11-26T11:30:02Z",
+      "url": "https://www.gov.uk/government/publications/pyogenic-and-non-pyogenic-streptococcal-bacteraemia-annual-data-from-voluntary-surveillance",
+      "source_id": "ukhsa",
+      "source": "UK Health Security Agency announcements",
+      "category": "news"
+    },
     {
       "title": "New HIV diagnoses decrease again but late diagnosis remains a concern",
       "summary": "New HIV diagnoses decreased among Black African heterosexual men and women for the first time in several years but challenges remain.",
@@ -212,15 +221,6 @@
       "summary": "Insights on the vaccine uptake and commentary on the RSV (respiratory syncytial virus) vaccination programme for pregnant women.",
       "published": "2026-11-23T16:47:58Z",
       "url": "https://www.gov.uk/government/statistics/announcements/respiratory-syncytial-virus-rsv-maternal-vaccination-coverage-in-england-july-2026",
-      "source_id": "ukhsa",
-      "source": "UK Health Security Agency announcements",
-      "category": "news"
-    },
-    {
-      "title": "Official Statistics: Respiratory syncytial virus (RSV) older adults vaccination coverage in England: October 2026",
-      "summary": "Insights on the vaccine uptake and commentary on the RSV (respiratory syncytial virus) vaccination programme for older adults.",
-      "published": "2026-11-23T16:47:27Z",
-      "url": "https://www.gov.uk/government/statistics/announcements/respiratory-syncytial-virus-rsv-older-adults-vaccination-coverage-in-england-october-2026",
       "source_id": "ukhsa",
       "source": "UK Health Security Agency announcements",
       "category": "news"
