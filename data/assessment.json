@@ -1,1 +1,53 @@
-{"schema":2,"generated_at":null,"forecast":[],"signals":[],"warnings":["Run the collector to generate the first assessment. This placeholder is not current intelligence."]}
+{
+  "schema": 2,
+  "generated_at": "2026-11-26T20:21:38Z",
+  "source_generated_at": "2026-11-26T20:21:37.210091Z",
+  "mode": "automated conservative headline triage, not a verified intelligence judgement",
+  "coverage": "Connected public announcement feeds only; NOT comprehensive WHO, legislation, procurement, NCSC or utilities monitoring.",
+  "methodology": "Rule-based narrow headline predicates; corroboration from independent official feeds required for limited numerical changes. No automated LLM inference. Numbers are illustrative and uncalibrated.",
+  "signals": [],
+  "signal_fingerprint": "4f53cda18c2baa0c",
+  "source_count": 4,
+  "sources_available": 4,
+  "forecast": [
+    {
+      "id": "lockdown",
+      "name": "Nationwide stay-at-home orders",
+      "year": 3,
+      "five": 10,
+      "previous_year": 3,
+      "previous_five": 10,
+      "rationale": "Baseline retained: no qualifying corroborated, explicit activation evidence in retrieved feeds. A missing feed is not an all-clear.",
+      "method": "bounded rules-based planning heuristic",
+      "evidence": [],
+      "review_required": false
+    },
+    {
+      "id": "restrictions",
+      "name": "Narrower public-health restrictions",
+      "year": 9,
+      "five": 27,
+      "previous_year": 9,
+      "previous_five": 27,
+      "rationale": "Baseline retained: no qualifying corroborated, explicit activation evidence in retrieved feeds. A missing feed is not an all-clear.",
+      "method": "bounded rules-based planning heuristic",
+      "evidence": [],
+      "review_required": false
+    },
+    {
+      "id": "infrastructure",
+      "name": "Serious local infrastructure disruption",
+      "year": 27,
+      "five": 67,
+      "previous_year": 27,
+      "previous_five": 67,
+      "rationale": "Baseline retained: no qualifying corroborated, explicit activation evidence in retrieved feeds. A missing feed is not an all-clear.",
+      "method": "bounded rules-based planning heuristic",
+      "evidence": [],
+      "review_required": false
+    }
+  ],
+  "warnings": [
+    "No qualifying candidate escalation detected in the connected headline feeds; this is not confirmation of no risk."
+  ]
+}
