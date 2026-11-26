@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "reports": [
+    {
+      "id": "2026-11-25-editorial-baseline",
+      "date": "2026-11-25",
+      "type": "baseline",
+      "title": "Starting editorial forecast (historical reference)",
+      "path": "data/archive/2026-11-25-editorial-baseline.json",
+      "signal_count": 0
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "2026-11-25-editorial-baseline",
+  "date": "2026-11-25",
+  "type": "baseline",
+  "generated_at": "2026-11-25T00:00:00Z",
+  "title": "Starting editorial forecast (historical reference)",
+  "assessment": {
+    "forecast": [
+      {
+        "id": "lockdown",
+        "name": "Nationwide stay-at-home orders",
+        "year": 3,
+        "five": 10,
+        "rationale": "Editorial baseline from 25 November 2026; subjective, not a calibrated forecast."
+      },
+      {
+        "id": "restrictions",
+        "name": "Narrower public-health restrictions",
+        "year": 9,
+        "five": 27,
+        "rationale": "Editorial baseline from 25 November 2026; subjective, not a calibrated forecast."
+      },
+      {
+        "id": "infrastructure",
+        "name": "Serious local infrastructure disruption",
+        "year": 27,
+        "five": 67,
+        "rationale": "Editorial baseline from 25 November 2026; subjective, not a calibrated forecast."
+      }
+    ],
+    "signals": []
+  },
+  "sources": [],
+  "disclaimer": "Historical baseline copied from the previous site snapshot; not generated from a verified automatic evidence review. Timestamp is a reference date, not actual collection time."
+}

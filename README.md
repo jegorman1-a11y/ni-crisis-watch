@@ -34,3 +34,15 @@ The website is unaffiliated with public authorities. It must not imply an offici
 ## Costs
 
 Static hosting and ordinary scheduled public-repository GitHub Actions usage can fit free plans subject to platform terms, quotas, security requirements and future changes. No OpenAI API usage or paid API keys are required for the automatic-source edition.
+
+## Automated intelligence upgrade (November 2026)
+
+The `scripts/analyse.py` stage runs after `scripts/update.py`. It creates `data/assessment.json`, a candidate escalation analysis, and `data/reports.json` with archive records under `data/archive/` (one Monday summary even when nothing notable is found, and material candidate updates on other days). GitHub commits those files, and Cloudflare Pages automatically redeploys them. The browser checks fresh files every five minutes and on tab reactivation. Use the refresh button for an immediate fetch.
+
+**Limits and safeguards:** The basic free implementation is **rules-based screening**, not an LLM intelligence analyst, an emergency authority, or exhaustive monitoring of all the requested agencies. It currently searches headline patterns in configured primary-source feeds and requires corroboration between distinct source feeds for a maximum +1 percentage point (12-month) and +2 percentage points (five-year) provisional infrastructure/restrictions adjustments. It deliberately cannot automatically change the nationwide-lockdown baseline from headline-only evidence. It does not treat unavailable feeds as reassuring. Forecasts are subjective and uncalibrated. Weekly archived records are *automated source digests*, not independently researched reports. The original ChatGPT weekly reports are **not** automatically imported. All percentages remain conditional on source coverage and should never drive emergency decisions alone.
+
+To add actual **AI-powered intelligence reports** and broad procurement/legislation/WHO/NCSC coverage, a separate verified data-ingestion pipeline, optional API key with spending limits and human review for urgent determinations are required. Do not insert private API keys into public HTML or commit them to GitHub.
+
+### How to update existing GitHub repository
+
+Use GitHub's web UI to upload files and directories from this package into the root of `jegorman1-a11y/ni-crisis-watch`, replacing existing files, including `.github/workflows/refresh.yml`. GitHub's web upload may not overwrite existing paths in one action; edit/replace files one by one or use GitHub Desktop to commit the contents. Keep `index.html` and `data/` at repository root. Verify the Actions job and Cloudflare production deployment both succeed. Check `data/assessment.json` after the job for a valid `generated_at` and make sure the archive is created on Mondays. Automated commits must **not** include `[skip ci]`.
