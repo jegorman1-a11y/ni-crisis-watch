@@ -110,19 +110,62 @@ def extract_prices(oil_text,petrol_text):
    if 200<=val<=2500:prices['oil']={'value':val,'unit':'£ / 900 litres (NI average)','observed_date':date.group(1)}
  if petrol_text:
   for fuel in ('petrol','diesel'):
-   match=re.search(r'\b'+fuel+r'\b\s*Average\s+price\s+(\d{2,3}(?:\.\d+)?)p\s+(\d{1,2}\s+\w+\s+20\d\d)',petrol_text,re.I)
+   match=re.search(r'\b'+fuel+r'\b\s*Average\s+price\s+(\d{2,3}(?:\.\d+)?)\s*p\s+(\d{1,2}\s+\w+\s+20\d\d)',petrol_text,re.I)
    if match and 75<float(match.group(1))<300:
     prices[fuel]={'value':float(match.group(1)),'unit':'pence / litre (NI average)','observed_date':match.group(2)}
  if all(prices.get(k) for k in ('oil','petrol','diesel')):prices['status']='ok'
  elif any(prices.get(k) for k in ('oil','petrol','diesel')):prices['status']='partial'
  return prices
 
+def saved_prices(path, key=None):
+ try:
+  data=json.loads(path.read_text(encoding='utf-8'))
+  if isinstance(data,dict):
+   prices=data.get(key) if key else data
+   if isinstance(prices,dict):return prices
+ except (OSError,ValueError):
+  pass
+ return {}
+
+
+def usable_price(item, fuel):
+ if not isinstance(item,dict):return None
+ try:
+  observed=dt.datetime.strptime(item['observed_date'],'%d %B %Y').date()
+  value=item['value']
+  if type(value) not in (int,float):return None
+  if fuel=='oil':
+   valid=200<=value<=2500 and item['unit']=='£ / 900 litres (NI average)'
+   max_age=10
+  else:
+   valid=75<value<300 and item['unit']=='pence / litre (NI average)'
+   max_age=3
+  age=(NOW.date()-observed).days
+  return observed if valid and 0<=age<=max_age else None
+ except (KeyError,ValueError,TypeError):
+  return None
+
+
 def collect_prices():
  def text_from(url):
   try:
    parser=TextParser();parser.feed(get(url).decode('utf-8','replace'));return parser.text()
-  except Exception:return ''
- return extract_prices(text_from('https://www.consumercouncil.org.uk/home-heating/price-checker'),text_from('https://www.consumercouncil.org.uk/ni-fuel-checker'))
+  except Exception as exc:
+   print(f'Fuel source {url}: {type(exc).__name__}: {exc}')
+   return ''
+ prices=extract_prices(text_from('https://www.consumercouncil.org.uk/home-heating/price-checker'),text_from('https://www.consumercouncil.org.uk/ni-fuel-checker'))
+ previous=saved_prices(OUT,'fuel')
+ seed=saved_prices(ROOT/'data'/'fuel-baseline.json')
+ for fuel in ('oil','petrol','diesel'):
+  candidates=[]
+  for item in (prices[fuel],previous.get(fuel),seed.get(fuel)):
+   observed=usable_price(item,fuel)
+   if observed:candidates.append((observed,item))
+  prices[fuel]=max(candidates,key=lambda candidate:candidate[0])[1] if candidates else None
+ count=sum(prices[fuel] is not None for fuel in ('oil','petrol','diesel'))
+ prices['status']=['unavailable','partial','partial','ok'][count]
+ return prices
+
 
 def main():
  out={'generated_at':NOW.isoformat(),'weather':collect_weather(),'news':collect_news(),'fuel':collect_prices()}

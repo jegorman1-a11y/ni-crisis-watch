@@ -1,0 +1,17 @@
+{
+  "oil": {
+    "value": 861.68,
+    "unit": "£ / 900 litres (NI average)",
+    "observed_date": "26 November 2026"
+  },
+  "petrol": {
+    "value": 146.7,
+    "unit": "pence / litre (NI average)",
+    "observed_date": "26 November 2026"
+  },
+  "diesel": {
+    "value": 179,
+    "unit": "pence / litre (NI average)",
+    "observed_date": "26 November 2026"
+  }
+}
