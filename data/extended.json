@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:04:01.580676+00:00",
+  "generated_at": "2026-11-27T01:09:14.730042+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T01:04:01.580676+00:00",
+      "checked_at": "2026-11-27T01:09:14.730042+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T01:04:01.580676+00:00",
+      "checked_at": "2026-11-27T01:09:14.730042+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -419,9 +419,21 @@
     "source": "Consumer Council for Northern Ireland",
     "oil_url": "https://www.consumercouncil.org.uk/home-heating/price-checker",
     "forecourt_url": "https://www.consumercouncil.org.uk/ni-fuel-checker",
-    "oil": null,
-    "petrol": null,
-    "diesel": null,
-    "status": "unavailable"
+    "oil": {
+      "value": 861.68,
+      "unit": "£ / 900 litres (NI average)",
+      "observed_date": "26 November 2026"
+    },
+    "petrol": {
+      "value": 146.7,
+      "unit": "pence / litre (NI average)",
+      "observed_date": "26 November 2026"
+    },
+    "diesel": {
+      "value": 179,
+      "unit": "pence / litre (NI average)",
+      "observed_date": "26 November 2026"
+    },
+    "status": "ok"
   }
 }
