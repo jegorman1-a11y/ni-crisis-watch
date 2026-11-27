@@ -56,6 +56,17 @@ Use **Full intelligence** or the section navigation to open the original detaile
 risk register, assessment rationale, archive, preparedness tracker and source links.
 Mobile layouts flow vertically rather than forcing cramped text.
 
+### Flight Watch
+
+Around Me opens on departures for Belfast City, Belfast International, Dublin and
+City of Derry. Switch to Gatwick or Arrivals using the board controls. Each row
+links to the official airport board. City of Derry has one link for both directions.
+
+The site has no live flight feed configured with permission to republish individual
+flight details. Flight Watch displays an explicit unavailable state and links to
+the airport boards for flight numbers, routes, times and statuses. The scheduled
+dashboard refresh continues to collect Gatwick weather independently.
+
 ### Gatwick data integrity
 
 - `scripts/gatwick.py` retrieves the latest **EGKK METAR** (aerodrome weather)

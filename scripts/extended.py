@@ -125,7 +125,7 @@ def collect_prices():
  return extract_prices(text_from('https://www.consumercouncil.org.uk/home-heating/price-checker'),text_from('https://www.consumercouncil.org.uk/ni-fuel-checker'))
 
 def main():
- out={'generated_at':NOW.isoformat(),'radar':{'provider':'AvioADSB embedded live map','source_url':'https://avioadsb.org/flight-tracker-widget','note':'Coverage depends on volunteers; map positions are not flight schedules or safety-critical data.'},'weather':collect_weather(),'news':collect_news(),'fuel':collect_prices()}
+ out={'generated_at':NOW.isoformat(),'weather':collect_weather(),'news':collect_news(),'fuel':collect_prices()}
  OUT.parent.mkdir(exist_ok=True,parents=True)
  OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print('Extended source statuses:',[(k,v['status']) for k,v in out['weather'].items()],out['fuel']['status'])
