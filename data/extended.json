@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T07:14:53.292258+00:00",
+  "generated_at": "2026-11-27T09:01:56.518460+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T07:14:53.292258+00:00",
+      "checked_at": "2026-11-27T09:01:56.518460+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T07:14:53.292258+00:00",
+      "checked_at": "2026-11-27T09:01:56.518460+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -280,34 +280,34 @@
     "stories": {
       "UK": [
         {
+          "title": "Department for Work and Pensions takes some services offline after 'cyber incident'",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Politics",
+          "published_at": "2026-11-27T09:00:25+00:00"
+        },
+        {
+          "title": "'I wouldn't be here today without you': Student's praise for man who stopped train attacker",
+          "url": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T07:53:24+00:00"
+        },
+        {
+          "title": "My self-care ritual is a meal at a fancy restaurant - on my own",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T07:46:02+00:00"
+        },
+        {
+          "title": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T07:40:25+00:00"
+        },
+        {
           "title": "Student recalls moment passenger stepped in during Huntingdon attack",
           "url": "https://www.bbc.co.uk/news/videos/cqzr566llz4no?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-27T06:50:28+00:00"
-        },
-        {
-          "title": "Victorian railway station left untouched for 70 years goes on sale with suitcase still inside",
-          "url": "https://www.bbc.co.uk/news/articles/c6n8353n4d4mo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T06:14:26+00:00"
-        },
-        {
-          "title": "Chris Mason: Immigration stats are down but will that be the end of the issue?",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg23ql63ypo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T06:12:19+00:00"
-        },
-        {
-          "title": "Immigration stats are down but will that be the end of the issue?",
-          "url": "https://www.bbc.co.uk/news/articles/cmvg23ql63ypo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Politics",
-          "published_at": "2026-11-27T06:12:19+00:00"
-        },
-        {
-          "title": "Reform UK pledges to scrap hospital parking fees in England",
-          "url": "https://www.bbc.co.uk/news/articles/cw62pn8mdn39o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T06:00:41+00:00"
         }
       ],
       "Northern Ireland": [
@@ -324,6 +324,12 @@
           "published_at": "2026-11-27T00:01:27+00:00"
         },
         {
+          "title": "Mark Allen named in UK Championship draw",
+          "url": "https://www.bbc.co.uk/sport/snooker/articles/cwkgmdryrv4ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-26T23:01:50+00:00"
+        },
+        {
           "title": "Linfield travel to Ballymena in BetMcLean Cup",
           "url": "https://www.bbc.co.uk/sport/football/articles/cq8r7yepx20ko?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
@@ -334,15 +340,27 @@
           "url": "https://www.bbc.co.uk/news/articles/ckg5rz4p7g68o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
           "published_at": "2026-11-26T18:09:01+00:00"
-        },
-        {
-          "title": "University 'looking into' street party near campus",
-          "url": "https://www.bbc.co.uk/news/articles/cmy86j7zy5gjo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-26T17:47:00+00:00"
         }
       ],
       "Republic of Ireland": [
+        {
+          "title": "Confidence expressed in minister amid O'Connor sacking",
+          "url": "https://www.rte.ie/news/politics/2026/1127/1600861-confidence-expressed-in-minister-amid-oconnor-sacking/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T08:22:43+00:00"
+        },
+        {
+          "title": "Man due in court over robbery of cash-in-transit van",
+          "url": "https://www.rte.ie/news/2026/1127/1600857-cash-in-transit/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T07:54:42+00:00"
+        },
+        {
+          "title": "Mushroom killer launches last-ditch appeal of conviction",
+          "url": "https://www.rte.ie/news/world/2026/1127/1600854-erin-patterson-appeal/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T07:17:43+00:00"
+        },
         {
           "title": "Nvidia CEO Huang not a security threat - Trump",
           "url": "https://www.rte.ie/news/world/2026/1127/1600850-nvidia-ceo-huang-not-a-security-threat-trump/",
@@ -350,28 +368,10 @@
           "published_at": "2026-11-27T06:31:10+00:00"
         },
         {
-          "title": "Ireland needs a clear defence policy before triple lock is dismantled - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQm5kRWZoWnN5UEF3UEdkR2s1SW1xNlUxbktjMWhVTlJWYnVKNm03dDg4WkRTc2x6cTRwbWxVaFM4ZWtlbEx4QlU0SGFBMDh0QXYxbFdhbHFjeGJlMFFiNHpWaUVpWk5Ock5tdUp4a2puTS1uSURBY1NFMmN2b3Atd0NoOV9NcThiSmtZQ1QtSUZJV0lPTTVfVFF1Sk9nM0NjN21GTDZLeUtFMXpIQU0wMlFzNTA2WVVhU3pEVElOREF6Zw?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T06:08:21+00:00"
-        },
-        {
-          "title": "Diarmaid Ferriter: Darragh O’Brien’s harsh words on fossil fuel denialism are hard to take seriously - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaXZ2dnNpU3VzSjQ0YWRNQko4eENwWG9DZzJDNUlKR2hzOEJpbHJpQWdraXF4cnZ2SEtuRTJjczZfX3ZXa0pKSWpoMXJ2RDhGSXBtSG0wWnNWZ0EwcGgtbnRrZUluczB0YXRYWW90TEFwZTctZkhRU1MtN0dacUR3NU1icl9rYXc1NXQzTnFyaXZxTFJlb0RzcExTMk1SWFdOajctdmdTeF9MYTdHVmRJejZtT3E3SmpLOFA0M0M0VWRPaWR5eERKY3ByVGpjQkNEX0d2YzdSMzVrY1Ra?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T06:07:02+00:00"
-        },
-        {
-          "title": "Sacking of O’Connor now seen by Government as a ‘reality’, says Harris - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcncwRHZKRVo3S1lKZW11R2xTWWM4RG12MVd1RlBqS1VWRm5jTzJNeGdBNE1ZY1NPX0hRdndhQWdHVjF1blpFYk1HVWp1VnVIOUNieGxyYnBzRU4tMlU3ajVPTWc1dEJaLXctNFNEZUEtY1U5R1N1TmFxelBRR3BXYUJHdXJmTlF2QWdmQU9YY2p2V2drU0F3WjN3a2d2YUw5VXQxenBJVEhOam9tcHRPS21XME8?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T06:03:37+00:00"
-        },
-        {
-          "title": "Ireland in danger of becoming ‘weak point’ in new EU deportation regime - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ01NNU5YaWI3LXFvSVYwMHJJMzhnQTlDamUtNWFrVDVBcFl6bGdqMGMycF93NFkxTUNsV2hFV000V2k4OFpxSWRKQkZYTDZMcS1USTd6bjRoT0ZSUFJ0N0dMUDA4cXNjUkVFTEdqMkdQM3owN2xjaFBJSWFsSXByR2Q5NmpVdmZxb2drTGRQYVB2bU5KdFM5VFRzZkZjY3VsaUZlMk1YeTVyME92d0Z1aWJvVVBiem5oNUE?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T06:03:37+00:00"
+          "title": "€1.7 billion in mortgages approved last month - BPFI",
+          "url": "https://www.rte.ie/news/business/2026/1127/1600840-banking-payments-federation-ireland-mortgages/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T06:01:00+00:00"
         }
       ]
     },
@@ -380,7 +380,7 @@
         {
           "source": "BBC UK",
           "status": "ok",
-          "count": 31
+          "count": 30
         },
         {
           "source": "BBC Politics",
@@ -392,7 +392,7 @@
         {
           "source": "BBC Northern Ireland",
           "status": "ok",
-          "count": 35
+          "count": 33
         },
         {
           "source": "BBC NI Politics",
@@ -408,8 +408,8 @@
         },
         {
           "source": "Google News / Ireland",
-          "status": "ok",
-          "count": 100
+          "status": "unavailable",
+          "reason": "HTTP Error 503: Service Unavailable"
         }
       ]
     },
