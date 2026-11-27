@@ -1,0 +1,14 @@
+{
+  "airport": "London Gatwick",
+  "iata": "LGW",
+  "icao": "EGKK",
+  "checked_at": null,
+  "status": "unavailable",
+  "metar": null,
+  "delay_count": null,
+  "cancellation_count": null,
+  "delay_status": "Official flight boards must be consulted for individual delays or cancellations",
+  "official_flights_url": "https://www.gatwickairport.com/flights",
+  "official_departures_url": "https://www.gatwickairport.com/flights?destination=D",
+  "official_arrivals_url": "https://www.gatwickairport.com/flights?destination=A"
+}

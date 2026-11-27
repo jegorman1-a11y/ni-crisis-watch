@@ -46,3 +46,35 @@ To add actual **AI-powered intelligence reports** and broad procurement/legislat
 ### How to update existing GitHub repository
 
 Use GitHub's web UI to upload files and directories from this package into the root of `jegorman1-a11y/ni-crisis-watch`, replacing existing files, including `.github/workflows/refresh.yml`. GitHub's web upload may not overwrite existing paths in one action; edit/replace files one by one or use GitHub Desktop to commit the contents. Keep `index.html` and `data/` at repository root. Verify the Actions job and Cloudflare production deployment both succeed. Check `data/assessment.json` after the job for a valid `generated_at` and make sure the archive is created on Mondays. Automated commits must **not** include `[skip ci]`.
+
+## November 2026: one-screen overview and London Gatwick
+
+The desktop landing page now defaults to a **single-screen overview**, showing the
+three dated subjective probability forecasts, candidate signal count, recent source
+checks, two linked official headlines, and a London Gatwick (LGW) operations tile.
+Use **Full intelligence** or the section navigation to open the original detailed
+risk register, assessment rationale, archive, preparedness tracker and source links.
+Mobile layouts flow vertically rather than forcing cramped text.
+
+### Gatwick data integrity
+
+- `scripts/gatwick.py` retrieves the latest **EGKK METAR** (aerodrome weather)
+  from NOAA Aviation Weather Center, not a forecast of flight reliability.
+- The dashboard always links to the **official Gatwick arrivals and departures**
+  boards, which show individual flight delays/cancellations. A separate FlightRadar24
+  link provides a convenient third-party delay tracker.
+- There is **no authenticated, licensed airport-wide delays/cancellations API**
+  configured. Counts are intentionally displayed as *Check official board* rather
+  than zero, stale, or fabricated. Weather does not prove flights are running.
+- Failed METAR collection is labelled unavailable and never carried forward as a
+  current observation. All displayed checks have their own timestamp.
+- The GitHub workflow runs `scripts/gatwick.py` on the existing ~two-hour cadence,
+  commits `data/gatwick.json`, and Cloudflare Pages publishes the revision.
+- While the page stays open, all overview JSON files are rechecked every five minutes;
+  this does **not** increase the upstream two-hour collection frequency.
+
+To upgrade your existing GitHub Desktop clone, copy the contents of this ZIP over
+existing repository files, retain any existing `data/live.json`, commit and push.
+Run the GitHub Action manually once and inspect the **Gatwick weather** log and
+Cloudflare deployment. The NOAA endpoint may temporarily throttle/deny requests;
+that must display as unavailable, not an all-clear.

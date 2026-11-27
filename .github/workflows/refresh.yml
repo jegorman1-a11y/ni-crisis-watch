@@ -22,13 +22,14 @@ jobs:
       - name: Collect announcements and prepare analysis
         run: |
           python scripts/update.py
+          python scripts/gatwick.py
           python scripts/analyse.py
           python -m unittest discover -s tests -v
       - name: Commit feed, evidence assessments and archive
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/live.json data/assessment.json data/reports.json data/archive/
+          git add data/live.json data/gatwick.json data/assessment.json data/reports.json data/archive/
           if ! git diff --cached --quiet; then
             git commit -m "Publish crisis watch feed and assessment"
             git push
