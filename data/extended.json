@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:09:14.730042+00:00",
+  "generated_at": "2026-11-27T01:14:04.434392+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T01:09:14.730042+00:00",
+      "checked_at": "2026-11-27T01:14:04.434392+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T01:09:14.730042+00:00",
+      "checked_at": "2026-11-27T01:14:04.434392+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
