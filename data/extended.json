@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T20:54:38.522498+00:00",
+  "generated_at": "2026-11-27T22:55:30.768681+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -7,63 +7,63 @@
         {
           "date": "2026-11-27",
           "max_c": 10.0,
-          "min_c": 3.3,
+          "min_c": 4.5,
           "rain_pct": 100,
           "wind_kmh": 36.4,
           "weather_code": 63
         },
         {
           "date": "2026-11-28",
-          "max_c": 9.8,
-          "min_c": 3.6,
+          "max_c": 10.1,
+          "min_c": 3.5,
           "rain_pct": 98,
-          "wind_kmh": 26.3,
-          "weather_code": 63
+          "wind_kmh": 32.0,
+          "weather_code": 61
         },
         {
           "date": "2026-11-29",
-          "max_c": 10.1,
-          "min_c": 2.1,
+          "max_c": 10.6,
+          "min_c": 3.5,
           "rain_pct": 82,
-          "wind_kmh": 23.8,
+          "wind_kmh": 24.5,
           "weather_code": 51
         },
         {
           "date": "2026-11-30",
-          "max_c": 12.7,
-          "min_c": 10.1,
+          "max_c": 13.1,
+          "min_c": 10.6,
           "rain_pct": 99,
-          "wind_kmh": 34.9,
+          "wind_kmh": 36.7,
           "weather_code": 53
         },
         {
           "date": "2026-12-01",
-          "max_c": 13.1,
-          "min_c": 5.9,
+          "max_c": 13.7,
+          "min_c": 5.5,
           "rain_pct": 71,
-          "wind_kmh": 40.3,
-          "weather_code": 55
+          "wind_kmh": 31.0,
+          "weather_code": 51
         },
         {
           "date": "2026-12-02",
-          "max_c": 7.4,
-          "min_c": 4.8,
+          "max_c": 7.8,
+          "min_c": 5.1,
           "rain_pct": 24,
-          "wind_kmh": 24.8,
+          "wind_kmh": 28.4,
           "weather_code": 3
         },
         {
           "date": "2026-12-03",
-          "max_c": 8.7,
-          "min_c": 4.8,
+          "max_c": 8.4,
+          "min_c": 4.0,
           "rain_pct": 2,
-          "wind_kmh": 19.1,
+          "wind_kmh": 19.8,
           "weather_code": 3
         },
         {
           "date": "2026-12-04",
           "max_c": 11.4,
-          "min_c": 8.5,
+          "min_c": 3.9,
           "rain_pct": 16,
           "wind_kmh": 22.8,
           "weather_code": 53
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T20:54:38.522498+00:00",
+      "checked_at": "2026-11-27T22:55:30.768681+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -143,7 +143,7 @@
       "days": [
         {
           "date": "2026-11-27",
-          "max_c": 5.4,
+          "max_c": 5.1,
           "min_c": 2.0,
           "rain_pct": 75,
           "wind_kmh": 14.8,
@@ -151,56 +151,56 @@
         },
         {
           "date": "2026-11-28",
-          "max_c": 11.3,
-          "min_c": 5.4,
+          "max_c": 11.0,
+          "min_c": 5.1,
           "rain_pct": 100,
-          "wind_kmh": 20.2,
-          "weather_code": 61
+          "wind_kmh": 18.7,
+          "weather_code": 63
         },
         {
           "date": "2026-11-29",
-          "max_c": 10.4,
-          "min_c": 4.9,
+          "max_c": 11.1,
+          "min_c": 6.4,
           "rain_pct": 25,
-          "wind_kmh": 12.8,
-          "weather_code": 3
+          "wind_kmh": 12.2,
+          "weather_code": 51
         },
         {
           "date": "2026-11-30",
-          "max_c": 11.7,
-          "min_c": 8.6,
+          "max_c": 12.4,
+          "min_c": 7.6,
           "rain_pct": 24,
-          "wind_kmh": 20.2,
-          "weather_code": 3
+          "wind_kmh": 22.7,
+          "weather_code": 51
         },
         {
           "date": "2026-12-01",
-          "max_c": 13.1,
-          "min_c": 10.4,
+          "max_c": 13.0,
+          "min_c": 10.7,
           "rain_pct": 52,
-          "wind_kmh": 23.4,
-          "weather_code": 53
+          "wind_kmh": 23.8,
+          "weather_code": 61
         },
         {
           "date": "2026-12-02",
-          "max_c": 13.0,
-          "min_c": 6.0,
+          "max_c": 11.2,
+          "min_c": 5.3,
           "rain_pct": 76,
-          "wind_kmh": 20.9,
-          "weather_code": 55
+          "wind_kmh": 13.0,
+          "weather_code": 61
         },
         {
           "date": "2026-12-03",
-          "max_c": 6.2,
-          "min_c": 2.6,
+          "max_c": 7.2,
+          "min_c": 4.4,
           "rain_pct": 4,
-          "wind_kmh": 10.4,
-          "weather_code": 2
+          "wind_kmh": 11.5,
+          "weather_code": 3
         },
         {
           "date": "2026-12-04",
           "max_c": 6.0,
-          "min_c": 1.1,
+          "min_c": 2.1,
           "rain_pct": 4,
           "wind_kmh": 6.9,
           "weather_code": 45
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T20:54:38.522498+00:00",
+      "checked_at": "2026-11-27T22:55:30.768681+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -279,6 +279,18 @@
   "news": {
     "stories": {
       "UK": [
+        {
+          "title": "What we know about Department for Work and Pensions 'cyber incident'",
+          "url": "https://www.bbc.co.uk/news/articles/ck1l0e946dqmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T22:01:04+00:00"
+        },
+        {
+          "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
+          "url": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T21:37:15+00:00"
+        },
         {
           "title": "Millions lose access to benefits and pensions services after 'cyber incident'",
           "url": "https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o?at_medium=RSS&at_campaign=rss",
@@ -296,21 +308,21 @@
           "url": "https://www.bbc.co.uk/news/articles/ckz74123x2jvo?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-27T18:02:25+00:00"
-        },
-        {
-          "title": "'Cowardly monster' blackmailed girls to self-harm",
-          "url": "https://www.bbc.co.uk/news/articles/c3pw4ypkldpzo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T17:47:14+00:00"
-        },
-        {
-          "title": "GTA 6 crashes into top end of music chart after its record launch",
-          "url": "https://www.bbc.co.uk/news/articles/ckp80d8vz1ego?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T17:39:11+00:00"
         }
       ],
       "Northern Ireland": [
+        {
+          "title": "Five-try Ireland beat Australia in autumn finale",
+          "url": "https://www.bbc.co.uk/sport/rugby-union/articles/cw987l0ej11mo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T22:17:45+00:00"
+        },
+        {
+          "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
+          "url": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T21:37:15+00:00"
+        },
         {
           "title": "Councils publishing housing lists 'could increase danger for migrants', says campaigner",
           "url": "https://www.bbc.co.uk/news/articles/c64gnzxlxk7ro?at_medium=RSS&at_campaign=rss",
@@ -328,50 +340,38 @@
           "url": "https://www.bbc.co.uk/news/articles/cq5y12vgkxyxo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
           "published_at": "2026-11-27T17:11:58+00:00"
-        },
-        {
-          "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
-          "url": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T13:29:10+00:00"
-        },
-        {
-          "title": "BBC Newsline signed summary",
-          "url": "https://www.bbc.co.uk/news/videos/ckdd22kyq81o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T13:13:00+00:00"
         }
       ],
       "Republic of Ireland": [
         {
-          "title": "The Irish Times view on the HSE: dangerously distracted - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQenljckVUVVV4aWU0VHMxeUg5MDlGb3ZXc0hBNkhUVUdsZk45bGxJUXJtRk1jOEZzakdWSjlOVWNZMmUwZVFhSWM2LV83M2NVNUxYN2Y0ZEhycG1VYjM2SFd1WENTOWZzcGhRTmpMdzUxWW00MmNicTZUc0g1X3cxaWc0dVl6U1ZGWHFUMUdHM1BZc3NwSE13dVl3elpScU1XT0NzMm92TXNlTzM5bTQ0dzV3?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T20:33:27+00:00"
-        },
-        {
-          "title": "HSE board minutes suggest O’Connor faced battle to rein in spending before she started role - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUFM3RTlYQUxNRXZsVUFoQmxzOVljRFJnaXN3eTBCYnpmSzN2M0lwT2lQZHVZV3ZibDJPcGl6blpJS3JWRktyV3pKSm0tbkRYRGxmbHNuSGNoUGlXMDlNd1lnLUFtLUNfbU0xVDI5dmZuWEt4blZTU1hiQzUyV0tnMzd3Z3BfNVhnQTE3bDN1RzBCMDRoeEZHWkVDXzFCdGdIR0hENXgxdkJTRXZ6cG9EaTFMQkFpSEpWRUExaTB2UmJwMUdweU5SeDh6Wi1WWGVpZUg3bQ?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T19:54:11+00:00"
-        },
-        {
           "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T19:53:41+00:00"
+          "published_at": "2026-11-27T22:53:41+00:00"
+        },
+        {
+          "title": "Comedian and presenter PJ Gallagher dies aged 51",
+          "url": "https://www.rte.ie/entertainment/2026/1127/1600964-pj-gallagher/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T22:13:32+00:00"
+        },
+        {
+          "title": "Behind The Story: Sacking of HSE boss still rattles Government and nitrous oxide on the playing field - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTmtYLVJhcDAwbnJMNmRLallfZFRLTjN6ZlIzN3FVdkZVeHhEMGxiallWSWdJUEFldzR2d1c5WE82eHduVFdpLXMwY0VYZ185RDVPdG43U1ptUWZjMTJPYm9PMGg2OVRpX0FhbVlnN3k5REJSeWoyakdqNElqZlY4VUd5QVozbnQtVjk0aWE0UGZxMkJjT0Y4d2tKTnJmY2I4a3ZVZW9WeFlKdm4yc2RBVXJtcF9ocG5EUmdPaWU2ODA1ZGc4V3FiV1JRRjNNempLUWlpUXVXWm9xT28?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-27T22:07:30+00:00"
+        },
+        {
+          "title": "O'Connor claims minister never wanted her as HSE CEO - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16TkwtNlEyd1FsaF9HVXhWYjlEUzRldWJycnVqNHlVTlZsal9qMXhIV1F6eFZCVk1tcFBVWWlnUlRVVTZNMFNMaDRmdGhSWjNIS1hDVDU1VnJwRmNfanliNVZlc2dRT1JBWTNzZjVRY2lYVHpXVXp3?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-27T21:27:30+00:00"
         },
         {
           "title": "Minister for Health never wanted me as HSE chief, Anne O’Connor says in explosive letter - The Irish Times",
           "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSGRlcHVqZDZhRjZTSUVLaWNmQ1RjRkc0TUVFelpTYjhNWG53WkxnTkpGM0x5Yl94LW50V3R6VjNrdS1GT0d3cXNjQnlsTEIyY2VDQzIydzF4UjFNUWQ3MGlxVUZMd2htNUlreVVTNlhLaGlvWGdVRDdTbWNfa2JsY0ZaLU5JWFAzcld5Z2s2V05pemtMVjJPeVN0eU5FVU81TTFyTFgyX2JPZXpGeXVUQXR1S0I2ZUlfYWROZnVGYks1aDJsMU5QLUdPZnN5UQ?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T19:45:41+00:00"
-        },
-        {
-          "title": "Nations Championship: Ireland v Australia updates",
-          "url": "https://www.rte.ie/sport/rugby/2026/1127/1600956-nations-championship-ireland-v-australia-updates/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T19:44:04+00:00"
+          "published_at": "2026-11-27T21:05:57+00:00"
         }
       ]
     },
@@ -392,7 +392,7 @@
         {
           "source": "BBC Northern Ireland",
           "status": "ok",
-          "count": 26
+          "count": 28
         },
         {
           "source": "BBC NI Politics",
