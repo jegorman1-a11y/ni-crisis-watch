@@ -2,7 +2,7 @@
   "airport": "London Gatwick",
   "iata": "LGW",
   "icao": "EGKK",
-  "checked_at": "2026-11-27T14:53:38.746392Z",
+  "checked_at": "2026-11-27T17:03:54.494413Z",
   "source": "NOAA Aviation Weather Center METAR",
   "source_url": "https://aviationweather.gov/data/api/",
   "official_flights_url": "https://www.gatwickairport.com/flights",
@@ -13,12 +13,12 @@
   "delay_status": "Not available from an approved live statistics feed",
   "status": "ok",
   "metar": {
-    "observed_at": "2026-11-27T14:20:00Z",
-    "raw": "METAR EGKK 271420Z 10007KT 9999 BKN009 04/02 Q1019",
+    "observed_at": "2026-11-27T16:50:00Z",
+    "raw": "METAR EGKK 271650Z 10007KT 6000 BKN006 05/04 Q1020",
     "wind_kt": 7,
     "gust_kt": null,
-    "visibility_miles": "6+",
+    "visibility_miles": 3.73,
     "flight_category": "IFR"
   },
-  "last_success": "2026-11-27T14:53:38.746392Z"
+  "last_success": "2026-11-27T17:03:54.494413Z"
 }

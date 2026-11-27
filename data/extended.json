@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T14:53:38.899956+00:00",
+  "generated_at": "2026-11-27T17:03:54.890400+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -7,24 +7,24 @@
         {
           "date": "2026-11-27",
           "max_c": 10.0,
-          "min_c": 2.4,
+          "min_c": 3.3,
           "rain_pct": 100,
           "wind_kmh": 36.4,
           "weather_code": 63
         },
         {
           "date": "2026-11-28",
-          "max_c": 10.1,
-          "min_c": 3.2,
-          "rain_pct": 90,
+          "max_c": 9.8,
+          "min_c": 3.6,
+          "rain_pct": 98,
           "wind_kmh": 26.3,
-          "weather_code": 61
+          "weather_code": 63
         },
         {
           "date": "2026-11-29",
           "max_c": 10.1,
-          "min_c": 2.5,
-          "rain_pct": 84,
+          "min_c": 2.1,
+          "rain_pct": 82,
           "wind_kmh": 23.8,
           "weather_code": 51
         },
@@ -32,7 +32,7 @@
           "date": "2026-11-30",
           "max_c": 12.7,
           "min_c": 10.1,
-          "rain_pct": 100,
+          "rain_pct": 99,
           "wind_kmh": 34.9,
           "weather_code": 53
         },
@@ -40,7 +40,7 @@
           "date": "2026-12-01",
           "max_c": 13.1,
           "min_c": 5.9,
-          "rain_pct": 55,
+          "rain_pct": 71,
           "wind_kmh": 40.3,
           "weather_code": 55
         },
@@ -48,7 +48,7 @@
           "date": "2026-12-02",
           "max_c": 7.4,
           "min_c": 4.8,
-          "rain_pct": 29,
+          "rain_pct": 24,
           "wind_kmh": 24.8,
           "weather_code": 3
         },
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T14:53:38.899956+00:00",
+      "checked_at": "2026-11-27T17:03:54.890400+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -143,33 +143,33 @@
       "days": [
         {
           "date": "2026-11-27",
-          "max_c": 4.6,
+          "max_c": 5.3,
           "min_c": 2.0,
-          "rain_pct": 30,
+          "rain_pct": 75,
           "wind_kmh": 14.8,
           "weather_code": 51
         },
         {
           "date": "2026-11-28",
-          "max_c": 11.0,
-          "min_c": 4.6,
+          "max_c": 11.3,
+          "min_c": 5.3,
           "rain_pct": 100,
-          "wind_kmh": 19.1,
+          "wind_kmh": 20.2,
           "weather_code": 61
         },
         {
           "date": "2026-11-29",
-          "max_c": 10.9,
-          "min_c": 5.0,
-          "rain_pct": 10,
-          "wind_kmh": 14.0,
+          "max_c": 10.4,
+          "min_c": 4.9,
+          "rain_pct": 25,
+          "wind_kmh": 12.8,
           "weather_code": 3
         },
         {
           "date": "2026-11-30",
           "max_c": 11.7,
           "min_c": 8.6,
-          "rain_pct": 23,
+          "rain_pct": 24,
           "wind_kmh": 20.2,
           "weather_code": 3
         },
@@ -177,7 +177,7 @@
           "date": "2026-12-01",
           "max_c": 13.1,
           "min_c": 10.4,
-          "rain_pct": 35,
+          "rain_pct": 52,
           "wind_kmh": 23.4,
           "weather_code": 53
         },
@@ -185,7 +185,7 @@
           "date": "2026-12-02",
           "max_c": 13.0,
           "min_c": 6.0,
-          "rain_pct": 61,
+          "rain_pct": 76,
           "wind_kmh": 20.9,
           "weather_code": 55
         },
@@ -193,7 +193,7 @@
           "date": "2026-12-03",
           "max_c": 6.2,
           "min_c": 3.2,
-          "rain_pct": 8,
+          "rain_pct": 4,
           "wind_kmh": 10.4,
           "weather_code": 2
         },
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T14:53:38.899956+00:00",
+      "checked_at": "2026-11-27T17:03:54.890400+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -280,34 +280,34 @@
     "stories": {
       "UK": [
         {
-          "title": "'We have no interest in hearing from Huw Edwards', Downing Street says",
-          "url": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do?at_medium=RSS&at_campaign=rss",
+          "title": "Body found in woodland confirmed as missing Kelsey Hunter",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2e315rz00o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T14:33:10+00:00"
+          "published_at": "2026-11-27T17:03:03+00:00"
         },
         {
-          "title": "Dec Donnelly says I'm a Celebrity tension 'became much bigger deal than it should have'",
-          "url": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss",
+          "title": "Ex-council leader jailed for fraud and tax evasion",
+          "url": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T14:06:20+00:00"
+          "published_at": "2026-11-27T16:57:31+00:00"
         },
         {
-          "title": "What we know about Department for Work and Pensions 'cyber incident'",
-          "url": "https://www.bbc.co.uk/news/articles/ck1l0e946dqmo?at_medium=RSS&at_campaign=rss",
+          "title": "Tory candidates must sign pledge to scrap net-zero targets, says Badenoch",
+          "url": "https://www.bbc.co.uk/news/articles/cmwy95295835o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T13:57:37+00:00"
+          "published_at": "2026-11-27T16:42:22+00:00"
         },
         {
-          "title": "Beach attacker sentenced to 10 years after victim, 17, loses leg in bank holiday stabbing",
-          "url": "https://www.bbc.co.uk/news/articles/ckjwj6p6n597o?at_medium=RSS&at_campaign=rss",
+          "title": "Police look for more than 100 gig-goers to help Co-op Live probe",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T13:42:13+00:00"
+          "published_at": "2026-11-27T16:40:22+00:00"
         },
         {
-          "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
-          "url": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T13:29:10+00:00"
+          "title": "Reform politician seeks legal action over Senedd ban",
+          "url": "https://www.bbc.co.uk/news/videos/cm8680n2x405o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Politics",
+          "published_at": "2026-11-27T16:30:38+00:00"
         }
       ],
       "Northern Ireland": [
@@ -344,34 +344,34 @@
       ],
       "Republic of Ireland": [
         {
-          "title": "Brussels political theatre sets stage for marathon EU budget showdown - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYWh4TnhPLTk0dU82SUMxS29xV1lzNl9wdjVvNHNhZ19QNktoRG9iSnJfcklodE1vOTI0Sms2MldBODVrazhTb3JmaWttcmpKMU5MZmpWcXhCUUE1dXpxT1hBaFluZ3FhMzhlV24yWHBPdVdOak9FQVFfYi1zaEQ1SzhQeHhLVUJpQ3d3c0c2eXRJZDdudXlPWVVIV3hPMVFQRmVSSmpBcW9TT1N3RGVDTnQ0UVptWnBMUFlabmVn?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T14:38:53+00:00"
-        },
-        {
-          "title": "Nearly 6,000 children living in emergency accommodation",
-          "url": "https://www.rte.ie/news/ireland/2026/1127/1600919-homeless-figures-ireland/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T14:26:16+00:00"
-        },
-        {
           "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T13:53:41+00:00"
+          "published_at": "2026-11-27T16:53:41+00:00"
         },
         {
-          "title": "Evidence reverse engineered against woman, defence claims",
-          "url": "https://www.rte.ie/news/courts/2026/1127/1600906-scarlett-faulkner-court/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T13:39:14+00:00"
-        },
-        {
-          "title": "HSE board confirms Health Committee attendance next week - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16TkwtNlEyd1FsaF9HVXhWYjlEUzRldWJycnVqNHlVTlZsal9qMXhIV1F6eFZCVk1tcFBVWWlnUlRVVTZNMFNMaDRmdGhSWjNIS1hDVDU1VnJwRmNfanliNVZlc2dRT1JBWTNzZjVRY2lYVHpXVXp3?oc=5",
+          "title": "Leo Varadkar plays British prime minister in ‘fun and interesting’ cyberattack simulation - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSXNhZ215MlFqY1A4empSTzhiR0ZlQVQxQURXSEYyR0E4SmNrOHdUeTNCaDg3clZ2OG5ZdmpmdDJzNEZ5eXF4UC03cHgwNHZSbl9mTEdEbENBcGQ5cjV1SnRJbzdJM0p6N1hDQVpXaFlVS3BJTEtuVEE2UW5rSXZhYjNlOENmelNudGxmal9rUkZJYllQQUMtdVh6U1l5RElLZ3NYZlBnV1h3VmdFelZiYTBIUm1zaTlqNUdrd0hmUmFXSVhVSXNYNXJMLTltcWRf?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T13:30:00+00:00"
+          "published_at": "2026-11-27T16:44:07+00:00"
+        },
+        {
+          "title": "Murphy magic sends Ireland U17s into last 32 of World Cup",
+          "url": "https://www.rte.ie/sport/soccer/2026/1127/1600931-murphy-magic-sends-ireland-u17s-into-last-32-of-world-cup/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T16:41:17+00:00"
+        },
+        {
+          "title": "RTÉ journalist honoured by Trinity College Dublin",
+          "url": "https://www.rte.ie/news/ireland/2026/1127/1600935-tony-connelly-trinity/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T16:31:57+00:00"
+        },
+        {
+          "title": "Seven sent to trial over violence during Dublin eviction",
+          "url": "https://www.rte.ie/news/courts/2026/1127/1600934-dublin-district-court-violence-eviction/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T16:26:49+00:00"
         }
       ]
     },
