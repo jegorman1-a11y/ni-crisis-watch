@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T09:01:56.518460+00:00",
+  "generated_at": "2026-11-27T10:54:26.707510+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -7,57 +7,57 @@
         {
           "date": "2026-11-27",
           "max_c": 10.0,
-          "min_c": 1.9,
+          "min_c": 2.6,
           "rain_pct": 100,
           "wind_kmh": 36.4,
           "weather_code": 63
         },
         {
           "date": "2026-11-28",
-          "max_c": 9.8,
-          "min_c": 3.3,
+          "max_c": 10.2,
+          "min_c": 4.6,
           "rain_pct": 91,
-          "wind_kmh": 27.0,
-          "weather_code": 61
+          "wind_kmh": 27.7,
+          "weather_code": 63
         },
         {
           "date": "2026-11-29",
-          "max_c": 9.1,
-          "min_c": 3.7,
+          "max_c": 10.1,
+          "min_c": 2.7,
           "rain_pct": 80,
-          "wind_kmh": 22.0,
+          "wind_kmh": 23.8,
           "weather_code": 3
         },
         {
           "date": "2026-11-30",
-          "max_c": 12.3,
-          "min_c": 9.1,
+          "max_c": 12.7,
+          "min_c": 10.1,
           "rain_pct": 86,
-          "wind_kmh": 47.9,
-          "weather_code": 55
-        },
-        {
-          "date": "2026-12-01",
-          "max_c": 12.4,
-          "min_c": 4.8,
-          "rain_pct": 65,
-          "wind_kmh": 47.5,
+          "wind_kmh": 34.9,
           "weather_code": 53
         },
         {
+          "date": "2026-12-01",
+          "max_c": 13.1,
+          "min_c": 5.9,
+          "rain_pct": 65,
+          "wind_kmh": 40.3,
+          "weather_code": 55
+        },
+        {
           "date": "2026-12-02",
-          "max_c": 7.0,
-          "min_c": 4.7,
+          "max_c": 7.4,
+          "min_c": 4.8,
           "rain_pct": 29,
-          "wind_kmh": 21.6,
+          "wind_kmh": 24.8,
           "weather_code": 3
         },
         {
           "date": "2026-12-03",
-          "max_c": 8.8,
+          "max_c": 8.7,
           "min_c": 4.8,
           "rain_pct": 3,
-          "wind_kmh": 21.2,
+          "wind_kmh": 19.1,
           "weather_code": 3
         },
         {
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T09:01:56.518460+00:00",
+      "checked_at": "2026-11-27T10:54:26.707510+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -143,59 +143,59 @@
       "days": [
         {
           "date": "2026-11-27",
-          "max_c": 4.6,
+          "max_c": 4.4,
           "min_c": 2.0,
           "rain_pct": 33,
-          "wind_kmh": 14.0,
+          "wind_kmh": 14.4,
           "weather_code": 51
         },
         {
           "date": "2026-11-28",
-          "max_c": 10.1,
-          "min_c": 4.6,
+          "max_c": 10.7,
+          "min_c": 4.4,
           "rain_pct": 94,
-          "wind_kmh": 19.4,
-          "weather_code": 63
+          "wind_kmh": 18.7,
+          "weather_code": 53
         },
         {
           "date": "2026-11-29",
-          "max_c": 9.9,
-          "min_c": 5.7,
+          "max_c": 10.5,
+          "min_c": 4.2,
           "rain_pct": 12,
-          "wind_kmh": 11.5,
-          "weather_code": 51
+          "wind_kmh": 12.2,
+          "weather_code": 3
         },
         {
           "date": "2026-11-30",
-          "max_c": 11.5,
-          "min_c": 7.5,
+          "max_c": 11.7,
+          "min_c": 8.6,
           "rain_pct": 25,
-          "wind_kmh": 14.8,
+          "wind_kmh": 20.2,
           "weather_code": 3
         },
         {
           "date": "2026-12-01",
-          "max_c": 10.2,
-          "min_c": 8.0,
+          "max_c": 13.1,
+          "min_c": 10.4,
           "rain_pct": 45,
-          "wind_kmh": 17.3,
-          "weather_code": 51
+          "wind_kmh": 23.4,
+          "weather_code": 53
         },
         {
           "date": "2026-12-02",
-          "max_c": 9.6,
-          "min_c": 5.6,
+          "max_c": 13.0,
+          "min_c": 6.0,
           "rain_pct": 59,
-          "wind_kmh": 16.2,
-          "weather_code": 61
+          "wind_kmh": 20.9,
+          "weather_code": 55
         },
         {
           "date": "2026-12-03",
-          "max_c": 8.3,
-          "min_c": 3.1,
+          "max_c": 6.2,
+          "min_c": 3.2,
           "rain_pct": 25,
-          "wind_kmh": 11.2,
-          "weather_code": 0
+          "wind_kmh": 10.4,
+          "weather_code": 2
         },
         {
           "date": "2026-12-04",
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T09:01:56.518460+00:00",
+      "checked_at": "2026-11-27T10:54:26.707510+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -280,39 +280,45 @@
     "stories": {
       "UK": [
         {
-          "title": "Department for Work and Pensions takes some services offline after 'cyber incident'",
-          "url": "https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o?at_medium=RSS&at_campaign=rss",
+          "title": "'Big moment' as net migration now in tens of thousands",
+          "url": "https://www.bbc.co.uk/news/videos/c35y1kqlx28ko?at_medium=RSS&at_campaign=rss",
           "source": "BBC Politics",
-          "published_at": "2026-11-27T09:00:25+00:00"
+          "published_at": "2026-11-27T10:28:30+00:00"
+        },
+        {
+          "title": "What we know about Department for Work and Pensions 'cyber incident'",
+          "url": "https://www.bbc.co.uk/news/articles/ck1l0e946dqmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Politics",
+          "published_at": "2026-11-27T10:13:08+00:00"
+        },
+        {
+          "title": "My self-care ritual is a meal at a fancy restaurant - on my own",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T10:10:36+00:00"
+        },
+        {
+          "title": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T09:57:37+00:00"
         },
         {
           "title": "'I wouldn't be here today without you': Student's praise for man who stopped train attacker",
           "url": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-27T07:53:24+00:00"
-        },
-        {
-          "title": "My self-care ritual is a meal at a fancy restaurant - on my own",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T07:46:02+00:00"
-        },
-        {
-          "title": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T07:40:25+00:00"
-        },
-        {
-          "title": "Student recalls moment passenger stepped in during Huntingdon attack",
-          "url": "https://www.bbc.co.uk/news/videos/cqzr566llz4no?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T06:50:28+00:00"
         }
       ],
       "Northern Ireland": [
         {
-          "title": "Hear ye, hear ye: Meet the bewigged bricklayers, teachers and amateur actors going 18th Century",
+          "title": "Slaughtneil and Portaferry bid for Ulster honours",
+          "url": "https://www.bbc.co.uk/sport/articles/cv0l3615pwxno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T08:20:29+00:00"
+        },
+        {
+          "title": "Hear ye, hear ye: Bewigged bricklayers and teachers turn to history acting",
           "url": "https://www.bbc.co.uk/news/articles/c6y80575ne5jo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
           "published_at": "2026-11-27T06:07:29+00:00"
@@ -334,44 +340,38 @@
           "url": "https://www.bbc.co.uk/sport/football/articles/cq8r7yepx20ko?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
           "published_at": "2026-11-26T20:33:04+00:00"
-        },
-        {
-          "title": "Strabane withdraws from UK Town of Culture bid due to 'great division'",
-          "url": "https://www.bbc.co.uk/news/articles/ckg5rz4p7g68o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-26T18:09:01+00:00"
         }
       ],
       "Republic of Ireland": [
+        {
+          "title": "Man due in court in connection with fatal Dublin assault",
+          "url": "https://www.rte.ie/news/ireland/2026/1127/1600874-fatal-assault-dublin/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T10:36:24+00:00"
+        },
+        {
+          "title": "\"As clear as mud\" why board sacked HSE chief | Morning Ireland - RTÉ Radio 1 - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQ1JJQVY2d0tQMURYeHppYTdGM2Z6SzV4NGdqVjQ3Rk1SWUIwdDBPZWxjM0J6V2lRRzM5X21UOWJmZHduWVg3QkltQjVMZlo4TENpekIzVzZiZUtCaEZ2ZUpHVElnU3RoTVpBWUlsNEt3LWs1WGhJWE1pRjFFb2Y5dg?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-27T10:33:46+00:00"
+        },
+        {
+          "title": "'No time to be scared' - 22 to be honoured for bravery",
+          "url": "https://www.rte.ie/news/2026/1127/1600868-no-time-to-be-scared-22-to-be-honoured-for-bravery/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T09:40:43+00:00"
+        },
+        {
+          "title": "Confidence expressed in minister amid O'Connor sacking - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWjdoNWxTaHlJZEZJM2RMYXBOQlZWcFptYU5odVhIUjJ3cDQ5NkJ3OVF5WVJRZ1lmeFZjN1pLWHB3bGlMbTRGeXhTR1laRTRqZkcwTV94MTVweTVCSnZ2Z0ZEWXQ3dURmX1Q3bGJlZl9uQ09SdVhIQmUxSU9oZ2g1YW8tTTNZRkpjQmdPbkRfU2pPZWYzZ1dIZkhMS1Y2LUFDdlhFel9xTTc?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-27T09:33:57+00:00"
+        },
         {
           "title": "Confidence expressed in minister amid O'Connor sacking",
           "url": "https://www.rte.ie/news/politics/2026/1127/1600861-confidence-expressed-in-minister-amid-oconnor-sacking/",
           "source": "RTÉ News",
           "published_at": "2026-11-27T08:22:43+00:00"
-        },
-        {
-          "title": "Man due in court over robbery of cash-in-transit van",
-          "url": "https://www.rte.ie/news/2026/1127/1600857-cash-in-transit/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T07:54:42+00:00"
-        },
-        {
-          "title": "Mushroom killer launches last-ditch appeal of conviction",
-          "url": "https://www.rte.ie/news/world/2026/1127/1600854-erin-patterson-appeal/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T07:17:43+00:00"
-        },
-        {
-          "title": "Nvidia CEO Huang not a security threat - Trump",
-          "url": "https://www.rte.ie/news/world/2026/1127/1600850-nvidia-ceo-huang-not-a-security-threat-trump/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T06:31:10+00:00"
-        },
-        {
-          "title": "€1.7 billion in mortgages approved last month - BPFI",
-          "url": "https://www.rte.ie/news/business/2026/1127/1600840-banking-payments-federation-ireland-mortgages/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T06:01:00+00:00"
         }
       ]
     },
@@ -408,8 +408,8 @@
         },
         {
           "source": "Google News / Ireland",
-          "status": "unavailable",
-          "reason": "HTTP Error 503: Service Unavailable"
+          "status": "ok",
+          "count": 100
         }
       ]
     },
