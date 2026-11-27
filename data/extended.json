@@ -1,27 +1,302 @@
 {
-  "generated_at": "2026-11-27T00:47:14.601683+00:00",
-  "radar": {
-    "provider": "AvioADSB embedded live map",
-    "source_url": "https://avioadsb.org/flight-tracker-widget",
-    "note": "Coverage depends on volunteers; map positions are not flight schedules or safety-critical data."
-  },
+  "generated_at": "2026-11-27T01:04:01.580676+00:00",
   "weather": {
     "County Down": {
-      "status": "unavailable",
-      "days": [],
-      "reason": "<urlopen error _ssl.c:994: The handshake operation timed out>",
-      "source_url": "https://weather.metoffice.gov.uk/"
+      "status": "ok",
+      "days": [
+        {
+          "date": "2026-11-27",
+          "max_c": 9.9,
+          "min_c": 2.2,
+          "rain_pct": 100,
+          "wind_kmh": 38.2,
+          "weather_code": 63
+        },
+        {
+          "date": "2026-11-28",
+          "max_c": 9.7,
+          "min_c": 3.5,
+          "rain_pct": 98,
+          "wind_kmh": 23.8,
+          "weather_code": 61
+        },
+        {
+          "date": "2026-11-29",
+          "max_c": 9.1,
+          "min_c": 4.1,
+          "rain_pct": 57,
+          "wind_kmh": 22.0,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-30",
+          "max_c": 12.3,
+          "min_c": 9.1,
+          "rain_pct": 91,
+          "wind_kmh": 47.9,
+          "weather_code": 55
+        },
+        {
+          "date": "2026-12-01",
+          "max_c": 12.4,
+          "min_c": 4.8,
+          "rain_pct": 65,
+          "wind_kmh": 47.5,
+          "weather_code": 53
+        },
+        {
+          "date": "2026-12-02",
+          "max_c": 7.0,
+          "min_c": 4.7,
+          "rain_pct": 31,
+          "wind_kmh": 21.6,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-12-03",
+          "max_c": 7.5,
+          "min_c": 3.4,
+          "rain_pct": 3,
+          "wind_kmh": 21.2,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-12-04",
+          "max_c": 7.1,
+          "min_c": 2.3,
+          "rain_pct": 22,
+          "wind_kmh": 8.9,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-12-05",
+          "max_c": 7.0,
+          "min_c": 2.3,
+          "rain_pct": 20,
+          "wind_kmh": 5.6,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-12-06",
+          "max_c": 7.0,
+          "min_c": 2.2,
+          "rain_pct": 27,
+          "wind_kmh": 9.2,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-12-07",
+          "max_c": 6.1,
+          "min_c": 2.0,
+          "rain_pct": 31,
+          "wind_kmh": 9.3,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-12-08",
+          "max_c": 6.0,
+          "min_c": 0.7,
+          "rain_pct": 25,
+          "wind_kmh": 8.0,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-12-09",
+          "max_c": 7.2,
+          "min_c": 1.1,
+          "rain_pct": 31,
+          "wind_kmh": 9.7,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-12-10",
+          "max_c": 6.8,
+          "min_c": 4.6,
+          "rain_pct": 19,
+          "wind_kmh": 12.7,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-12-11",
+          "max_c": null,
+          "min_c": null,
+          "rain_pct": null,
+          "wind_kmh": null,
+          "weather_code": null
+        },
+        {
+          "date": "2026-12-12",
+          "max_c": null,
+          "min_c": null,
+          "rain_pct": null,
+          "wind_kmh": null,
+          "weather_code": null
+        }
+      ],
+      "checked_at": "2026-11-27T01:04:01.580676+00:00",
+      "source": "Open-Meteo composite forecast",
+      "source_url": "https://open-meteo.com/",
+      "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
     },
     "London": {
-      "status": "unavailable",
-      "days": [],
-      "reason": "<urlopen error _ssl.c:994: The handshake operation timed out>",
-      "source_url": "https://weather.metoffice.gov.uk/"
+      "status": "ok",
+      "days": [
+        {
+          "date": "2026-11-27",
+          "max_c": 4.5,
+          "min_c": 1.8,
+          "rain_pct": 42,
+          "wind_kmh": 14.0,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-11-28",
+          "max_c": 10.7,
+          "min_c": 4.5,
+          "rain_pct": 99,
+          "wind_kmh": 19.4,
+          "weather_code": 61
+        },
+        {
+          "date": "2026-11-29",
+          "max_c": 9.9,
+          "min_c": 5.7,
+          "rain_pct": 10,
+          "wind_kmh": 11.5,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-11-30",
+          "max_c": 11.5,
+          "min_c": 7.5,
+          "rain_pct": 7,
+          "wind_kmh": 14.8,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-12-01",
+          "max_c": 10.2,
+          "min_c": 8.0,
+          "rain_pct": 57,
+          "wind_kmh": 17.3,
+          "weather_code": 51
+        },
+        {
+          "date": "2026-12-02",
+          "max_c": 9.6,
+          "min_c": 5.6,
+          "rain_pct": 59,
+          "wind_kmh": 16.2,
+          "weather_code": 61
+        },
+        {
+          "date": "2026-12-03",
+          "max_c": 8.1,
+          "min_c": 2.6,
+          "rain_pct": 25,
+          "wind_kmh": 11.2,
+          "weather_code": 1
+        },
+        {
+          "date": "2026-12-04",
+          "max_c": 6.3,
+          "min_c": 1.1,
+          "rain_pct": 2,
+          "wind_kmh": 8.9,
+          "weather_code": 1
+        },
+        {
+          "date": "2026-12-05",
+          "max_c": 6.0,
+          "min_c": 1.7,
+          "rain_pct": 7,
+          "wind_kmh": 7.2,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-12-06",
+          "max_c": 3.5,
+          "min_c": -0.1,
+          "rain_pct": 18,
+          "wind_kmh": 8.6,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-12-07",
+          "max_c": 1.5,
+          "min_c": -1.4,
+          "rain_pct": 29,
+          "wind_kmh": 5.4,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-12-08",
+          "max_c": 1.2,
+          "min_c": -2.3,
+          "rain_pct": 22,
+          "wind_kmh": 3.8,
+          "weather_code": 45
+        },
+        {
+          "date": "2026-12-09",
+          "max_c": 4.8,
+          "min_c": -2.4,
+          "rain_pct": 22,
+          "wind_kmh": 7.2,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-12-10",
+          "max_c": 3.9,
+          "min_c": -0.8,
+          "rain_pct": 18,
+          "wind_kmh": 6.1,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-12-11",
+          "max_c": null,
+          "min_c": null,
+          "rain_pct": null,
+          "wind_kmh": null,
+          "weather_code": null
+        },
+        {
+          "date": "2026-12-12",
+          "max_c": null,
+          "min_c": null,
+          "rain_pct": null,
+          "wind_kmh": null,
+          "weather_code": null
+        }
+      ],
+      "checked_at": "2026-11-27T01:04:01.580676+00:00",
+      "source": "Open-Meteo composite forecast",
+      "source_url": "https://open-meteo.com/",
+      "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
     }
   },
   "news": {
     "stories": {
       "UK": [
+        {
+          "title": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
+          "url": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T00:58:49+00:00"
+        },
+        {
+          "title": "I spend £200 a month on fancy meals by myself - would you dine solo?",
+          "url": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T00:54:45+00:00"
+        },
+        {
+          "title": "The young hikers finding friendship and fresh air offline",
+          "url": "https://www.bbc.co.uk/news/articles/c32l50v7x2v1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T00:52:34+00:00"
+        },
         {
           "title": "UK to pay 'participation' fee to deliver EU deals",
           "url": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
@@ -33,24 +308,6 @@
           "url": "https://www.bbc.co.uk/news/articles/ck792l8ndqyqo?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-26T19:43:09+00:00"
-        },
-        {
-          "title": "Burnham joined by former PMs at Widdecombe service",
-          "url": "https://www.bbc.co.uk/news/articles/cvglrn4p1np0o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-26T18:26:09+00:00"
-        },
-        {
-          "title": "Mandelson kept shares as ambassador despite conflict of interest fears, documents show",
-          "url": "https://www.bbc.co.uk/news/articles/c6808dv4e817o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-26T18:22:31+00:00"
-        },
-        {
-          "title": "Drug rape husband says wife 'would have been terrified', court hears",
-          "url": "https://www.bbc.co.uk/news/articles/ck053epz2ppmo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-26T18:21:59+00:00"
         }
       ],
       "Northern Ireland": [
@@ -87,8 +344,14 @@
       ],
       "Republic of Ireland": [
         {
+          "title": "Trump says Putin can attend Florida G20 meeting",
+          "url": "https://www.rte.ie/news/2026/1127/1600845-trump-putin/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T00:49:55+00:00"
+        },
+        {
           "title": "Argentina's Milei not invited to Lula inauguration",
-          "url": "https://www.rte.ie/news/2026/1127/1600844-argentinas-milei-not-invited-to-lula-inauguration/",
+          "url": "https://www.rte.ie/news/2026/1127/1600844-milei-inauguration/",
           "source": "RTÉ News",
           "published_at": "2026-11-27T00:33:28+00:00"
         },
@@ -109,12 +372,6 @@
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVmpXT2pYbmgxWURpaldvOVphb1AtV0RtZVJySml5NldQemV5WVFzT1pGS19Gc1BWR0JsVlJQRWZNRU1fU0ZPTkZYWkpBcVlXQUVwS3pNd21OTk9RM1JBZXVFX0pRVnR6SkNWX0hyZm43X0hHSU9uaFk2TTZnVUdiX1doQ3JZLUZUTVE3M3A0X1V3Yy1QU0J5bmFHQlJWQVM1UFR3NHRLdGYzV2k4WHg2V041TEZKQi1lMUh3RlFUc0VGa05lVlctdzM3dVVQNVV6S1dVbTJYYV9MU2VuQnZ5dUlB?oc=5",
           "source": "Google News / Ireland",
           "published_at": "2026-11-26T22:47:24+00:00"
-        },
-        {
-          "title": "HSE board expected to appear at cttee over CEO sacking - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qdUJBQ2JJUmp1b1VweTMyU3hBY29SMXpVTE5CbUw2YXpDYk5xOFlqckNmV2l1eEF5M0xhR0x4VC1yYTdOOG5YY19KRXgxMnhTM0xrZ2U3SlpBVjdTNVJwOWg3bVRXT1F1YWdBTWlfRGI0cXF5VmV2ZndqYnk?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-26T22:43:29+00:00"
         }
       ]
     },
@@ -123,7 +380,7 @@
         {
           "source": "BBC UK",
           "status": "ok",
-          "count": 22
+          "count": 21
         },
         {
           "source": "BBC Politics",
