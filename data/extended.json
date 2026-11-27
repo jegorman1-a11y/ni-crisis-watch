@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T13:11:43.808078+00:00",
+  "generated_at": "2026-11-27T14:53:38.899956+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -7,23 +7,23 @@
         {
           "date": "2026-11-27",
           "max_c": 10.0,
-          "min_c": 2.2,
+          "min_c": 2.4,
           "rain_pct": 100,
           "wind_kmh": 36.4,
           "weather_code": 63
         },
         {
           "date": "2026-11-28",
-          "max_c": 10.2,
-          "min_c": 4.6,
+          "max_c": 10.1,
+          "min_c": 3.2,
           "rain_pct": 90,
-          "wind_kmh": 27.7,
+          "wind_kmh": 26.3,
           "weather_code": 61
         },
         {
           "date": "2026-11-29",
           "max_c": 10.1,
-          "min_c": 2.7,
+          "min_c": 2.5,
           "rain_pct": 84,
           "wind_kmh": 23.8,
           "weather_code": 51
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T13:11:43.808078+00:00",
+      "checked_at": "2026-11-27T14:53:38.899956+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -143,26 +143,26 @@
       "days": [
         {
           "date": "2026-11-27",
-          "max_c": 4.4,
+          "max_c": 4.6,
           "min_c": 2.0,
           "rain_pct": 30,
-          "wind_kmh": 15.5,
+          "wind_kmh": 14.8,
           "weather_code": 51
         },
         {
           "date": "2026-11-28",
-          "max_c": 10.7,
-          "min_c": 4.4,
+          "max_c": 11.0,
+          "min_c": 4.6,
           "rain_pct": 100,
-          "wind_kmh": 18.7,
+          "wind_kmh": 19.1,
           "weather_code": 61
         },
         {
           "date": "2026-11-29",
-          "max_c": 10.5,
-          "min_c": 4.2,
+          "max_c": 10.9,
+          "min_c": 5.0,
           "rain_pct": 10,
-          "wind_kmh": 12.2,
+          "wind_kmh": 14.0,
           "weather_code": 3
         },
         {
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T13:11:43.808078+00:00",
+      "checked_at": "2026-11-27T14:53:38.899956+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -280,37 +280,55 @@
     "stories": {
       "UK": [
         {
-          "title": "Government to limit 'abusive lawsuits' aimed at silencing whistleblowers",
-          "url": "https://www.bbc.co.uk/news/articles/cw24ez2zvge0o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Politics",
-          "published_at": "2026-11-27T12:54:33+00:00"
+          "title": "'We have no interest in hearing from Huw Edwards', Downing Street says",
+          "url": "https://www.bbc.co.uk/news/articles/c60mdl2y2w3do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T14:33:10+00:00"
         },
         {
-          "title": "Rape charge for most 'swiped-right' man on Tinder",
-          "url": "https://www.bbc.co.uk/news/articles/cqkg5yxkl384o?at_medium=RSS&at_campaign=rss",
+          "title": "Dec Donnelly says I'm a Celebrity tension 'became much bigger deal than it should have'",
+          "url": "https://www.bbc.co.uk/news/articles/c65y1k8qx7q4o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T12:41:41+00:00"
-        },
-        {
-          "title": "Five Gladiators will not return for new BBC series",
-          "url": "https://www.bbc.co.uk/news/articles/cm0jx92d07n5o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T12:36:06+00:00"
+          "published_at": "2026-11-27T14:06:20+00:00"
         },
         {
           "title": "What we know about Department for Work and Pensions 'cyber incident'",
           "url": "https://www.bbc.co.uk/news/articles/ck1l0e946dqmo?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T12:24:39+00:00"
+          "published_at": "2026-11-27T13:57:37+00:00"
         },
         {
-          "title": "Fury cleared to fight Joshua after medical checks",
-          "url": "https://www.bbc.co.uk/sport/boxing/articles/c539gd2x2ye1o?at_medium=RSS&at_campaign=rss",
+          "title": "Beach attacker sentenced to 10 years after victim, 17, loses leg in bank holiday stabbing",
+          "url": "https://www.bbc.co.uk/news/articles/ckjwj6p6n597o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T12:13:15+00:00"
+          "published_at": "2026-11-27T13:42:13+00:00"
+        },
+        {
+          "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
+          "url": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T13:29:10+00:00"
         }
       ],
       "Northern Ireland": [
+        {
+          "title": "Concern over maternity unit move prompts extra paramedic funding",
+          "url": "https://www.bbc.co.uk/news/articles/cq5y12vgkxyxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T13:53:16+00:00"
+        },
+        {
+          "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
+          "url": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T13:29:10+00:00"
+        },
+        {
+          "title": "BBC Newsline signed summary",
+          "url": "https://www.bbc.co.uk/news/videos/ckdd22kyq81o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T13:13:00+00:00"
+        },
         {
           "title": "NI goods exports grew in 2025, official figures suggest",
           "url": "https://www.bbc.co.uk/news/articles/c689403jzge2o?at_medium=RSS&at_campaign=rss",
@@ -318,60 +336,42 @@
           "published_at": "2026-11-27T13:08:29+00:00"
         },
         {
-          "title": "Crime falls to lowest recorded level but sexual offences up, figures show",
-          "url": "https://www.bbc.co.uk/news/articles/cm3rg42qvpy8o?at_medium=RSS&at_campaign=rss",
+          "title": "Irish Gladiator among five not returning for new BBC series",
+          "url": "https://www.bbc.co.uk/news/articles/cm0jx92d07n5o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T12:23:17+00:00"
-        },
-        {
-          "title": "Police launch new plan to tackle 'parasite' of violence against women",
-          "url": "https://www.bbc.co.uk/news/articles/c3zxvy247ek5o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T12:11:25+00:00"
-        },
-        {
-          "title": "Man in his 80s dies after house fire",
-          "url": "https://www.bbc.co.uk/news/articles/c8g46x046ry1o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T11:36:35+00:00"
-        },
-        {
-          "title": "Police appeal after masked man tried to fire crossbow at PSNI station",
-          "url": "https://www.bbc.co.uk/news/articles/c6x2wx99vnl7o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T11:19:02+00:00"
+          "published_at": "2026-11-27T12:36:06+00:00"
         }
       ],
       "Republic of Ireland": [
         {
-          "title": "PSNI appeal after man 'tried to fire crossbow' in Belfast",
-          "url": "https://www.rte.ie/news/ireland/2026/1127/1600900-belfast-crossbow-appeal/",
+          "title": "Brussels political theatre sets stage for marathon EU budget showdown - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYWh4TnhPLTk0dU82SUMxS29xV1lzNl9wdjVvNHNhZ19QNktoRG9iSnJfcklodE1vOTI0Sms2MldBODVrazhTb3JmaWttcmpKMU5MZmpWcXhCUUE1dXpxT1hBaFluZ3FhMzhlV24yWHBPdVdOak9FQVFfYi1zaEQ1SzhQeHhLVUJpQ3d3c0c2eXRJZDdudXlPWVVIV3hPMVFQRmVSSmpBcW9TT1N3RGVDTnQ0UVptWnBMUFlabmVn?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-27T14:38:53+00:00"
+        },
+        {
+          "title": "Nearly 6,000 children living in emergency accommodation",
+          "url": "https://www.rte.ie/news/ireland/2026/1127/1600919-homeless-figures-ireland/",
           "source": "RTÉ News",
-          "published_at": "2026-11-27T13:05:41+00:00"
+          "published_at": "2026-11-27T14:26:16+00:00"
         },
         {
           "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T13:03:57+00:00"
+          "published_at": "2026-11-27T13:53:41+00:00"
         },
         {
-          "title": "Spanish PM in bid to beat the right ahead of key poll",
-          "url": "https://www.rte.ie/news/2026/1127/1600889-sanchez-spain-elections/",
+          "title": "Evidence reverse engineered against woman, defence claims",
+          "url": "https://www.rte.ie/news/courts/2026/1127/1600906-scarlett-faulkner-court/",
           "source": "RTÉ News",
-          "published_at": "2026-11-27T12:10:14+00:00"
+          "published_at": "2026-11-27T13:39:14+00:00"
         },
         {
-          "title": "O'Connor dismissal 'central topic' as HSE Board meeting - RTE.ie",
+          "title": "HSE board confirms Health Committee attendance next week - RTE.ie",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16TkwtNlEyd1FsaF9HVXhWYjlEUzRldWJycnVqNHlVTlZsal9qMXhIV1F6eFZCVk1tcFBVWWlnUlRVVTZNMFNMaDRmdGhSWjNIS1hDVDU1VnJwRmNfanliNVZlc2dRT1JBWTNzZjVRY2lYVHpXVXp3?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T12:02:47+00:00"
-        },
-        {
-          "title": "Other Voices celebrates 25 years in An Daingean",
-          "url": "https://www.rte.ie/entertainment/2026/1127/1600859-other-voices-celebrates-25-years-in-an-daingean/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T11:57:00+00:00"
+          "published_at": "2026-11-27T13:30:00+00:00"
         }
       ]
     },
@@ -380,7 +380,7 @@
         {
           "source": "BBC UK",
           "status": "ok",
-          "count": 23
+          "count": 26
         },
         {
           "source": "BBC Politics",
@@ -392,7 +392,7 @@
         {
           "source": "BBC Northern Ireland",
           "status": "ok",
-          "count": 37
+          "count": 38
         },
         {
           "source": "BBC NI Politics",

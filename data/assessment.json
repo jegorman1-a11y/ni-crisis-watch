@@ -1,7 +1,7 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-27T13:11:46Z",
-  "source_generated_at": "2026-11-27T13:11:41.553483Z",
+  "generated_at": "2026-11-27T14:53:40Z",
+  "source_generated_at": "2026-11-27T14:53:35.253854Z",
   "mode": "automated conservative headline triage, not a verified intelligence judgement",
   "coverage": "Connected public announcement feeds only; NOT comprehensive WHO, legislation, procurement, NCSC or utilities monitoring.",
   "methodology": "Rule-based narrow headline predicates; corroboration from independent official feeds required for limited numerical changes. No automated LLM inference. Numbers are illustrative and uncalibrated.",
