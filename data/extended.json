@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T17:03:54.890400+00:00",
+  "generated_at": "2026-11-27T18:55:39.397155+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T17:03:54.890400+00:00",
+      "checked_at": "2026-11-27T18:55:39.397155+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -143,7 +143,7 @@
       "days": [
         {
           "date": "2026-11-27",
-          "max_c": 5.3,
+          "max_c": 5.4,
           "min_c": 2.0,
           "rain_pct": 75,
           "wind_kmh": 14.8,
@@ -152,7 +152,7 @@
         {
           "date": "2026-11-28",
           "max_c": 11.3,
-          "min_c": 5.3,
+          "min_c": 5.4,
           "rain_pct": 100,
           "wind_kmh": 20.2,
           "weather_code": 61
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T17:03:54.890400+00:00",
+      "checked_at": "2026-11-27T18:55:39.397155+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -280,42 +280,54 @@
     "stories": {
       "UK": [
         {
-          "title": "Body found in woodland confirmed as missing Kelsey Hunter",
-          "url": "https://www.bbc.co.uk/news/articles/cqx2e315rz00o?at_medium=RSS&at_campaign=rss",
+          "title": "Chicken Shop Date: The perfect end or a disappointing send-off?",
+          "url": "https://www.bbc.co.uk/news/articles/ckz74123x2jvo?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T17:03:03+00:00"
+          "published_at": "2026-11-27T18:02:25+00:00"
+        },
+        {
+          "title": "GTA 6 crashes into top end of music chart after its record launch",
+          "url": "https://www.bbc.co.uk/news/articles/ckp80d8vz1ego?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T17:39:11+00:00"
         },
         {
           "title": "Ex-council leader jailed for fraud and tax evasion",
           "url": "https://www.bbc.co.uk/news/articles/cmkgdjyd5j98o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T16:57:31+00:00"
+          "published_at": "2026-11-27T17:37:08+00:00"
         },
         {
-          "title": "Tory candidates must sign pledge to scrap net-zero targets, says Badenoch",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy95295835o?at_medium=RSS&at_campaign=rss",
+          "title": "Millions lose access to benefits and pensions services after 'cyber incident'",
+          "url": "https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T16:42:22+00:00"
+          "published_at": "2026-11-27T17:34:16+00:00"
         },
         {
-          "title": "Police look for more than 100 gig-goers to help Co-op Live probe",
-          "url": "https://www.bbc.co.uk/news/articles/c8wy5vnpggnpo?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: What has happened to online pension and benefits services?",
+          "url": "https://www.bbc.co.uk/news/videos/cqm251rv0vyyo?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T16:40:22+00:00"
-        },
-        {
-          "title": "Reform politician seeks legal action over Senedd ban",
-          "url": "https://www.bbc.co.uk/news/videos/cm8680n2x405o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Politics",
-          "published_at": "2026-11-27T16:30:38+00:00"
+          "published_at": "2026-11-27T17:17:11+00:00"
         }
       ],
       "Northern Ireland": [
         {
+          "title": "Councils deciding to publish housing lists could 'increase danger for migrants' - campaigner",
+          "url": "https://www.bbc.co.uk/news/articles/c64gnzxlxk7ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T17:36:15+00:00"
+        },
+        {
+          "title": "Crime falls to lowest recorded level but sexual offences up, figures show",
+          "url": "https://www.bbc.co.uk/news/articles/cm3rg42qvpy8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T17:20:19+00:00"
+        },
+        {
           "title": "Concern over maternity unit move prompts extra paramedic funding",
           "url": "https://www.bbc.co.uk/news/articles/cq5y12vgkxyxo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T13:53:16+00:00"
+          "published_at": "2026-11-27T17:11:58+00:00"
         },
         {
           "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
@@ -328,50 +340,38 @@
           "url": "https://www.bbc.co.uk/news/videos/ckdd22kyq81o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
           "published_at": "2026-11-27T13:13:00+00:00"
-        },
-        {
-          "title": "NI goods exports grew in 2025, official figures suggest",
-          "url": "https://www.bbc.co.uk/news/articles/c689403jzge2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T13:08:29+00:00"
-        },
-        {
-          "title": "Irish Gladiator among five not returning for new BBC series",
-          "url": "https://www.bbc.co.uk/news/articles/cm0jx92d07n5o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T12:36:06+00:00"
         }
       ],
       "Republic of Ireland": [
         {
+          "title": "'End of an era' as Irish troops return home from Lebanon",
+          "url": "https://www.rte.ie/news/ireland/2026/1127/1600950-irish-troops-return-home/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T18:24:48+00:00"
+        },
+        {
           "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T16:53:41+00:00"
+          "published_at": "2026-11-27T18:23:41+00:00"
         },
         {
-          "title": "Leo Varadkar plays British prime minister in ‘fun and interesting’ cyberattack simulation - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSXNhZ215MlFqY1A4empSTzhiR0ZlQVQxQURXSEYyR0E4SmNrOHdUeTNCaDg3clZ2OG5ZdmpmdDJzNEZ5eXF4UC03cHgwNHZSbl9mTEdEbENBcGQ5cjV1SnRJbzdJM0p6N1hDQVpXaFlVS3BJTEtuVEE2UW5rSXZhYjNlOENmelNudGxmal9rUkZJYllQQUMtdVh6U1l5RElLZ3NYZlBnV1h3VmdFelZiYTBIUm1zaTlqNUdrd0hmUmFXSVhVSXNYNXJMLTltcWRf?oc=5",
+          "title": "HSE board meeting ends amid questions over dismissal - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16TkwtNlEyd1FsaF9HVXhWYjlEUzRldWJycnVqNHlVTlZsal9qMXhIV1F6eFZCVk1tcFBVWWlnUlRVVTZNMFNMaDRmdGhSWjNIS1hDVDU1VnJwRmNfanliNVZlc2dRT1JBWTNzZjVRY2lYVHpXVXp3?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T16:44:07+00:00"
+          "published_at": "2026-11-27T18:18:38+00:00"
         },
         {
-          "title": "Murphy magic sends Ireland U17s into last 32 of World Cup",
-          "url": "https://www.rte.ie/sport/soccer/2026/1127/1600931-murphy-magic-sends-ireland-u17s-into-last-32-of-world-cup/",
+          "title": "Behind The Story: Sacking of HSE boss still rattles",
+          "url": "https://www.rte.ie/news/2026/1127/1600944-behind-the-story-sacking-of-hse-boss-still-rattles-government-and-nitrous-oxide-on-the-playing-field/",
           "source": "RTÉ News",
-          "published_at": "2026-11-27T16:41:17+00:00"
+          "published_at": "2026-11-27T17:41:29+00:00"
         },
         {
-          "title": "RTÉ journalist honoured by Trinity College Dublin",
-          "url": "https://www.rte.ie/news/ireland/2026/1127/1600935-tony-connelly-trinity/",
+          "title": "Driver who was on phone when lorry struck woman is jailed",
+          "url": "https://www.rte.ie/news/courts/2026/1127/1600948-cork-pensioner-courts/",
           "source": "RTÉ News",
-          "published_at": "2026-11-27T16:31:57+00:00"
-        },
-        {
-          "title": "Seven sent to trial over violence during Dublin eviction",
-          "url": "https://www.rte.ie/news/courts/2026/1127/1600934-dublin-district-court-violence-eviction/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T16:26:49+00:00"
+          "published_at": "2026-11-27T17:40:05+00:00"
         }
       ]
     },
@@ -380,7 +380,7 @@
         {
           "source": "BBC UK",
           "status": "ok",
-          "count": 26
+          "count": 25
         },
         {
           "source": "BBC Politics",
