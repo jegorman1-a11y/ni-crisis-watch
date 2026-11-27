@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:54:26.707510+00:00",
+  "generated_at": "2026-11-27T13:11:43.808078+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -7,7 +7,7 @@
         {
           "date": "2026-11-27",
           "max_c": 10.0,
-          "min_c": 2.6,
+          "min_c": 2.2,
           "rain_pct": 100,
           "wind_kmh": 36.4,
           "weather_code": 63
@@ -16,23 +16,23 @@
           "date": "2026-11-28",
           "max_c": 10.2,
           "min_c": 4.6,
-          "rain_pct": 91,
+          "rain_pct": 90,
           "wind_kmh": 27.7,
-          "weather_code": 63
+          "weather_code": 61
         },
         {
           "date": "2026-11-29",
           "max_c": 10.1,
           "min_c": 2.7,
-          "rain_pct": 80,
+          "rain_pct": 84,
           "wind_kmh": 23.8,
-          "weather_code": 3
+          "weather_code": 51
         },
         {
           "date": "2026-11-30",
           "max_c": 12.7,
           "min_c": 10.1,
-          "rain_pct": 86,
+          "rain_pct": 100,
           "wind_kmh": 34.9,
           "weather_code": 53
         },
@@ -40,7 +40,7 @@
           "date": "2026-12-01",
           "max_c": 13.1,
           "min_c": 5.9,
-          "rain_pct": 65,
+          "rain_pct": 55,
           "wind_kmh": 40.3,
           "weather_code": 55
         },
@@ -56,7 +56,7 @@
           "date": "2026-12-03",
           "max_c": 8.7,
           "min_c": 4.8,
-          "rain_pct": 3,
+          "rain_pct": 2,
           "wind_kmh": 19.1,
           "weather_code": 3
         },
@@ -64,7 +64,7 @@
           "date": "2026-12-04",
           "max_c": 7.6,
           "min_c": 2.6,
-          "rain_pct": 22,
+          "rain_pct": 16,
           "wind_kmh": 14.1,
           "weather_code": 45
         },
@@ -72,7 +72,7 @@
           "date": "2026-12-05",
           "max_c": 9.2,
           "min_c": 6.5,
-          "rain_pct": 20,
+          "rain_pct": 25,
           "wind_kmh": 18.7,
           "weather_code": 3
         },
@@ -80,7 +80,7 @@
           "date": "2026-12-06",
           "max_c": 8.9,
           "min_c": 7.6,
-          "rain_pct": 27,
+          "rain_pct": 33,
           "wind_kmh": 18.8,
           "weather_code": 51
         },
@@ -88,7 +88,7 @@
           "date": "2026-12-07",
           "max_c": 8.3,
           "min_c": 4.5,
-          "rain_pct": 31,
+          "rain_pct": 35,
           "wind_kmh": 24.6,
           "weather_code": 53
         },
@@ -96,7 +96,7 @@
           "date": "2026-12-08",
           "max_c": 6.4,
           "min_c": 2.9,
-          "rain_pct": 25,
+          "rain_pct": 22,
           "wind_kmh": 28.7,
           "weather_code": 1
         },
@@ -104,7 +104,7 @@
           "date": "2026-12-09",
           "max_c": 7.8,
           "min_c": 2.6,
-          "rain_pct": 31,
+          "rain_pct": 25,
           "wind_kmh": 24.8,
           "weather_code": 3
         },
@@ -112,7 +112,7 @@
           "date": "2026-12-10",
           "max_c": 8.8,
           "min_c": 3.9,
-          "rain_pct": 19,
+          "rain_pct": 23,
           "wind_kmh": 40.0,
           "weather_code": 51
         },
@@ -120,7 +120,7 @@
           "date": "2026-12-11",
           "max_c": 6.4,
           "min_c": 2.5,
-          "rain_pct": null,
+          "rain_pct": 22,
           "wind_kmh": 27.8,
           "weather_code": 3
         },
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T10:54:26.707510+00:00",
+      "checked_at": "2026-11-27T13:11:43.808078+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -145,23 +145,23 @@
           "date": "2026-11-27",
           "max_c": 4.4,
           "min_c": 2.0,
-          "rain_pct": 33,
-          "wind_kmh": 14.4,
+          "rain_pct": 30,
+          "wind_kmh": 15.5,
           "weather_code": 51
         },
         {
           "date": "2026-11-28",
           "max_c": 10.7,
           "min_c": 4.4,
-          "rain_pct": 94,
+          "rain_pct": 100,
           "wind_kmh": 18.7,
-          "weather_code": 53
+          "weather_code": 61
         },
         {
           "date": "2026-11-29",
           "max_c": 10.5,
           "min_c": 4.2,
-          "rain_pct": 12,
+          "rain_pct": 10,
           "wind_kmh": 12.2,
           "weather_code": 3
         },
@@ -169,7 +169,7 @@
           "date": "2026-11-30",
           "max_c": 11.7,
           "min_c": 8.6,
-          "rain_pct": 25,
+          "rain_pct": 23,
           "wind_kmh": 20.2,
           "weather_code": 3
         },
@@ -177,7 +177,7 @@
           "date": "2026-12-01",
           "max_c": 13.1,
           "min_c": 10.4,
-          "rain_pct": 45,
+          "rain_pct": 35,
           "wind_kmh": 23.4,
           "weather_code": 53
         },
@@ -185,7 +185,7 @@
           "date": "2026-12-02",
           "max_c": 13.0,
           "min_c": 6.0,
-          "rain_pct": 59,
+          "rain_pct": 61,
           "wind_kmh": 20.9,
           "weather_code": 55
         },
@@ -193,7 +193,7 @@
           "date": "2026-12-03",
           "max_c": 6.2,
           "min_c": 3.2,
-          "rain_pct": 25,
+          "rain_pct": 8,
           "wind_kmh": 10.4,
           "weather_code": 2
         },
@@ -201,7 +201,7 @@
           "date": "2026-12-04",
           "max_c": 4.9,
           "min_c": 1.1,
-          "rain_pct": 2,
+          "rain_pct": 4,
           "wind_kmh": 4.6,
           "weather_code": 45
         },
@@ -209,7 +209,7 @@
           "date": "2026-12-05",
           "max_c": 3.9,
           "min_c": 3.0,
-          "rain_pct": 7,
+          "rain_pct": 12,
           "wind_kmh": 5.5,
           "weather_code": 3
         },
@@ -217,7 +217,7 @@
           "date": "2026-12-06",
           "max_c": 7.3,
           "min_c": 2.5,
-          "rain_pct": 18,
+          "rain_pct": 17,
           "wind_kmh": 8.0,
           "weather_code": 3
         },
@@ -225,7 +225,7 @@
           "date": "2026-12-07",
           "max_c": 6.6,
           "min_c": 1.9,
-          "rain_pct": 29,
+          "rain_pct": 17,
           "wind_kmh": 10.8,
           "weather_code": 51
         },
@@ -233,7 +233,7 @@
           "date": "2026-12-08",
           "max_c": 6.3,
           "min_c": 1.6,
-          "rain_pct": 22,
+          "rain_pct": 24,
           "wind_kmh": 18.3,
           "weather_code": 3
         },
@@ -241,7 +241,7 @@
           "date": "2026-12-09",
           "max_c": 6.3,
           "min_c": 1.5,
-          "rain_pct": 22,
+          "rain_pct": 16,
           "wind_kmh": 18.3,
           "weather_code": 3
         },
@@ -257,7 +257,7 @@
           "date": "2026-12-11",
           "max_c": 6.9,
           "min_c": 3.0,
-          "rain_pct": null,
+          "rain_pct": 16,
           "wind_kmh": 17.6,
           "weather_code": 51
         },
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-27T10:54:26.707510+00:00",
+      "checked_at": "2026-11-27T13:11:43.808078+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -280,98 +280,98 @@
     "stories": {
       "UK": [
         {
-          "title": "'Big moment' as net migration now in tens of thousands",
-          "url": "https://www.bbc.co.uk/news/videos/c35y1kqlx28ko?at_medium=RSS&at_campaign=rss",
+          "title": "Government to limit 'abusive lawsuits' aimed at silencing whistleblowers",
+          "url": "https://www.bbc.co.uk/news/articles/cw24ez2zvge0o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Politics",
-          "published_at": "2026-11-27T10:28:30+00:00"
+          "published_at": "2026-11-27T12:54:33+00:00"
+        },
+        {
+          "title": "Rape charge for most 'swiped-right' man on Tinder",
+          "url": "https://www.bbc.co.uk/news/articles/cqkg5yxkl384o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T12:41:41+00:00"
+        },
+        {
+          "title": "Five Gladiators will not return for new BBC series",
+          "url": "https://www.bbc.co.uk/news/articles/cm0jx92d07n5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T12:36:06+00:00"
         },
         {
           "title": "What we know about Department for Work and Pensions 'cyber incident'",
           "url": "https://www.bbc.co.uk/news/articles/ck1l0e946dqmo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Politics",
-          "published_at": "2026-11-27T10:13:08+00:00"
+          "source": "BBC UK",
+          "published_at": "2026-11-27T12:24:39+00:00"
         },
         {
-          "title": "My self-care ritual is a meal at a fancy restaurant - on my own",
-          "url": "https://www.bbc.co.uk/news/articles/cw8dv11dp2yeo?at_medium=RSS&at_campaign=rss",
+          "title": "Fury cleared to fight Joshua after medical checks",
+          "url": "https://www.bbc.co.uk/sport/boxing/articles/c539gd2x2ye1o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
-          "published_at": "2026-11-27T10:10:36+00:00"
-        },
-        {
-          "title": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
-          "url": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T09:57:37+00:00"
-        },
-        {
-          "title": "'I wouldn't be here today without you': Student's praise for man who stopped train attacker",
-          "url": "https://www.bbc.co.uk/news/articles/ck792lq4xrero?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T07:53:24+00:00"
+          "published_at": "2026-11-27T12:13:15+00:00"
         }
       ],
       "Northern Ireland": [
         {
-          "title": "Slaughtneil and Portaferry bid for Ulster honours",
-          "url": "https://www.bbc.co.uk/sport/articles/cv0l3615pwxno?at_medium=RSS&at_campaign=rss",
+          "title": "NI goods exports grew in 2025, official figures suggest",
+          "url": "https://www.bbc.co.uk/news/articles/c689403jzge2o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T08:20:29+00:00"
+          "published_at": "2026-11-27T13:08:29+00:00"
         },
         {
-          "title": "Hear ye, hear ye: Bewigged bricklayers and teachers turn to history acting",
-          "url": "https://www.bbc.co.uk/news/articles/c6y80575ne5jo?at_medium=RSS&at_campaign=rss",
+          "title": "Crime falls to lowest recorded level but sexual offences up, figures show",
+          "url": "https://www.bbc.co.uk/news/articles/cm3rg42qvpy8o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T06:07:29+00:00"
+          "published_at": "2026-11-27T12:23:17+00:00"
         },
         {
-          "title": "Convicted rapist who abused wife was 'master manipulator'",
-          "url": "https://www.bbc.co.uk/news/articles/cq39gdx980kvo?at_medium=RSS&at_campaign=rss",
+          "title": "Police launch new plan to tackle 'parasite' of violence against women",
+          "url": "https://www.bbc.co.uk/news/articles/c3zxvy247ek5o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
-          "published_at": "2026-11-27T00:01:27+00:00"
+          "published_at": "2026-11-27T12:11:25+00:00"
         },
         {
-          "title": "Mark Allen named in UK Championship draw",
-          "url": "https://www.bbc.co.uk/sport/snooker/articles/cwkgmdryrv4ro?at_medium=RSS&at_campaign=rss",
+          "title": "Man in his 80s dies after house fire",
+          "url": "https://www.bbc.co.uk/news/articles/c8g46x046ry1o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
-          "published_at": "2026-11-26T23:01:50+00:00"
+          "published_at": "2026-11-27T11:36:35+00:00"
         },
         {
-          "title": "Linfield travel to Ballymena in BetMcLean Cup",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cq8r7yepx20ko?at_medium=RSS&at_campaign=rss",
+          "title": "Police appeal after masked man tried to fire crossbow at PSNI station",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wx99vnl7o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
-          "published_at": "2026-11-26T20:33:04+00:00"
+          "published_at": "2026-11-27T11:19:02+00:00"
         }
       ],
       "Republic of Ireland": [
         {
-          "title": "Man due in court in connection with fatal Dublin assault",
-          "url": "https://www.rte.ie/news/ireland/2026/1127/1600874-fatal-assault-dublin/",
+          "title": "PSNI appeal after man 'tried to fire crossbow' in Belfast",
+          "url": "https://www.rte.ie/news/ireland/2026/1127/1600900-belfast-crossbow-appeal/",
           "source": "RTÉ News",
-          "published_at": "2026-11-27T10:36:24+00:00"
+          "published_at": "2026-11-27T13:05:41+00:00"
         },
         {
-          "title": "\"As clear as mud\" why board sacked HSE chief | Morning Ireland - RTÉ Radio 1 - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQ1JJQVY2d0tQMURYeHppYTdGM2Z6SzV4NGdqVjQ3Rk1SWUIwdDBPZWxjM0J6V2lRRzM5X21UOWJmZHduWVg3QkltQjVMZlo4TENpekIzVzZiZUtCaEZ2ZUpHVElnU3RoTVpBWUlsNEt3LWs1WGhJWE1pRjFFb2Y5dg?oc=5",
+          "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T10:33:46+00:00"
+          "published_at": "2026-11-27T13:03:57+00:00"
         },
         {
-          "title": "'No time to be scared' - 22 to be honoured for bravery",
-          "url": "https://www.rte.ie/news/2026/1127/1600868-no-time-to-be-scared-22-to-be-honoured-for-bravery/",
+          "title": "Spanish PM in bid to beat the right ahead of key poll",
+          "url": "https://www.rte.ie/news/2026/1127/1600889-sanchez-spain-elections/",
           "source": "RTÉ News",
-          "published_at": "2026-11-27T09:40:43+00:00"
+          "published_at": "2026-11-27T12:10:14+00:00"
         },
         {
-          "title": "Confidence expressed in minister amid O'Connor sacking - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWjdoNWxTaHlJZEZJM2RMYXBOQlZWcFptYU5odVhIUjJ3cDQ5NkJ3OVF5WVJRZ1lmeFZjN1pLWHB3bGlMbTRGeXhTR1laRTRqZkcwTV94MTVweTVCSnZ2Z0ZEWXQ3dURmX1Q3bGJlZl9uQ09SdVhIQmUxSU9oZ2g1YW8tTTNZRkpjQmdPbkRfU2pPZWYzZ1dIZkhMS1Y2LUFDdlhFel9xTTc?oc=5",
+          "title": "O'Connor dismissal 'central topic' as HSE Board meeting - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16TkwtNlEyd1FsaF9HVXhWYjlEUzRldWJycnVqNHlVTlZsal9qMXhIV1F6eFZCVk1tcFBVWWlnUlRVVTZNMFNMaDRmdGhSWjNIS1hDVDU1VnJwRmNfanliNVZlc2dRT1JBWTNzZjVRY2lYVHpXVXp3?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T09:33:57+00:00"
+          "published_at": "2026-11-27T12:02:47+00:00"
         },
         {
-          "title": "Confidence expressed in minister amid O'Connor sacking",
-          "url": "https://www.rte.ie/news/politics/2026/1127/1600861-confidence-expressed-in-minister-amid-oconnor-sacking/",
+          "title": "Other Voices celebrates 25 years in An Daingean",
+          "url": "https://www.rte.ie/entertainment/2026/1127/1600859-other-voices-celebrates-25-years-in-an-daingean/",
           "source": "RTÉ News",
-          "published_at": "2026-11-27T08:22:43+00:00"
+          "published_at": "2026-11-27T11:57:00+00:00"
         }
       ]
     },
@@ -380,19 +380,19 @@
         {
           "source": "BBC UK",
           "status": "ok",
-          "count": 30
+          "count": 23
         },
         {
           "source": "BBC Politics",
           "status": "ok",
-          "count": 45
+          "count": 44
         }
       ],
       "Northern Ireland": [
         {
           "source": "BBC Northern Ireland",
           "status": "ok",
-          "count": 33
+          "count": 37
         },
         {
           "source": "BBC NI Politics",
