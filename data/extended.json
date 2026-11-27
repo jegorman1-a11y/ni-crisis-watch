@@ -1,0 +1,170 @@
+{
+  "generated_at": "2026-11-27T00:47:14.601683+00:00",
+  "radar": {
+    "provider": "AvioADSB embedded live map",
+    "source_url": "https://avioadsb.org/flight-tracker-widget",
+    "note": "Coverage depends on volunteers; map positions are not flight schedules or safety-critical data."
+  },
+  "weather": {
+    "County Down": {
+      "status": "unavailable",
+      "days": [],
+      "reason": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+      "source_url": "https://weather.metoffice.gov.uk/"
+    },
+    "London": {
+      "status": "unavailable",
+      "days": [],
+      "reason": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+      "source_url": "https://weather.metoffice.gov.uk/"
+    }
+  },
+  "news": {
+    "stories": {
+      "UK": [
+        {
+          "title": "UK to pay 'participation' fee to deliver EU deals",
+          "url": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-26T23:17:12+00:00"
+        },
+        {
+          "title": "Burnham says UK net migration now under 'sufficient' control",
+          "url": "https://www.bbc.co.uk/news/articles/ck792l8ndqyqo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-26T19:43:09+00:00"
+        },
+        {
+          "title": "Burnham joined by former PMs at Widdecombe service",
+          "url": "https://www.bbc.co.uk/news/articles/cvglrn4p1np0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-26T18:26:09+00:00"
+        },
+        {
+          "title": "Mandelson kept shares as ambassador despite conflict of interest fears, documents show",
+          "url": "https://www.bbc.co.uk/news/articles/c6808dv4e817o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-26T18:22:31+00:00"
+        },
+        {
+          "title": "Drug rape husband says wife 'would have been terrified', court hears",
+          "url": "https://www.bbc.co.uk/news/articles/ck053epz2ppmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-26T18:21:59+00:00"
+        }
+      ],
+      "Northern Ireland": [
+        {
+          "title": "Convicted rapist who abused wife was 'master manipulator'",
+          "url": "https://www.bbc.co.uk/news/articles/cq39gdx980kvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-27T00:01:27+00:00"
+        },
+        {
+          "title": "Linfield travel to Ballymena in BetMcLean Cup",
+          "url": "https://www.bbc.co.uk/sport/football/articles/cq8r7yepx20ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-26T20:33:04+00:00"
+        },
+        {
+          "title": "Strabane withdraws from UK Town of Culture bid due to 'great division'",
+          "url": "https://www.bbc.co.uk/news/articles/ckg5rz4p7g68o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-26T18:09:01+00:00"
+        },
+        {
+          "title": "University 'looking into' street party near campus",
+          "url": "https://www.bbc.co.uk/news/articles/cmy86j7zy5gjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-26T17:47:00+00:00"
+        },
+        {
+          "title": "Jason Arday research for Queen's University cleared in investigation",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d7e11lnq4o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-26T17:39:04+00:00"
+        }
+      ],
+      "Republic of Ireland": [
+        {
+          "title": "Argentina's Milei not invited to Lula inauguration",
+          "url": "https://www.rte.ie/news/2026/1127/1600844-argentinas-milei-not-invited-to-lula-inauguration/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T00:33:28+00:00"
+        },
+        {
+          "title": "Macron accuses La Pen of 'arrogance' in EU budget clash",
+          "url": "https://www.rte.ie/news/2026/1127/1600843-macron-la-pen/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T00:15:08+00:00"
+        },
+        {
+          "title": "Calls for regulation of tech-facilitated sexual violence",
+          "url": "https://www.rte.ie/news/2026/1127/1600837-calls-for-regulation-of-tech-facilitated-sexual-violence/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T00:01:00+00:00"
+        },
+        {
+          "title": "Simon Harris defends Health Minister as HSE crisis dominates Dáil proceedings - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVmpXT2pYbmgxWURpaldvOVphb1AtV0RtZVJySml5NldQemV5WVFzT1pGS19Gc1BWR0JsVlJQRWZNRU1fU0ZPTkZYWkpBcVlXQUVwS3pNd21OTk9RM1JBZXVFX0pRVnR6SkNWX0hyZm43X0hHSU9uaFk2TTZnVUdiX1doQ3JZLUZUTVE3M3A0X1V3Yy1QU0J5bmFHQlJWQVM1UFR3NHRLdGYzV2k4WHg2V041TEZKQi1lMUh3RlFUc0VGa05lVlctdzM3dVVQNVV6S1dVbTJYYV9MU2VuQnZ5dUlB?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-26T22:47:24+00:00"
+        },
+        {
+          "title": "HSE board expected to appear at cttee over CEO sacking - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qdUJBQ2JJUmp1b1VweTMyU3hBY29SMXpVTE5CbUw2YXpDYk5xOFlqckNmV2l1eEF5M0xhR0x4VC1yYTdOOG5YY19KRXgxMnhTM0xrZ2U3SlpBVjdTNVJwOWg3bVRXT1F1YWdBTWlfRGI0cXF5VmV2ZndqYnk?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-26T22:43:29+00:00"
+        }
+      ]
+    },
+    "sources": {
+      "UK": [
+        {
+          "source": "BBC UK",
+          "status": "ok",
+          "count": 22
+        },
+        {
+          "source": "BBC Politics",
+          "status": "ok",
+          "count": 45
+        }
+      ],
+      "Northern Ireland": [
+        {
+          "source": "BBC Northern Ireland",
+          "status": "ok",
+          "count": 34
+        },
+        {
+          "source": "BBC NI Politics",
+          "status": "ok",
+          "count": 4
+        }
+      ],
+      "Republic of Ireland": [
+        {
+          "source": "RTÉ News",
+          "status": "ok",
+          "count": 60
+        },
+        {
+          "source": "Google News / Ireland",
+          "status": "ok",
+          "count": 100
+        }
+      ]
+    },
+    "note": "Five most recent eligible feed items, not an independently ranked top-five; politics stories included where available. Only dated stories from the last eight days."
+  },
+  "fuel": {
+    "source": "Consumer Council for Northern Ireland",
+    "oil_url": "https://www.consumercouncil.org.uk/home-heating/price-checker",
+    "forecourt_url": "https://www.consumercouncil.org.uk/ni-fuel-checker",
+    "oil": null,
+    "petrol": null,
+    "diesel": null,
+    "status": "unavailable"
+  }
+}
