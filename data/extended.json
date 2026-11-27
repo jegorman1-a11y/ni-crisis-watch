@@ -1,284 +1,28 @@
 {
-  "generated_at": "2026-11-27T01:14:04.434392+00:00",
+  "generated_at": "2026-11-27T02:55:14.636567+00:00",
   "weather": {
     "County Down": {
-      "status": "ok",
-      "days": [
-        {
-          "date": "2026-11-27",
-          "max_c": 9.9,
-          "min_c": 2.2,
-          "rain_pct": 100,
-          "wind_kmh": 38.2,
-          "weather_code": 63
-        },
-        {
-          "date": "2026-11-28",
-          "max_c": 9.7,
-          "min_c": 3.5,
-          "rain_pct": 98,
-          "wind_kmh": 23.8,
-          "weather_code": 61
-        },
-        {
-          "date": "2026-11-29",
-          "max_c": 9.1,
-          "min_c": 4.1,
-          "rain_pct": 57,
-          "wind_kmh": 22.0,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-30",
-          "max_c": 12.3,
-          "min_c": 9.1,
-          "rain_pct": 91,
-          "wind_kmh": 47.9,
-          "weather_code": 55
-        },
-        {
-          "date": "2026-12-01",
-          "max_c": 12.4,
-          "min_c": 4.8,
-          "rain_pct": 65,
-          "wind_kmh": 47.5,
-          "weather_code": 53
-        },
-        {
-          "date": "2026-12-02",
-          "max_c": 7.0,
-          "min_c": 4.7,
-          "rain_pct": 31,
-          "wind_kmh": 21.6,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-12-03",
-          "max_c": 7.5,
-          "min_c": 3.4,
-          "rain_pct": 3,
-          "wind_kmh": 21.2,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-12-04",
-          "max_c": 7.1,
-          "min_c": 2.3,
-          "rain_pct": 22,
-          "wind_kmh": 8.9,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-05",
-          "max_c": 7.0,
-          "min_c": 2.3,
-          "rain_pct": 20,
-          "wind_kmh": 5.6,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-12-06",
-          "max_c": 7.0,
-          "min_c": 2.2,
-          "rain_pct": 27,
-          "wind_kmh": 9.2,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-12-07",
-          "max_c": 6.1,
-          "min_c": 2.0,
-          "rain_pct": 31,
-          "wind_kmh": 9.3,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-12-08",
-          "max_c": 6.0,
-          "min_c": 0.7,
-          "rain_pct": 25,
-          "wind_kmh": 8.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-09",
-          "max_c": 7.2,
-          "min_c": 1.1,
-          "rain_pct": 31,
-          "wind_kmh": 9.7,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-10",
-          "max_c": 6.8,
-          "min_c": 4.6,
-          "rain_pct": 19,
-          "wind_kmh": 12.7,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-11",
-          "max_c": null,
-          "min_c": null,
-          "rain_pct": null,
-          "wind_kmh": null,
-          "weather_code": null
-        },
-        {
-          "date": "2026-12-12",
-          "max_c": null,
-          "min_c": null,
-          "rain_pct": null,
-          "wind_kmh": null,
-          "weather_code": null
-        }
-      ],
-      "checked_at": "2026-11-27T01:14:04.434392+00:00",
-      "source": "Open-Meteo composite forecast",
-      "source_url": "https://open-meteo.com/",
-      "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
+      "status": "unavailable",
+      "days": [],
+      "reason": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+      "source_url": "https://weather.metoffice.gov.uk/"
     },
     "London": {
-      "status": "ok",
-      "days": [
-        {
-          "date": "2026-11-27",
-          "max_c": 4.5,
-          "min_c": 1.8,
-          "rain_pct": 42,
-          "wind_kmh": 14.0,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-11-28",
-          "max_c": 10.7,
-          "min_c": 4.5,
-          "rain_pct": 99,
-          "wind_kmh": 19.4,
-          "weather_code": 61
-        },
-        {
-          "date": "2026-11-29",
-          "max_c": 9.9,
-          "min_c": 5.7,
-          "rain_pct": 10,
-          "wind_kmh": 11.5,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-11-30",
-          "max_c": 11.5,
-          "min_c": 7.5,
-          "rain_pct": 7,
-          "wind_kmh": 14.8,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-12-01",
-          "max_c": 10.2,
-          "min_c": 8.0,
-          "rain_pct": 57,
-          "wind_kmh": 17.3,
-          "weather_code": 51
-        },
-        {
-          "date": "2026-12-02",
-          "max_c": 9.6,
-          "min_c": 5.6,
-          "rain_pct": 59,
-          "wind_kmh": 16.2,
-          "weather_code": 61
-        },
-        {
-          "date": "2026-12-03",
-          "max_c": 8.1,
-          "min_c": 2.6,
-          "rain_pct": 25,
-          "wind_kmh": 11.2,
-          "weather_code": 1
-        },
-        {
-          "date": "2026-12-04",
-          "max_c": 6.3,
-          "min_c": 1.1,
-          "rain_pct": 2,
-          "wind_kmh": 8.9,
-          "weather_code": 1
-        },
-        {
-          "date": "2026-12-05",
-          "max_c": 6.0,
-          "min_c": 1.7,
-          "rain_pct": 7,
-          "wind_kmh": 7.2,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-06",
-          "max_c": 3.5,
-          "min_c": -0.1,
-          "rain_pct": 18,
-          "wind_kmh": 8.6,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-07",
-          "max_c": 1.5,
-          "min_c": -1.4,
-          "rain_pct": 29,
-          "wind_kmh": 5.4,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-08",
-          "max_c": 1.2,
-          "min_c": -2.3,
-          "rain_pct": 22,
-          "wind_kmh": 3.8,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-09",
-          "max_c": 4.8,
-          "min_c": -2.4,
-          "rain_pct": 22,
-          "wind_kmh": 7.2,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-12-10",
-          "max_c": 3.9,
-          "min_c": -0.8,
-          "rain_pct": 18,
-          "wind_kmh": 6.1,
-          "weather_code": 3
-        },
-        {
-          "date": "2026-12-11",
-          "max_c": null,
-          "min_c": null,
-          "rain_pct": null,
-          "wind_kmh": null,
-          "weather_code": null
-        },
-        {
-          "date": "2026-12-12",
-          "max_c": null,
-          "min_c": null,
-          "rain_pct": null,
-          "wind_kmh": null,
-          "weather_code": null
-        }
-      ],
-      "checked_at": "2026-11-27T01:14:04.434392+00:00",
-      "source": "Open-Meteo composite forecast",
-      "source_url": "https://open-meteo.com/",
-      "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
+      "status": "unavailable",
+      "days": [],
+      "reason": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+      "source_url": "https://weather.metoffice.gov.uk/"
     }
   },
   "news": {
     "stories": {
       "UK": [
+        {
+          "title": "UK papers: 'Scores' of Labour MPs oppose Rosebank and 'Shameless Huw'",
+          "url": "https://www.bbc.co.uk/news/articles/cm62p75vwn9xo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-27T01:23:47+00:00"
+        },
         {
           "title": "From £250 job to £9,000 bill: Inside the rogue trader networks scamming customers at scale",
           "url": "https://www.bbc.co.uk/news/articles/c65yme31k7m2o?at_medium=RSS&at_campaign=rss",
@@ -302,12 +46,6 @@
           "url": "https://www.bbc.co.uk/news/articles/ck2057x387ego?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-26T23:17:12+00:00"
-        },
-        {
-          "title": "Burnham says UK net migration now under 'sufficient' control",
-          "url": "https://www.bbc.co.uk/news/articles/ck792l8ndqyqo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-26T19:43:09+00:00"
         }
       ],
       "Northern Ireland": [
@@ -344,6 +82,18 @@
       ],
       "Republic of Ireland": [
         {
+          "title": "The sacking of a CEO: What exactly happened with Anne O'Connor? | Today with David McCullagh - RTÉ Radio 1 - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYmJERzNDVTZJYUZ4NUlUaUttM2o3YUJLbWFUb2dsVTR2M2UxLTVhODN2Um96U0N2elJOWVpLaUVYS1RPSURCTVlUc3FXTldjbkYxVW9qeHJEeXM2TVJSZV81bXpVUlc0bW5jOWVkUkEtU2xLeEhVTDdhdGlvcWtHNw?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-27T02:32:27+00:00"
+        },
+        {
+          "title": "Guinea-Bissau junta postpones presidential election",
+          "url": "https://www.rte.ie/news/2026/1127/1600846-guinea-bissau/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-27T02:18:54+00:00"
+        },
+        {
           "title": "Trump says Putin can attend Florida G20 meeting",
           "url": "https://www.rte.ie/news/2026/1127/1600845-trump-putin/",
           "source": "RTÉ News",
@@ -356,22 +106,10 @@
           "published_at": "2026-11-27T00:33:28+00:00"
         },
         {
-          "title": "Macron accuses La Pen of 'arrogance' in EU budget clash",
+          "title": "Macron accuses Le Pen of 'arrogance' in EU budget clash",
           "url": "https://www.rte.ie/news/2026/1127/1600843-macron-la-pen/",
           "source": "RTÉ News",
           "published_at": "2026-11-27T00:15:08+00:00"
-        },
-        {
-          "title": "Calls for regulation of tech-facilitated sexual violence",
-          "url": "https://www.rte.ie/news/2026/1127/1600837-calls-for-regulation-of-tech-facilitated-sexual-violence/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T00:01:00+00:00"
-        },
-        {
-          "title": "Simon Harris defends Health Minister as HSE crisis dominates Dáil proceedings - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVmpXT2pYbmgxWURpaldvOVphb1AtV0RtZVJySml5NldQemV5WVFzT1pGS19Gc1BWR0JsVlJQRWZNRU1fU0ZPTkZYWkpBcVlXQUVwS3pNd21OTk9RM1JBZXVFX0pRVnR6SkNWX0hyZm43X0hHSU9uaFk2TTZnVUdiX1doQ3JZLUZUTVE3M3A0X1V3Yy1QU0J5bmFHQlJWQVM1UFR3NHRLdGYzV2k4WHg2V041TEZKQi1lMUh3RlFUc0VGa05lVlctdzM3dVVQNVV6S1dVbTJYYV9MU2VuQnZ5dUlB?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-26T22:47:24+00:00"
         }
       ]
     },
@@ -380,7 +118,7 @@
         {
           "source": "BBC UK",
           "status": "ok",
-          "count": 21
+          "count": 22
         },
         {
           "source": "BBC Politics",
