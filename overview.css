@@ -201,3 +201,41 @@
     padding: 8px 10px;
   }
 }
+
+.health-mortality {
+  margin-top: 10px;
+  border-top: 1px solid var(--line);
+  padding-top: 8px;
+}
+
+.health-mortality summary {
+  color: #9ce8f6;
+  cursor: pointer;
+}
+
+.mortality-figures {
+  display: grid;
+  gap: 8px;
+  margin: 8px 0;
+  font-size: .8125rem;
+}
+
+.mortality-figures > div {
+  padding-block: 6px;
+  border-bottom: 1px solid var(--line);
+}
+
+.mortality-figures dt {
+  font-weight: 650;
+}
+
+.mortality-figures dd {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.mortality-figures strong {
+  color: var(--fg);
+}

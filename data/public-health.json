@@ -83,5 +83,50 @@
       "published": "2026-11-11",
       "dateLabel": "Data extracted"
     }
+  ],
+  "mortality": [
+    {
+      "area": "Northern Ireland",
+      "period": "Week ending 20 November 2026",
+      "registered": 380,
+      "expected": 395,
+      "source": "NISRA",
+      "url": "https://www.nisra.gov.uk/news/weekly-registered-deaths-380-week-ending-20-november-2026",
+      "period_end": "2026-11-20"
+    },
+    {
+      "area": "United Kingdom",
+      "period": "ONS week ending 13 November 2026",
+      "registered": 12685,
+      "source": "ONS UK total",
+      "url": "https://www.ons.gov.uk/visualisations/weeklydeathsdashboard/",
+      "period_end": "2026-11-13"
+    },
+    {
+      "area": "England and Wales",
+      "period": "Week ending 13 November 2026",
+      "registered": 11142,
+      "expected": 11575,
+      "source": "ONS",
+      "url": "https://www.ons.gov.uk/visualisations/weeklydeathsdashboard/",
+      "period_end": "2026-11-13"
+    },
+    {
+      "area": "Scotland",
+      "period": "Week ending 22 November 2026",
+      "registered": 1287,
+      "expected": 1203,
+      "source": "National Records of Scotland",
+      "url": "https://www.nrscotland.gov.uk/publications/deaths-registered-weekly-in-scotland/",
+      "period_end": "2026-11-22"
+    },
+    {
+      "area": "Republic of Ireland",
+      "period": "Quarterly · April–June 2026",
+      "registered": 8711,
+      "source": "Central Statistics Office",
+      "url": "https://www.cso.ie/en/releasesandpublications/ep/p-vs/vitalstatisticssecondquarter2026/",
+      "period_end": "2026-06-30"
+    }
   ]
 }

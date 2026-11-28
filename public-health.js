@@ -5,6 +5,8 @@
   const seasonal = document.getElementById('healthSeasonal');
   const links = document.getElementById('healthLinks');
   const status = document.getElementById('healthStatus');
+  const mortalityStatus = document.getElementById('mortalityStatus');
+  const mortalityFigures = document.getElementById('mortalityFigures');
   let loading = true;
   const publishers = {
     ni: [
@@ -81,12 +83,40 @@
     }));
     if (!trends.length) seasonal.append(text('li','No seasonal figures listed here. See the official sources for this region.'));
   }
+  function renderMortality(snapshot) {
+    const rows = Array.isArray(snapshot?.rows) ? snapshot.rows : (data?.mortality || []);
+    const checked = Date.parse(snapshot?.checked_at);
+    const hasCheck = Number.isFinite(checked);
+    const delayed = hasCheck && Date.now() - checked > 36 * 3600000;
+    const stamp = hasCheck ? new Intl.DateTimeFormat('en-GB',{
+      dateStyle:'medium',timeStyle:'short',timeZone:'Europe/London'
+    }).format(checked) : '';
+    mortalityStatus.textContent = hasCheck
+      ? (delayed ? 'Daily check delayed · Last checked ' : 'Daily check · Last checked ') + stamp + ' UK'
+      : rows.length ? 'Saved figures · Daily check unavailable' : 'Mortality figures unavailable.';
+    mortalityFigures.replaceChildren(...rows.map(item => {
+      const group = document.createElement('div');
+      const detail = document.createElement('dd');
+      detail.append(text('strong', count(item.registered) + ' registered deaths'), text('span', item.period));
+      if (Number.isSafeInteger(item.expected) && Number.isSafeInteger(item.registered)) {
+        const delta = item.registered - item.expected;
+        const difference = delta === 0 ? 'in line with expected' : count(Math.abs(delta)) + (delta < 0 ? ' below expected' : ' above expected');
+        detail.append(text('span', count(item.expected) + ' expected · ' + difference));
+      }
+      if (!hasCheck || item.status === 'saved') detail.append(text('span','Saved figure · Latest source check unavailable'));
+      detail.append(link(item.source, item.url));
+      group.append(text('dt', item.area), detail);
+      return group;
+    }));
+  }
   for (const tab of tabs) tab.addEventListener('click', () => {
     region = tab.dataset.healthRegion;
     render();
   });
   render();
-  fetch('data/public-health.json',{cache:'no-cache'}).then(response => {
+  const mortalityRequest = fetch('data/mortality.json',{cache:'no-cache'})
+    .then(response => response.ok ? response.json() : null).catch(() => null);
+  const healthRequest = fetch('data/public-health.json',{cache:'no-cache'}).then(response => {
     if (!response.ok) throw Error('Report data unavailable');
     return response.json();
   }).then(value => {
@@ -95,4 +125,5 @@
     data = value;
     render();
   }).catch(() => {loading = false; render();});
+  Promise.all([healthRequest,mortalityRequest]).then(([, snapshot]) => renderMortality(snapshot));
 })();
