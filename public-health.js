@@ -7,6 +7,8 @@
   const status = document.getElementById('healthStatus');
   const mortalityStatus = document.getElementById('mortalityStatus');
   const mortalityFigures = document.getElementById('mortalityFigures');
+  const admissionsStatus = document.getElementById('admissionsStatus');
+  const admissionsFigures = document.getElementById('admissionsFigures');
   let loading = true;
   const publishers = {
     ni: [
@@ -83,21 +85,25 @@
     }));
     if (!trends.length) seasonal.append(text('li','No seasonal figures listed here. See the official sources for this region.'));
   }
-  function renderMortality(snapshot) {
-    const rows = Array.isArray(snapshot?.rows) ? snapshot.rows : (data?.mortality || []);
+  function checkStatus(snapshot, rows, statusNode) {
     const checked = Date.parse(snapshot?.checked_at);
     const hasCheck = Number.isFinite(checked);
     const delayed = hasCheck && Date.now() - checked > 36 * 3600000;
     const stamp = hasCheck ? new Intl.DateTimeFormat('en-GB',{
       dateStyle:'medium',timeStyle:'short',timeZone:'Europe/London'
     }).format(checked) : '';
-    mortalityStatus.textContent = hasCheck
+    statusNode.textContent = hasCheck
       ? (delayed ? 'Daily check delayed · Last checked ' : 'Daily check · Last checked ') + stamp + ' UK'
       : rows.length ? 'Saved figures · Daily check unavailable' : 'Mortality figures unavailable.';
+    return hasCheck;
+  }
+  function renderMortality(snapshot) {
+    const rows = Array.isArray(snapshot?.rows) ? snapshot.rows : (data?.mortality || []);
+    const hasCheck = checkStatus(snapshot, rows, mortalityStatus);
     mortalityFigures.replaceChildren(...rows.map(item => {
       const group = document.createElement('div');
       const detail = document.createElement('dd');
-      detail.append(text('strong', count(item.registered) + ' registered deaths'), text('span', item.period));
+      detail.append(text('strong', count(item.registered)), text('span', item.period));
       if (Number.isSafeInteger(item.expected) && Number.isSafeInteger(item.registered)) {
         const delta = item.registered - item.expected;
         const difference = delta === 0 ? 'in line with expected' : count(Math.abs(delta)) + (delta < 0 ? ' below expected' : ' above expected');
@@ -109,12 +115,48 @@
       return group;
     }));
   }
+  function renderAdmissions(snapshot) {
+    const rows = Array.isArray(snapshot?.rows) ? snapshot.rows : (data?.admissions || []);
+    const hasCheck = checkStatus(snapshot, rows, admissionsStatus);
+    admissionsFigures.replaceChildren(...rows.map(item => {
+      const section = document.createElement('section');
+      const fullDate = new Intl.DateTimeFormat('en-GB',{dateStyle:'long',timeZone:'UTC'}).format(new Date(item.period_end));
+      const period = text('p','Week ending ' + fullDate + ' · ' + item.definition);
+      period.className = 'mini-note';
+      const figures = document.createElement('dl');
+      figures.className = 'admissions-figures';
+      for (const [key,label] of [['influenza','Flu'],['rsv','RSV'],['covid','COVID-19']]) {
+        const tile = document.createElement('div');
+        const value = document.createElement('dd');
+        value.append(text('strong',count(item[key])));
+        tile.append(text('dt',label),value);
+        figures.append(tile);
+      }
+      section.append(text('h4',item.area), period, figures);
+      if (Number.isInteger(item.total) && Number.isInteger(item.previous)) {
+        const delta = item.total - item.previous;
+        const difference = delta === 0 ? 'unchanged' : count(Math.abs(delta)) + (delta > 0 ? ' more' : ' fewer');
+        const change = text('p',count(item.total) + ' admissions across the three infections · ' + difference + ' vs previous week');
+        change.className = 'mini-note';
+        section.append(change);
+      }
+      if (!hasCheck || item.status === 'saved') {
+        const saved = text('p','Saved figures · Latest source check unavailable');
+        saved.className = 'mini-note';
+        section.append(saved);
+      }
+      section.append(link(item.source,item.url));
+      return section;
+    }));
+  }
   for (const tab of tabs) tab.addEventListener('click', () => {
     region = tab.dataset.healthRegion;
     render();
   });
   render();
   const mortalityRequest = fetch('data/mortality.json',{cache:'no-cache'})
+    .then(response => response.ok ? response.json() : null).catch(() => null);
+  const admissionsRequest = fetch('data/respiratory-admissions.json',{cache:'no-cache'})
     .then(response => response.ok ? response.json() : null).catch(() => null);
   const healthRequest = fetch('data/public-health.json',{cache:'no-cache'}).then(response => {
     if (!response.ok) throw Error('Report data unavailable');
@@ -126,4 +168,5 @@
     render();
   }).catch(() => {loading = false; render();});
   Promise.all([healthRequest,mortalityRequest]).then(([, snapshot]) => renderMortality(snapshot));
+  Promise.all([healthRequest,admissionsRequest]).then(([, snapshot]) => renderAdmissions(snapshot));
 })();

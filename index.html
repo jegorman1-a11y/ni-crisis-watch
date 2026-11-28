@@ -123,16 +123,24 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
     <p class="mini-note" id="healthStatus" role="status">Loading selected reports…</p>
     <ul class="health-list" id="healthSummary"></ul>
     <div class="local-links" id="healthLinks"><a href="https://www.publichealth.hscni.net/protecting-our-health/alerts-outbreaks-and-emergencies">PHA alerts and advice</a></div>
-    <details class="health-mortality">
-      <summary>All-cause mortality</summary>
-      <p class="mini-note" id="mortalityStatus" role="status">Loading official figures…</p>
-      <dl class="mortality-figures" id="mortalityFigures"></dl>
-      <p class="mini-note">Figures count registrations during each period. The published UK total overlaps the nation rows. The Republic of Ireland figure covers a quarter.</p>
-    </details>
   </article>
     <article class="command-panel weather-panel"><div class="mini-heading"><h3>☁ 16-day weather outlook</h3><span class="tag" id="weatherStamp">Checking…</span></div><div class="weather-twocol"><div><strong>County Down</strong><div id="downForecast" class="forecast-mini">Loading forecast…</div></div><div><strong>London</strong><div id="londonForecast" class="forecast-mini">Loading forecast…</div></div></div><details><summary>Full 16-day outlook (days 8–16 less certain)</summary><div class="weather-twocol"><div id="down16"></div><div id="london16"></div></div></details><div class="tiny-note">Model-based forecasts, not official warnings. Check <a href="https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings" target="_blank" rel="noopener">Met Office warnings</a>.</div></article>
     <article class="command-panel news-panel"><div class="mini-heading"><h3>📰 News & politics</h3><span class="tag" id="newsStamp">Checking…</span></div><div class="news-tabs"><button class="news-tab active" type="button" data-news="UK">UK</button><button class="news-tab" type="button" data-news="Northern Ireland">Northern Ireland</button><button class="news-tab" type="button" data-news="Republic of Ireland">Republic of Ireland</button></div><label class="news-mode"><input id="priorityNews" type="checkbox" checked> Crisis-relevant only</label><ol id="newsFive" class="news-five"><li>Loading dated headlines…</li></ol><span class="tiny-note">Crisis-relevant headlines are matched by topic. Clear the filter for general news.</span></article>
     <article class="command-panel fuel-panel"><div class="mini-heading"><h3>⛽ Latest NI fuel prices</h3><span class="tag" id="fuelStamp">Checking…</span></div><div class="fuel-metrics"><div><small>Heating oil · 900 L</small><strong id="oilPrice">—</strong><small class="fuel-reading" id="oilReading"></small></div><div><small>Unleaded petrol · litre</small><strong id="petrolPrice">—</strong><small class="fuel-reading" id="petrolReading"></small></div><div><small>Diesel · litre</small><strong id="dieselPrice">—</strong><small class="fuel-reading" id="dieselReading"></small></div></div><div class="tiny-note" id="fuelNote">Consumer Council NI averages; not quotes for an individual supplier or forecourt.</div><div class="flight-links"><a href="https://www.consumercouncil.org.uk/home-heating/price-checker" target="_blank" rel="noopener">Heating oil checker ↗</a><a href="https://www.consumercouncil.org.uk/ni-fuel-checker" target="_blank" rel="noopener">Petrol & diesel checker ↗</a></div></article>
+  </div>
+  <div class="health-metrics">
+    <section class="command-panel health-metric-panel" aria-labelledby="admissionsTitle">
+      <h3 id="admissionsTitle">Respiratory hospital admissions</h3>
+      <p class="mini-note" id="admissionsStatus" role="status">Loading official figures…</p>
+      <div class="admissions-groups" id="admissionsFigures"></div>
+      <a class="mini-link" href="https://ukhsa-dashboard.data.gov.uk/">England admissions · UKHSA</a>
+    </section>
+    <section class="command-panel health-metric-panel" aria-labelledby="mortalityTitle">
+      <h3 id="mortalityTitle">All-cause mortality</h3>
+      <p class="mini-note" id="mortalityStatus" role="status">Loading official figures…</p>
+      <dl class="mortality-figures" id="mortalityFigures"></dl>
+      <p class="mini-note">Death registrations. The UK total overlaps the nation figures. Ireland’s figure is quarterly.</p>
+    </section>
   </div>
   <div class="command-foot"><span>Estimates are subjective and uncalibrated; no automatic movement restrictions inferred from planning documents.</span></div>
 </section>

@@ -202,33 +202,57 @@
   }
 }
 
-.health-mortality {
-  margin-top: 10px;
-  border-top: 1px solid var(--line);
-  padding-top: 8px;
-}
-
-.health-mortality summary {
-  color: #9ce8f6;
-  cursor: pointer;
-}
-
-.mortality-figures {
+.health-metrics {
   display: grid;
-  gap: 8px;
-  margin: 8px 0;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+}
+
+.health-metric-panel {
+  padding: 14px 15px;
+}
+
+.health-metric-panel .mini-note {
+  font-size: .8125rem;
+  margin: 5px 0 8px;
+}
+
+.admissions-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 9px 0;
+}
+
+.admissions-groups h4 {
+  font-size: .875rem;
+  margin: 0;
+}
+
+.admissions-groups a,
+.mortality-figures a {
   font-size: .8125rem;
 }
 
+.admissions-figures,
+.mortality-figures {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  margin: 6px 0;
+  font-size: .8125rem;
+}
+
+.admissions-figures > div,
 .mortality-figures > div {
-  padding-block: 6px;
-  border-bottom: 1px solid var(--line);
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #0d2131;
+  padding: 6px 8px;
 }
 
-.mortality-figures dt {
-  font-weight: 650;
-}
-
+.admissions-figures dd,
 .mortality-figures dd {
   display: grid;
   gap: 2px;
@@ -236,6 +260,23 @@
   color: var(--muted);
 }
 
+.admissions-figures strong,
 .mortality-figures strong {
-  color: var(--fg);
+  color: var(--mint);
+  font-size: 1.05rem;
+}
+
+@media (max-width: 1100px) {
+  .health-metrics {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .admissions-groups {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .mortality-figures {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }

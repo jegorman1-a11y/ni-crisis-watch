@@ -26,12 +26,13 @@ jobs:
           python scripts/extended.py
           python scripts/analyse.py
           python scripts/mortality.py
+          python scripts/respiratory_admissions.py
           python -m unittest discover -s tests -v
       - name: Commit feed, evidence assessments and archive
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/mortality.json data/extended.json data/live.json data/gatwick.json data/assessment.json data/reports.json data/archive/
+          git add data/respiratory-admissions.json data/mortality.json data/extended.json data/live.json data/gatwick.json data/assessment.json data/reports.json data/archive/
           if ! git diff --cached --quiet; then
             git commit -m "Publish crisis watch feed and assessment"
             git push
