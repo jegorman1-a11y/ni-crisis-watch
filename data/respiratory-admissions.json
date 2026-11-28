@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-28T01:01:52.019545+00:00",
+  "checked_day": "2026-11-28",
+  "rows": [
+    {
+      "area": "Northern Ireland",
+      "period_end": "2026-11-22",
+      "influenza": 143,
+      "rsv": 77,
+      "covid": 67,
+      "total": 287,
+      "previous": 201,
+      "definition": "Community-acquired emergency admissions",
+      "source": "PHA bulletin",
+      "url": "https://www.publichealth.hscni.net/sites/default/files/reports/2026-11/Respiratory-Surveillance-Report-w47_2026.html",
+      "status": "ok"
+    },
+    {
+      "area": "Republic of Ireland",
+      "period_end": "2026-11-22",
+      "influenza": 95,
+      "rsv": 17,
+      "covid": 84,
+      "definition": "Hospitalisations notified that week",
+      "source": "HPSC bulletin",
+      "url": "https://file.hpsc.ie/uploads/acuterespiratoryinfection/surveillancereports/1795686773.html",
+      "status": "ok"
+    }
+  ]
+}

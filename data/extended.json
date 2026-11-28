@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:54:53.315101+00:00",
+  "generated_at": "2026-11-28T01:01:45.528424+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T00:54:53.315101+00:00",
+      "checked_at": "2026-11-28T01:01:45.528424+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T00:54:53.315101+00:00",
+      "checked_at": "2026-11-28T01:01:45.528424+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -344,6 +344,12 @@
       ],
       "Republic of Ireland": [
         {
+          "title": "Tributes paid to comedian PJ Gallagher",
+          "url": "https://www.rte.ie/entertainment/2026/1128/1600976-tributes-pj-gallagher/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-28T00:56:34+00:00"
+        },
+        {
           "title": "US military says it fired on ship violating Iran blockade",
           "url": "https://www.rte.ie/news/2026/1128/1600973-us-military/",
           "source": "RTÉ News",
@@ -366,12 +372,6 @@
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTmtYLVJhcDAwbnJMNmRLallfZFRLTjN6ZlIzN3FVdkZVeHhEMGxiallWSWdJUEFldzR2d1c5WE82eHduVFdpLXMwY0VYZ185RDVPdG43U1ptUWZjMTJPYm9PMGg2OVRpX0FhbVlnN3k5REJSeWoyakdqNElqZlY4VUd5QVozbnQtVjk0aWE0UGZxMkJjT0Y4d2tKTnJmY2I4a3ZVZW9WeFlKdm4yc2RBVXJtcF9ocG5EUmdPaWU2ODA1ZGc4V3FiV1JRRjNNempLUWlpUXVXWm9xT28?oc=5",
           "source": "Google News / Ireland",
           "published_at": "2026-11-27T22:09:57+00:00"
-        },
-        {
-          "title": "O'Connor claims minister never wanted her as HSE CEO - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16TkwtNlEyd1FsaF9HVXhWYjlEUzRldWJycnVqNHlVTlZsal9qMXhIV1F6eFZCVk1tcFBVWWlnUlRVVTZNMFNMaDRmdGhSWjNIS1hDVDU1VnJwRmNfanliNVZlc2dRT1JBWTNzZjVRY2lYVHpXVXp3?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T21:27:30+00:00"
         }
       ]
     },
@@ -9182,13 +9182,13 @@
   "security": {
     "threat": {
       "status": "unavailable",
-      "checked_at": "2026-11-28T00:54:53.315101+00:00",
+      "checked_at": "2026-11-28T01:01:45.528424+00:00",
       "verified_at": null,
       "levels": null
     },
     "police": {
       "status": "ok",
-      "checked_at": "2026-11-28T00:54:53.315101+00:00",
+      "checked_at": "2026-11-28T01:01:45.528424+00:00",
       "items": [
         {
           "title": "Appeal for information following Co Down burglary series",
