@@ -61,13 +61,21 @@ def parse_rss(data,source):
    result.append({'title':html.unescape(re.sub('<[^>]*>','',title))[:170], 'url':link,'source':source,'published_at':when.isoformat()})
  return result
 
+CRISIS_TOPIC = re.compile(
+ r'\b(?:power cut|outage|water supply|burst main|flood(?:ing)?|storm|weather warning|'
+ r'cyber[- ]?(?:attack|incident)|ransomware|public health|outbreak|pandemic|'
+ r'hospital disruption|emergency services|state of emergency|government response|'
+ r'emergency legislation|lockdown|evacuation|road closure|travel disruption|'
+ r'rail strike|transport strike)\b', re.I)
+
+
 def collect_news():
  feeds={
  'UK': [('BBC UK','https://feeds.bbci.co.uk/news/uk/rss.xml'),('BBC Politics','https://feeds.bbci.co.uk/news/politics/rss.xml')],
  'Northern Ireland':[('BBC Northern Ireland','https://feeds.bbci.co.uk/news/northern_ireland/rss.xml'),('BBC NI Politics','https://feeds.bbci.co.uk/news/northern_ireland/northern_ireland_politics/rss.xml')],
  'Republic of Ireland':[('RTÉ News','https://www.rte.ie/feeds/rss/?index=/news/'),('Google News / Ireland','https://news.google.com/rss/search?q='+urllib.parse.quote('Ireland politics when:3d site:rte.ie OR site:irishtimes.com')+'&hl=en-IE&gl=IE&ceid=IE:en')]
  }
- out={};health={}
+ out={};priority={};health={}
  for region,items in feeds.items():
   stories=[];health[region]=[]
   for label,url in items:
@@ -81,7 +89,8 @@ def collect_news():
    key=re.sub(r'[^a-z0-9]+','',item['title'].lower())[:90]
    if key not in seen:seen.add(key);unique.append(item)
   out[region]=unique[:5]
- return {'stories':out,'sources':health,'note':'Five most recent eligible feed items, not an independently ranked top-five; politics stories included where available. Only dated stories from the last eight days.'}
+  priority[region]=[item for item in unique if CRISIS_TOPIC.search(item['title'])][:5]
+ return {'stories':out,'priority':priority,'sources':health,'note':'Five most recent eligible feed items, not an independently ranked top-five; politics stories included where available. Only dated stories from the last eight days.'}
 
 def collect_weather():
  out={}
@@ -161,14 +170,27 @@ def collect_prices():
   for item in (prices[fuel],previous.get(fuel),seed.get(fuel)):
    observed=usable_price(item,fuel)
    if observed:candidates.append((observed,item))
-  prices[fuel]=max(candidates,key=lambda candidate:candidate[0])[1] if candidates else None
+  if not candidates:
+   prices[fuel]=None
+   continue
+  observed,item=max(candidates,key=lambda candidate:candidate[0])
+  prior=previous.get(fuel)
+  prior_date=usable_price(prior,fuel)
+  change=prior.get('change') if prior_date==observed else item.get('change')
+  if prior_date and prior_date<observed:
+   change=round(item['value']-prior['value'],2)
+  prices[fuel]={**item,'saved':item is not prices[fuel],'change':change}
  count=sum(prices[fuel] is not None for fuel in ('oil','petrol','diesel'))
  prices['status']=['unavailable','partial','partial','ok'][count]
  return prices
 
 
 def main():
- out={'generated_at':NOW.isoformat(),'weather':collect_weather(),'news':collect_news(),'fuel':collect_prices()}
+ from disruptions import collect_traffic
+ def clean_notice(value):
+  parser=TextParser();parser.feed(value)
+  return parser.text()[:400]
+ out={'generated_at':NOW.isoformat(),'weather':collect_weather(),'news':collect_news(),'fuel':collect_prices(),'traffic':collect_traffic(get,clean_notice)}
  OUT.parent.mkdir(exist_ok=True,parents=True)
  OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print('Extended source statuses:',[(k,v['status']) for k,v in out['weather'].items()],out['fuel']['status'])

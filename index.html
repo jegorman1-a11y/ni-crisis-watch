@@ -37,6 +37,19 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
 .flight-status{color:#ffe09a;font-size:.8125rem;margin:6px 0}
 .flight-weather{display:flex;flex-wrap:wrap;gap:2px 8px;margin-top:7px;font-size:.75rem;color:#b2c5d4}
 </style>
+<style>
+.flight-board{min-width:0}
+@media(max-width:850px){.command-row.lower{grid-template-columns:1fr}}
+.flight-weather[hidden]{display:none}
+.local-status{font-size:.875rem;color:#ffe09a;margin:8px 0}
+.local-notices{margin:6px 0;padding-left:17px;font-size:.8125rem;max-height:7rem;overflow:auto}
+.local-notices li{margin:4px 0}
+.local-notices a,.local-links a{color:#9ce8f6}
+.local-links{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.8125rem}
+.watch-panel details summary{cursor:pointer;color:#9ce8f6;font-size:.8125rem;margin-top:5px}
+.news-mode{display:inline-flex;align-items:center;gap:4px;font-size:.8125rem;margin-top:5px}
+.fuel-metrics .fuel-reading{margin-top:4px;font-size:.75rem}
+</style>
 </head>
 <body>
 <header class="top"><div class="wrap nav"><div class="brand"><span class="logo">⌁</span><div>NI CRISIS WATCH<small>UK & Northern Ireland</small></div></div><nav class="menu"><a href="#overview">Overview</a><a href="#forecast">Forecast</a><a href="#analysis">Analysis</a><a href="#archive">Archive</a><a href="#risks">Risk register</a><a href="#preparedness">Preparedness</a><a href="#evidence">Sources</a></nav><span class="stamp">● SOURCE FEEDS + DATED FORECAST</span></div></header>
@@ -69,16 +82,29 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
           <tr data-airport-group="gatwick"><th scope="row"><span class="airport-code">LGW</span> London Gatwick</th><td><a data-flight-link="departures" href="https://www.gatwickairport.com/flights?destination=D">Departures</a> <a data-flight-link="arrivals" href="https://www.gatwickairport.com/flights?destination=A">Arrivals</a></td></tr>
         </tbody>
       </table>
-      <div class="flight-weather"><strong>Gatwick weather</strong><span id="gatwickFresh">Checking…</span><span id="lgwWeather">—</span></div>
+      <div class="flight-weather" id="gatwickWeatherPanel" hidden><strong>Gatwick weather</strong><span id="gatwickFresh">Checking…</span><span id="lgwWeather">—</span></div>
       <span hidden id="lgwDelays"></span><span hidden id="lgwCancels"></span><span hidden id="lgwNote"></span>
+      <div class="mini-note" id="localTravel"><a class="mini-link" href="#localDisruptions">Local road notices</a> · <a class="mini-link" href="https://www.translink.co.uk/service-incidents">Translink travel updates</a></div>
     </article>
-    <article class="command-panel watch-panel"><div class="mini-heading"><h3>Latest source checks</h3><a class="mini-link" href="#live">See headlines ↗</a></div><div id="quickSources" class="quick-sources">Checking official public feeds…</div><div id="quickHeadlines" class="quick-headlines" aria-label="Recent linked announcements"></div><p id="quickCheck" class="mini-note">Automated refresh checks every five minutes while this tab is open.</p></article>
+    <article class="command-panel watch-panel" id="localDisruptions"><div class="mini-heading"><h3>County Down disruptions</h3></div>
+      <p class="local-status" id="localStatus" role="status">Checking weather warnings and road notices…</p>
+      <ul class="local-notices" id="localNotices"></ul>
+      <div class="local-links" aria-label="Official checkers">
+        <a href="https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings">Weather warnings</a>
+        <a href="https://www.trafficwatchni.com/twni/">Roads across NI</a>
+        <a href="https://www.translink.co.uk/service-incidents">Bus &amp; rail</a>
+        <a href="https://powercheck.nienetworks.co.uk/">Power by postcode</a>
+        <a href="https://www.niwater.com/current-service-updates/">Water by postcode</a>
+      </div>
+      <p class="mini-note">Roads matched by place name and may include planned works. Weather coverage is NI-wide. Check bus, rail, power and water on the official sites.</p>
+      <details><summary>Changes since your last visit</summary><ul class="local-notices" id="localChanges"><li>Waiting for a source check.</li></ul></details>
+      <details><summary>Latest source checks</summary><div id="quickSources" class="quick-sources">Checking official public feeds…</div><div id="quickHeadlines" class="quick-headlines" aria-label="Recent linked announcements"></div><p id="quickCheck" class="mini-note">Automated refresh checks every five minutes while this tab is open.</p></details></article>
   </div>
   <div class="command-row extended-row">
     <article class="command-panel weather-panel"><div class="mini-heading"><h3>☁ 16-day weather outlook</h3><span class="tag" id="weatherStamp">Checking…</span></div><div class="weather-twocol"><div><strong>County Down</strong><div id="downForecast" class="forecast-mini">Loading forecast…</div></div><div><strong>London</strong><div id="londonForecast" class="forecast-mini">Loading forecast…</div></div></div><details><summary>Full 16-day outlook (days 8–16 less certain)</summary><div class="weather-twocol"><div id="down16"></div><div id="london16"></div></div></details><div class="tiny-note">Model-based forecasts, not official warnings. Check <a href="https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings" target="_blank" rel="noopener">Met Office warnings</a>.</div></article>
-    <article class="command-panel news-panel"><div class="mini-heading"><h3>📰 News & politics · Top 5</h3><span class="tag" id="newsStamp">Checking…</span></div><div class="news-tabs"><button class="news-tab active" type="button" data-news="UK">UK</button><button class="news-tab" type="button" data-news="Northern Ireland">Northern Ireland</button><button class="news-tab" type="button" data-news="Republic of Ireland">Republic of Ireland</button></div><ol id="newsFive" class="news-five"><li>Loading dated headlines…</li></ol><span class="tiny-note">Five recent feed headlines, not independently verified or editorially ranked.</span></article>
+    <article class="command-panel news-panel"><div class="mini-heading"><h3>📰 News & politics</h3><span class="tag" id="newsStamp">Checking…</span></div><div class="news-tabs"><button class="news-tab active" type="button" data-news="UK">UK</button><button class="news-tab" type="button" data-news="Northern Ireland">Northern Ireland</button><button class="news-tab" type="button" data-news="Republic of Ireland">Republic of Ireland</button></div><label class="news-mode"><input id="priorityNews" type="checkbox" checked> Crisis-relevant only</label><ol id="newsFive" class="news-five"><li>Loading dated headlines…</li></ol><span class="tiny-note">Crisis-relevant headlines are matched by topic. Clear the filter for general news.</span></article>
   </div>
-  <div class="command-row fuel-row"><article class="command-panel fuel-panel"><div class="mini-heading"><h3>⛽ Latest NI fuel prices</h3><span class="tag" id="fuelStamp">Checking…</span></div><div class="fuel-metrics"><div><small>Heating oil · 900 L</small><strong id="oilPrice">—</strong></div><div><small>Unleaded petrol · litre</small><strong id="petrolPrice">—</strong></div><div><small>Diesel · litre</small><strong id="dieselPrice">—</strong></div></div><div class="tiny-note" id="fuelNote">Consumer Council NI averages; not quotes for an individual supplier or forecourt.</div><div class="flight-links"><a href="https://www.consumercouncil.org.uk/home-heating/price-checker" target="_blank" rel="noopener">Heating oil checker ↗</a><a href="https://www.consumercouncil.org.uk/ni-fuel-checker" target="_blank" rel="noopener">Petrol & diesel checker ↗</a></div></article></div>
+  <div class="command-row fuel-row"><article class="command-panel fuel-panel"><div class="mini-heading"><h3>⛽ Latest NI fuel prices</h3><span class="tag" id="fuelStamp">Checking…</span></div><div class="fuel-metrics"><div><small>Heating oil · 900 L</small><strong id="oilPrice">—</strong><small class="fuel-reading" id="oilReading"></small></div><div><small>Unleaded petrol · litre</small><strong id="petrolPrice">—</strong><small class="fuel-reading" id="petrolReading"></small></div><div><small>Diesel · litre</small><strong id="dieselPrice">—</strong><small class="fuel-reading" id="dieselReading"></small></div></div><div class="tiny-note" id="fuelNote">Consumer Council NI averages; not quotes for an individual supplier or forecourt.</div><div class="flight-links"><a href="https://www.consumercouncil.org.uk/home-heating/price-checker" target="_blank" rel="noopener">Heating oil checker ↗</a><a href="https://www.consumercouncil.org.uk/ni-fuel-checker" target="_blank" rel="noopener">Petrol & diesel checker ↗</a></div></article></div>
   <div class="command-foot"><span>Estimates are subjective and uncalibrated; no automatic movement restrictions inferred from planning documents.</span><span>For flight decisions check the airport or airline’s official board.</span></div>
 </section>
 
@@ -140,6 +166,7 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
   ]
 }
 </script>
+<script src="local-watch.js"></script>
 <script>
 const data=JSON.parse(document.querySelector('#snapshot').textContent);
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x};
@@ -212,10 +239,10 @@ render();document.getElementById('printBtn').addEventListener('click',()=>window
  async function refreshCompact(){
   try{const [feed,assessment,lgw]=await Promise.allSettled([fetchJson('data/live.json'),fetchJson('data/assessment.json'),fetchJson('data/gatwick.json')]);
    if(feed.status==='fulfilled'){
-      const v=feed.value,age=(Date.now()-new Date(v.generated_at).getTime())/3600000;qs('overviewFresh').textContent=(age>5?'Source data stale · ':'Updated ')+fmt(v.generated_at);
+      const v=feed.value; window.localWatch.weather(v); const age=(Date.now()-new Date(v.generated_at).getTime())/3600000;qs('overviewFresh').textContent=(age>5?'Source data stale · ':'Updated ')+fmt(v.generated_at);
       const lines=(v.sources||[]).slice(0,4).map(x=>{const n=document.createElement('span');n.className=x.status==='ok'?'':'bad';n.textContent=x.name.split(' announcements')[0]+' · '+(x.status==='ok'?'retrieved':'unavailable');return n});qs('quickSources').replaceChildren(...lines);const recent=(v.items||[]).filter(x=>/^https:\/\//.test(x.url)).slice(0,2).map(x=>{const a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='• '+x.title;return a});qs('quickHeadlines').replaceChildren(...recent);
       qs('quickCheck').textContent='Feed collected '+fmt(v.generated_at)+' · Updates checked every 5 minutes';
-   }else qs('overviewFresh').textContent='Feed status unavailable';
+   }else{window.localWatch.weather(null);qs('overviewFresh').textContent='Feed status unavailable';}
    if(assessment.status==='fulfilled')updateForecast(assessment.value);
    if(lgw.status==='fulfilled'){
      const v=lgw.value; const age=(Date.now()-Date.parse(v.checked_at))/3600000;
@@ -235,17 +262,25 @@ render();document.getElementById('printBtn').addEventListener('click',()=>window
  const $=id=>document.getElementById(id);let activeNews='UK',last=null;
  document.querySelectorAll('[data-news]').forEach(b=>b.addEventListener('click',()=>{activeNews=b.dataset.news;document.querySelectorAll('[data-news]').forEach(a=>a.classList.toggle('active',a===b));renderNews();}));
  function dateText(x){let d=new Date(x);return isNaN(d)?'Date unavailable':d.toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'Europe/London'});}
- function renderNews(){let data=last?.news?.stories?.[activeNews]||[];let ol=$('newsFive');ol.replaceChildren();if(!data.length){let li=document.createElement('li');li.textContent='No recent verified-date feed items available — check the original publisher.';ol.append(li);return;}
+ $('priorityNews').addEventListener('change', renderNews);
+ function renderNews(){const priority=$('priorityNews').checked;let data=last?.news?.[priority?'priority':'stories']?.[activeNews]||[];let ol=$('newsFive');ol.replaceChildren();if(!data.length){let li=document.createElement('li');li.textContent=priority?'No crisis-relevant headlines found in the latest collection.':'No recent dated headlines available.';ol.append(li);return;}
   for(let item of data.slice(0,5)){let li=document.createElement('li'),a=document.createElement('a');a.href=item.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent=item.title;li.append(a);let meta=document.createElement('small');meta.textContent=item.source+' · '+dateText(item.published_at);li.append(meta);ol.append(li);}}
  function daysInto(id,days,full){const box=$(id);box.replaceChildren();if(!days?.length){box.textContent='Forecast unavailable';return;}
   for(let d of (full?days:days.slice(0,3))){let row=document.createElement('div');row.className='mini-day';let left=document.createElement('span');left.textContent=dateText(d.date+'T12:00:00Z');let right=document.createElement('b');right.textContent=`${Math.round(d.max_c)}° / ${Math.round(d.min_c)}°`;let rain=document.createElement('em');rain.textContent=d.rain_pct==null?'':`☔ ${Math.round(d.rain_pct)}%`;row.append(left,right,rain);box.append(row);}}
  function fuelText(item,sign){return item?sign+Number(item.value).toFixed(item.unit.includes('900')?2:1):'Unavailable';}
- function render(v){last=v;let date=v.generated_at?new Date(v.generated_at):null;let stale=!date||Date.now()-date.getTime()>6*3600000;
+ function render(v){last=v;window.localWatch.traffic(v);let date=v.generated_at?new Date(v.generated_at):null;let stale=!date||Date.now()-date.getTime()>6*3600000;
   $('weatherStamp').textContent=stale?'Data may be stale':'Collected '+dateText(v.generated_at);$('newsStamp').textContent=stale?'Headlines may be stale':'Updated '+dateText(v.generated_at);
   for(const [name,mini,full] of [['County Down','downForecast','down16'],['London','londonForecast','london16']]){let d=v.weather?.[name];daysInto(mini,d?.days,false);daysInto(full,d?.days,true);}
-  renderNews();const f=v.fuel||{};$('fuelStamp').textContent=stale?'Prices not current':'Consumer Council NI';$('oilPrice').textContent=fuelText(f.oil,'£');$('petrolPrice').textContent=fuelText(f.petrol,'')+(f.petrol?'p':'');$('dieselPrice').textContent=fuelText(f.diesel,'')+(f.diesel?'p':'');let dates=[f.oil,f.petrol,f.diesel].filter(Boolean).map(x=>x.observed_date);$('fuelNote').textContent=(dates.length?'Reported date(s): '+[...new Set(dates)].join(', ')+'. ':'Prices currently unavailable. ')+'Survey averages, not an individual delivered quote. Check the original source.';
+  renderNews();const f=v.fuel||{};$('fuelStamp').textContent=stale?'Prices not current':'Consumer Council NI';$('oilPrice').textContent=fuelText(f.oil,'£');$('petrolPrice').textContent=fuelText(f.petrol,'')+(f.petrol?'p':'');$('dieselPrice').textContent=fuelText(f.diesel,'')+(f.diesel?'p':'');for (const fuel of ['oil','petrol','diesel']) {
+   const reading=f[fuel];
+   const unit=fuel==='oil'?'':'p/L';
+   const change=reading?.change;
+   const delta=Number.isFinite(change) ? (change===0?'No change':(change>0?'↑ ':'↓ ')+(fuel==='oil'?'£':'')+Math.abs(change).toFixed(fuel==='oil'?2:1)+unit+' vs previous reading') : '';
+   $(fuel+'Reading').textContent=reading?[reading.observed_date,reading.saved?'Saved price':'',delta].filter(Boolean).join(' · '):'';
+  }
+  $('fuelNote').textContent='NI averages. Check the original source for supplier and forecourt prices.';
  }
- async function load(){try{let response=await fetch('data/extended.json?t='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);render(await response.json());}catch(e){$('weatherStamp').textContent='Feed unavailable';$('newsStamp').textContent='Feed unavailable';$('fuelStamp').textContent='Feed unavailable';}}
+ async function load(){try{let response=await fetch('data/extended.json?t='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);render(await response.json());}catch(e){window.localWatch.traffic(null);$('weatherStamp').textContent='Feed unavailable';$('newsStamp').textContent='Feed unavailable';$('fuelStamp').textContent='Feed unavailable';}}
  load();setInterval(load,5*60*1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)load();});
 })();
 </script>

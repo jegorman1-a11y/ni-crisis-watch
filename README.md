@@ -89,3 +89,18 @@ existing repository files, retain any existing `data/live.json`, commit and push
 Run the GitHub Action manually once and inspect the **Gatwick weather** log and
 Cloudflare deployment. The NOAA endpoint may temporarily throttle/deny requests;
 that must display as unavailable, not an all-clear.
+
+### County Down disruptions and daily overview
+
+The overview reads NI-wide Met Office warnings from the existing official feed
+and collects TrafficWatchNI incidents and roadworks during the existing refresh.
+County Down road matches are based on place names. Provider links open Translink
+travel updates and the official power and water postcode checkers.
+
+The browser remembers the last successful snapshot for each source locally. A
+notice disappearing from a successful feed is shown as no longer listed.
+An unavailable or stale feed never removes notices from the comparison baseline.
+
+The news filter matches crisis-related topics within the regional feeds. Fuel
+prices show their individual reporting dates, saved status and the difference
+from the previous dated reading when one is available.

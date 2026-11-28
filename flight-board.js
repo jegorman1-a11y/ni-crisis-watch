@@ -21,6 +21,8 @@
     for (const link of links) {
       link.hidden = link.dataset.flightLink !== direction;
     }
+    document.getElementById('gatwickWeatherPanel').hidden = area !== 'gatwick';
+    document.getElementById('localTravel').hidden = area !== 'local';
     const message = 'Live ' + direction + ' unavailable here. Check the official boards.';
     if (status.textContent !== message) status.textContent = message;
   }
