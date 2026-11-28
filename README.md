@@ -113,3 +113,13 @@ Record a count only when the bulletin reports it for the named area and period.
 Use omitted fields for unpublished counts and retain explicit zeroes. Keep
 seasonal surveillance and mortality registrations in the seasonal section.
 Regional source links provide current advice and bulletins between manual updates.
+
+### Security Watch
+
+Security Watch replaces Flight Watch in the overview. The existing refresh
+checks MI5’s two published threat levels and the latest PSNI news listing.
+Change dates are taken from the first history entry for the matching level.
+If a check fails, the panel labels the last verified levels as saved.
+PSNI matches use place names and notice terms in published titles and do not
+classify an incident as terrorism. The Garda 2025 assessment and MI5 and MI6
+briefings are dated references with links to current official releases.

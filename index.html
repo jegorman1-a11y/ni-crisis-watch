@@ -26,21 +26,11 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
 </style>
 <style>
 .flight-controls{display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px 12px;margin:8px 0}
-.flight-controls[hidden],.flight-board [hidden]{display:none}
-.flight-controls [role="group"]{display:flex;gap:4px}
+.flight-controls[hidden],.flight-controls [role="group"]{display:flex;gap:4px}
 .flight-controls button{font-size:.8125rem}
-.flight-board{width:100%;border-collapse:collapse;background:#08141e;font-size:.8125rem}
-.flight-board :is(th,td){padding:5px 8px;text-align:left;border-bottom:1px solid #294155}
-.flight-board thead{color:#b2c5d4}
-.flight-board td a{color:#9ce8f6}
-.airport-code{display:inline-block;margin-right:4px;font-family:monospace;color:#ffe09a}
-.flight-status{color:#ffe09a;font-size:.8125rem;margin:6px 0}
-.flight-weather{display:flex;flex-wrap:wrap;gap:2px 8px;margin-top:7px;font-size:.75rem;color:#b2c5d4}
 </style>
 <style>
-.flight-board{min-width:0}
 @media(max-width:850px){.command-row.lower{grid-template-columns:1fr}}
-.flight-weather[hidden]{display:none}
 .local-status{font-size:.875rem;color:#ffe09a;margin:8px 0}
 .local-notices{margin:6px 0;padding-left:17px;font-size:.8125rem;max-height:7rem;overflow:auto}
 .local-notices li{margin:4px 0}
@@ -59,6 +49,18 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
 .health-seasonal{margin-top:10px}
 .health-seasonal summary{cursor:pointer}
 </style>
+<style>
+.security-levels{display:grid;gap:5px;margin:8px 0}
+.security-levels>div{border:1px solid var(--line);border-radius:8px;padding:6px 9px}
+.security-levels dt{font-size:.8125rem;font-weight:650}
+.security-levels dd{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 8px;margin:3px 0 0;font-size:.75rem;color:var(--muted)}
+.security-levels dd a{color:#9ce8f6}
+.security-levels strong{color:#ffe09a;letter-spacing:.03em}
+.security-levels strong[data-level="SEVERE"],.security-levels strong[data-level="CRITICAL"]{color:#ffb28b}
+.security-notices h4{font-size:.8125rem;margin:8px 0 2px}
+.security-notices p{margin:3px 0}
+.security-panel details{margin-top:7px}
+</style>
 </head>
 <body>
 <header class="top"><div class="wrap nav"><div class="brand"><span class="logo">⌁</span><div>NI CRISIS WATCH<small>UK & Northern Ireland</small></div></div><nav class="menu"><a href="#overview">Overview</a><a href="#forecast">Forecast</a><a href="#analysis">Analysis</a><a href="#archive">Archive</a><a href="#risks">Risk register</a><a href="#preparedness">Preparedness</a><a href="#evidence">Sources</a></nav><span class="stamp">● SOURCE FEEDS + DATED FORECAST</span></div></header>
@@ -68,32 +70,32 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
   <div class="command-title"><div><span class="eyebrow">OPERATIONS OVERVIEW · UNITED KINGDOM / NORTHERN IRELAND</span><h2>Situation at a glance</h2></div><div class="command-actions"><span id="overviewFresh" class="tag">Checking feeds…</span><button class="btn" id="toggleDetail" type="button" aria-expanded="false">Full intelligence ↓</button></div></div>
   <div class="command-row probabilities" aria-label="Forecasts"><div class="command-stat"><span>National lockdown</span><strong id="quickLock">3% <small>12 mo</small></strong><em id="quickLock5">10% · 5 yr</em></div><div class="command-stat"><span>Targeted restrictions</span><strong id="quickRestrict">9% <small>12 mo</small></strong><em id="quickRestrict5">27% · 5 yr</em></div><div class="command-stat"><span>Household disruption</span><strong id="quickInfra">27% <small>12 mo</small></strong><em id="quickInfra5">67% · 5 yr</em></div><div class="command-stat"><span>Candidate escalation signals</span><strong id="quickSignals">—</strong><em>Connected feeds only</em></div></div>
   <div class="command-row lower">
-    <article class="command-panel" aria-labelledby="flightTitle">
-      <div class="mini-heading"><h3 id="flightTitle">Flight Watch</h3></div>
-      <div class="flight-controls" id="flightControls" hidden>
-        <div role="group" aria-label="Airport area">
-          <button type="button" data-flight-area="local" aria-pressed="true">Around Me</button>
-          <button type="button" data-flight-area="gatwick" aria-pressed="false">Gatwick</button>
-        </div>
-        <div role="group" aria-label="Flight direction">
-          <button type="button" data-flight-direction="departures" aria-pressed="true">Departures</button>
-          <button type="button" data-flight-direction="arrivals" aria-pressed="false">Arrivals</button>
+    <article class="command-panel watch-panel security-panel" aria-labelledby="securityTitle">
+      <div class="mini-heading"><h3 id="securityTitle">Security Watch</h3><a class="mini-link" href="https://www.mi5.gov.uk/threats-and-advice/terrorism-threat-levels">MI5 source</a></div>
+      <p class="mini-note" id="securityCheck" role="status">Showing the MI5 assessment verified 28 November 2026.</p>
+      <dl class="security-levels">
+        <div data-security-level="ni"><dt>NI-related terrorism in Northern Ireland</dt><dd><strong data-level="SUBSTANTIAL">SUBSTANTIAL</strong><span>An attack is likely · Changed 6 Mar 2024</span></dd></div>
+        <div data-security-level="uk"><dt>UK national terrorism threat</dt><dd><strong data-level="SEVERE">SEVERE</strong><span>An attack is highly likely · Changed 30 Apr 2026</span></dd></div>
+        <div><dt>Republic of Ireland</dt><dd><a href="https://www.garda.ie/en/about-us/publications/general-reports/annual-security-services-plan-2025.pdf">Moderate in Garda’s 2025 security plan</a><span>Historical assessment · Current rating unverified</span></dd></div>
+      </dl>
+      <p class="mini-note">The UK level also covers Northern Ireland. NI-related terrorism in NI has its own assessment.</p>
+      <div class="security-notices">
+        <h4>Official notices</h4>
+        <p class="mini-note" id="securityLocalStatus">Checking the latest PSNI listing…</p>
+        <ul class="local-notices" id="securityLocal"></ul>
+        <div class="local-links">
+          <a href="https://www.psni.police.uk/latest-news">PSNI updates</a>
+          <a href="https://www.psni.police.uk/safety-and-support/keeping-safe/terrorism-and-firearms-attacks">PSNI safety advice</a>
+          <a href="https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/">Garda releases</a>
         </div>
       </div>
-      <p class="flight-status" id="flightStatus" role="status">Live flight details unavailable here. Check the official boards.</p>
-      <table class="flight-board" aria-label="Official airport boards">
-        <thead><tr><th scope="col">Airport</th><th scope="col">Official board</th></tr></thead>
-        <tbody>
-          <tr data-airport-group="local"><th scope="row"><span class="airport-code">BHD</span> Belfast City</th><td><a data-flight-link="departures" href="https://www.belfastcityairport.com/flight-info/departures">Departures</a> <a data-flight-link="arrivals" href="https://www.belfastcityairport.com/flight-info/arrivals">Arrivals</a></td></tr>
-          <tr data-airport-group="local"><th scope="row"><span class="airport-code">BFS</span> Belfast International</th><td><a data-flight-link="departures" href="https://www.belfastairport.com/flights/departures">Departures</a> <a data-flight-link="arrivals" href="https://www.belfastairport.com/flights/arrivals">Arrivals</a></td></tr>
-          <tr data-airport-group="local"><th scope="row"><span class="airport-code">DUB</span> Dublin</th><td><a data-flight-link="departures" href="https://www.dublinairport.com/flight-information/live-departures">Departures</a> <a data-flight-link="arrivals" href="https://www.dublinairport.com/flight-information/live-arrivals">Arrivals</a></td></tr>
-          <tr data-airport-group="local"><th scope="row"><span class="airport-code">LDY</span> City of Derry</th><td><a href="https://www.cityofderryairport.com/flight-information/live-flight-information">Flight information</a></td></tr>
-          <tr data-airport-group="gatwick"><th scope="row"><span class="airport-code">LGW</span> London Gatwick</th><td><a data-flight-link="departures" href="https://www.gatwickairport.com/flights?destination=D">Departures</a> <a data-flight-link="arrivals" href="https://www.gatwickairport.com/flights?destination=A">Arrivals</a></td></tr>
-        </tbody>
-      </table>
-      <div class="flight-weather" id="gatwickWeatherPanel" hidden><strong>Gatwick weather</strong><span id="gatwickFresh">Checking…</span><span id="lgwWeather">—</span></div>
-      <span hidden id="lgwDelays"></span><span hidden id="lgwCancels"></span><span hidden id="lgwNote"></span>
-      <div class="mini-note" id="localTravel"><a class="mini-link" href="#localDisruptions">Local road notices</a> · <a class="mini-link" href="https://www.translink.co.uk/service-incidents">Translink travel updates</a></div>
+      <details><summary>MI5 and MI6 public briefings</summary>
+        <ul class="local-notices">
+          <li>MI5 · 13 Oct 2026 · <a href="https://www.mi5.gov.uk/mi5-director-general-delivers-annual-threat-update">Annual threat update</a></li>
+          <li>MI6 · 15 Dec 2025 · <a href="https://www.sis.gov.uk/news/speech-blaise-metreweli-chief-mi6-15-december-2025/">Chief’s speech on overseas intelligence</a></li>
+        </ul>
+        <div class="local-links"><a href="https://www.mi5.gov.uk/news">MI5 statements</a><a href="https://www.sis.gov.uk/about-us/news/">MI6 statements</a><a href="https://www.psni.police.uk/official-statistics/security-situation-statistics">PSNI security statistics</a></div>
+      </details>
     </article>
     <article class="command-panel watch-panel" id="localDisruptions"><div class="mini-heading"><h3>County Down disruptions</h3></div>
       <p class="local-status" id="localStatus" role="status">Checking weather warnings and road notices…</p>
@@ -127,7 +129,7 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
     <ul class="health-list" id="healthSummary"></ul>
     <div class="local-links" id="healthLinks"><a href="https://www.publichealth.hscni.net/protecting-our-health/alerts-outbreaks-and-emergencies">PHA alerts and advice</a></div>
   </article>
-  <div class="command-foot"><span>Estimates are subjective and uncalibrated; no automatic movement restrictions inferred from planning documents.</span><span>For flight decisions check the airport or airline’s official board.</span></div>
+  <div class="command-foot"><span>Estimates are subjective and uncalibrated; no automatic movement restrictions inferred from planning documents.</span></div>
 </section>
 
 <div class="alert"><strong>Important:</strong> Source headlines below refresh automatically once the scheduled workflow is enabled and hosted. The forecasts below combine dated baseline estimates with limited, rules-based adjustments only when two independent official feeds report matching explicit developments. These forecasts are subjective, uncalibrated, and are not emergency warnings. Source headlines do not establish that an emergency has occurred.</div>
@@ -205,6 +207,7 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
 }
 </script>
 <script src="local-watch.js"></script>
+<script src="security-watch.js"></script>
 <script src="public-health.js"></script>
 <script>
 const data=JSON.parse(document.querySelector('#snapshot').textContent);
@@ -276,21 +279,13 @@ render();document.getElementById('printBtn').addEventListener('click',()=>window
   const signals=a.signals||a.candidates||[];qs('quickSignals').textContent=Array.isArray(signals)?String(signals.length):'—';
  }
  async function refreshCompact(){
-  try{const [feed,assessment,lgw]=await Promise.allSettled([fetchJson('data/live.json'),fetchJson('data/assessment.json'),fetchJson('data/gatwick.json')]);
+  try{const [feed,assessment]=await Promise.allSettled([fetchJson('data/live.json'),fetchJson('data/assessment.json')]);
    if(feed.status==='fulfilled'){
       const v=feed.value; window.localWatch.weather(v); const age=(Date.now()-new Date(v.generated_at).getTime())/3600000;qs('overviewFresh').textContent=(age>5?'Source data stale · ':'Updated ')+fmt(v.generated_at);
       const lines=(v.sources||[]).slice(0,4).map(x=>{const n=document.createElement('span');n.className=x.status==='ok'?'':'bad';n.textContent=x.name.split(' announcements')[0]+' · '+(x.status==='ok'?'retrieved':'unavailable');return n});qs('quickSources').replaceChildren(...lines);const recent=(v.items||[]).filter(x=>/^https:\/\//.test(x.url)).slice(0,2).map(x=>{const a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='• '+x.title;return a});qs('quickHeadlines').replaceChildren(...recent);
       qs('quickCheck').textContent='Feed collected '+fmt(v.generated_at)+' · Updates checked every 5 minutes';
    }else{window.localWatch.weather(null);qs('overviewFresh').textContent='Feed status unavailable';}
    if(assessment.status==='fulfilled')updateForecast(assessment.value);
-   if(lgw.status==='fulfilled'){
-     const v=lgw.value; const age=(Date.now()-Date.parse(v.checked_at))/3600000;
-     qs('gatwickFresh').textContent=age>4?'Weather check stale': 'Weather checked '+fmt(v.checked_at);
-     qs('lgwWeather').textContent=v.status==='ok'&&v.metar?'Wind '+(v.metar.wind_kt??'?')+' kt · Vis '+(v.metar.visibility_miles??'?')+' mi':'Not currently available';
-     qs('lgwNote').textContent=v.status==='ok'&&v.metar?'Weather observation '+fmt(v.metar.observed_at)+'. Weather is not a flight-delay forecast. For delays/cancellations, consult the official boards.':'Flight-delay counts are not published through an approved feed. Airport weather is currently unavailable; check the official live flight boards.';
-     qs('lgwDelays').textContent=v.delay_count==null?'Check official board':String(v.delay_count);
-     qs('lgwCancels').textContent=v.cancellation_count==null?'Check official board':String(v.cancellation_count);
-   }else{qs('gatwickFresh').textContent='Aviation data not published';qs('lgwWeather').textContent='Awaiting collection';}
   }catch(e){qs('overviewFresh').textContent='Latest refresh unavailable';}
  }
  refreshCompact();setInterval(refreshCompact,5*60*1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshCompact()});
@@ -307,7 +302,7 @@ render();document.getElementById('printBtn').addEventListener('click',()=>window
  function daysInto(id,days,full){const box=$(id);box.replaceChildren();if(!days?.length){box.textContent='Forecast unavailable';return;}
   for(let d of (full?days:days.slice(0,3))){let row=document.createElement('div');row.className='mini-day';let left=document.createElement('span');left.textContent=dateText(d.date+'T12:00:00Z');let right=document.createElement('b');right.textContent=`${Math.round(d.max_c)}° / ${Math.round(d.min_c)}°`;let rain=document.createElement('em');rain.textContent=d.rain_pct==null?'':`☔ ${Math.round(d.rain_pct)}%`;row.append(left,right,rain);box.append(row);}}
  function fuelText(item,sign){return item?sign+Number(item.value).toFixed(item.unit.includes('900')?2:1):'Unavailable';}
- function render(v){last=v;window.localWatch.traffic(v);let date=v.generated_at?new Date(v.generated_at):null;let stale=!date||Date.now()-date.getTime()>6*3600000;
+ function render(v){last=v;window.localWatch.traffic(v);window.securityWatch.render(v);let date=v.generated_at?new Date(v.generated_at):null;let stale=!date||Date.now()-date.getTime()>6*3600000;
   $('weatherStamp').textContent=stale?'Data may be stale':'Collected '+dateText(v.generated_at);$('newsStamp').textContent=stale?'Headlines may be stale':'Updated '+dateText(v.generated_at);
   for(const [name,mini,full] of [['County Down','downForecast','down16'],['London','londonForecast','london16']]){let d=v.weather?.[name];daysInto(mini,d?.days,false);daysInto(full,d?.days,true);}
   renderNews();const f=v.fuel||{};$('fuelStamp').textContent=stale?'Prices not current':'Consumer Council NI';$('oilPrice').textContent=fuelText(f.oil,'£');$('petrolPrice').textContent=fuelText(f.petrol,'')+(f.petrol?'p':'');$('dieselPrice').textContent=fuelText(f.diesel,'')+(f.diesel?'p':'');for (const fuel of ['oil','petrol','diesel']) {
@@ -319,9 +314,9 @@ render();document.getElementById('printBtn').addEventListener('click',()=>window
   }
   $('fuelNote').textContent='NI averages. Check the original source for supplier and forecourt prices.';
  }
- async function load(){try{let response=await fetch('data/extended.json?t='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);render(await response.json());}catch(e){window.localWatch.traffic(null);$('weatherStamp').textContent='Feed unavailable';$('newsStamp').textContent='Feed unavailable';$('fuelStamp').textContent='Feed unavailable';}}
+ async function load(){try{let response=await fetch('data/extended.json?t='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);render(await response.json());}catch(e){window.localWatch.traffic(null);window.securityWatch.render(last, true);$('weatherStamp').textContent='Feed unavailable';$('newsStamp').textContent='Feed unavailable';$('fuelStamp').textContent='Feed unavailable';}}
  load();setInterval(load,5*60*1000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)load();});
 })();
 </script>
-<script src="flight-board.js"></script>
+
 </body></html>

@@ -126,7 +126,7 @@ def extract_prices(oil_text,petrol_text):
  elif any(prices.get(k) for k in ('oil','petrol','diesel')):prices['status']='partial'
  return prices
 
-def saved_prices(path, key=None):
+def read_saved_data(path, key=None):
  try:
   data=json.loads(path.read_text(encoding='utf-8'))
   if isinstance(data,dict):
@@ -163,8 +163,8 @@ def collect_prices():
    print(f'Fuel source {url}: {type(exc).__name__}: {exc}')
    return ''
  prices=extract_prices(text_from('https://www.consumercouncil.org.uk/home-heating/price-checker'),text_from('https://www.consumercouncil.org.uk/ni-fuel-checker'))
- previous=saved_prices(OUT,'fuel')
- seed=saved_prices(ROOT/'data'/'fuel-baseline.json')
+ previous=read_saved_data(OUT,'fuel')
+ seed=read_saved_data(ROOT/'data'/'fuel-baseline.json')
  for fuel in ('oil','petrol','diesel'):
   candidates=[]
   for item in (prices[fuel],previous.get(fuel),seed.get(fuel)):
@@ -187,10 +187,11 @@ def collect_prices():
 
 def main():
  from disruptions import collect_traffic
+ from security_watch import collect_security
  def clean_notice(value):
   parser=TextParser();parser.feed(value)
   return parser.text()[:400]
- out={'generated_at':NOW.isoformat(),'weather':collect_weather(),'news':collect_news(),'fuel':collect_prices(),'traffic':collect_traffic(get,clean_notice)}
+ out={'generated_at':NOW.isoformat(),'weather':collect_weather(),'news':collect_news(),'fuel':collect_prices(),'traffic':collect_traffic(get,clean_notice),'security':collect_security(get,TextParser,read_saved_data(OUT,'security'),NOW)}
  OUT.parent.mkdir(exist_ok=True,parents=True)
  OUT.write_text(json.dumps(out,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  print('Extended source statuses:',[(k,v['status']) for k,v in out['weather'].items()],out['fuel']['status'])
