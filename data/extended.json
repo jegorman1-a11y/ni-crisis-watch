@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T04:58:11.863876+00:00",
+  "generated_at": "2026-11-28T07:07:38.267552+00:00",
   "weather": {
     "County Down": {
       "status": "unavailable",
@@ -18,6 +18,12 @@
     "stories": {
       "UK": [
         {
+          "title": "The Papers: 'Catherine on cancer fight' and 'Benefits and pensions chaos'",
+          "url": "https://www.bbc.co.uk/news/articles/ck792l9q07xro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-28T05:21:07+00:00"
+        },
+        {
           "title": "'I don't know what I'd do without it': Why shoppers and staff fear losing Poundland",
           "url": "https://www.bbc.co.uk/news/articles/c65y1l9j7j9ko?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
@@ -28,12 +34,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cq8e018jyjngo?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-28T01:03:11+00:00"
-        },
-        {
-          "title": "The Papers: 'Catherine on cancer fight' and 'Benefits and pensions chaos'",
-          "url": "https://www.bbc.co.uk/news/articles/ck792l9q07xro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-28T00:38:55+00:00"
         },
         {
           "title": "What we know about Department for Work and Pensions 'cyber incident'",
@@ -82,34 +82,34 @@
       ],
       "Republic of Ireland": [
         {
-          "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
+          "title": "Bikes, trains, or both? Future of Sligo Greenway elusive",
+          "url": "https://www.rte.ie/news/analysis-and-comment/2026/1128/1600955-analysis-comment-western-rail-corridor/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-28T07:01:02+00:00"
+        },
+        {
+          "title": "Storing wind: Why are we losing renewable energy?",
+          "url": "https://www.rte.ie/news/business/2026/1128/1600865-battery-storage-wind/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-28T07:00:02+00:00"
+        },
+        {
+          "title": "'Historic landmark' - calls to save derelict mansion",
+          "url": "https://www.rte.ie/news/dublin/2026/1128/1600947-aldborough-house-heritage/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-28T07:00:00+00:00"
+        },
+        {
+          "title": "The exiled Russian charity helping men avoid conscription",
+          "url": "https://www.rte.ie/news/world/2026/1128/1600869-russia-charity-conscription/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-28T07:00:00+00:00"
+        },
+        {
+          "title": "Daggers, fury and public unease after HSE sacking - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcWRyVEtSc0dVUmVXUHdhYm11cW16ZTM4aldQVnM3eE8taklCZXVPYWtFMElBcFFMdF84cHBZNEFNaEUwTG1OZXQzS2x6Z2VCYmZUS28wclZsaHRpZ0IxSHU5LXR1TllYWER6WDJ2eHp1bHpfRUY5bjkxQUQyR1UwVmFn?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-28T04:53:41+00:00"
-        },
-        {
-          "title": "Israeli strike kills two Doctors Without Borders staff",
-          "url": "https://www.rte.ie/news/2026/1128/1600979-israeli-staff/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-28T04:26:26+00:00"
-        },
-        {
-          "title": "Fourteen found dead on migrant boat off Canary Islands",
-          "url": "https://www.rte.ie/news/2026/1128/1600975-canary-islands-boat/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-28T01:54:07+00:00"
-        },
-        {
-          "title": "Post match reaction with Gerry Thornley; Ireland beat Australia - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2hRYS14OGxjaWVWekxWd3AtaWl3Z2ktMVhLTzROVkJjS1ExLU56VHF0a3dKSHJCRThGVzcyQnlJV3BndmhfWjZSX1dmcWQ1SkRRbnh4QjNOWFJoTWNHclJhdVdJLWRKUDRCOFM1ZXR2TDMtSUFSZTkybGJLd3RsX0d3eXFpX0szRU1VamcyTlpteGFGLXpFOFJlLXNwNUVibkVENGhpN2hBOUIwNkFGNThnRmxwUTQ?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-28T01:26:09+00:00"
-        },
-        {
-          "title": "Tributes paid to comedian PJ Gallagher",
-          "url": "https://www.rte.ie/entertainment/2026/1128/1600976-tributes-pj-gallagher/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-28T00:56:34+00:00"
+          "published_at": "2026-11-28T06:47:34+00:00"
         }
       ]
     },
@@ -2129,12 +2129,6 @@
           "url": "https://www.trafficwatchni.com/twni/"
         },
         {
-          "id": "roadworks:b4353bc80cf348cd93392a5f",
-          "title": "B0002, DROMORE CO DOWN - Road closure, B0002, DROMORE CO DOWN",
-          "summary": "Underpass closure Roadworks will operate from 23:00 on Thu 26th Nov 2026 to 06:00 on Sat 28th Nov 2026. Reason: Installation of varioguard Diversion in place. Alternative Route Via: Diversion 1: B0002 HILLSBOROUGH ROAD, B0002 A1 BANBRIDGE ROAD ON-SLIP ROAD (SOUTH BOUND), A0001 A1 BANBRIDGE ROAD DUAL CARRIAGEWAY (SOUTH BOUND), B0002 A1 BANBRIDGE ROAD OFF-SLIP ROAD (SOUTH BOUND), B0002 BANBRIDGE ROA",
-          "url": "https://www.trafficwatchni.com/twni/"
-        },
-        {
           "id": "roadworks:d486e2943888e7cfaa717858",
           "title": "C0275, DERRYBOY ROAD, CROSSGAR - Road closure, C0275, DERRYBOY ROAD, CROSSGAR",
           "summary": "location of works Roadworks will operate from 08:00 on Wed 6th Jan 2027 to 18:00 on Wed 6th Jan 2027. Reason: NIW - Cut and Prove Supply Pipe Diversion in place. Alternative Route Via: Diversion 1: C0275 DERRYBOY ROAD, B0007 KILLYLEAGH ROAD, B0007 BALLYTRIM ROAD, U0345 COILY HILL ROAD, B0007 SHRIGLEY ROAD, B0006 CLEA LOUGH ROAD",
@@ -4046,18 +4040,6 @@
           "id": "roadworks:8601e38fa6fe091bebb7eae5",
           "title": "M0002, M2 MOTORWAY (SOUTH BOUND), MALLUSK - Lane closure, M0002, M2 MOTORWAY (SOUTH BOUND), MALLUSK",
           "summary": "M2 SB J5-J4 Lane 2 Roadworks will operate from 23:00 on Mon 30th Nov 2026 to 06:00 on Tue 1st Dec 2026. Reason: DBFO1 Routine Maintenance",
-          "url": "https://www.trafficwatchni.com/twni/"
-        },
-        {
-          "id": "roadworks:66ecba2f46fd618fd76be682",
-          "title": "M0002, M2 TEMPLEPATRICK INTERCHANGE ON-SLIP ROAD (SOUTH BOUND), TEMPLEPATRICK - Road closure, M0002, M2 MOTORWAY (SOUTH BOUND), TEMPLEPATRICK",
-          "summary": "M2 SB J5-J4 FC Roadworks will operate from 23:00 on Fri 27th Nov 2026 to 06:00 on Sat 28th Nov 2026. Reason: Traffic Loop Recutting Diversion in place. Alternative Route Via: Diversion 1: M0002 M2 TEMPLEPATRICK INTERCHANGE OFF-SLIP ROAD (SOUTH BOUND), A0057 BALLYCLARE ROAD, A0006 ANTRIM ROAD, M0002 M2 SANDYKNOWES RBT ON-SLIP ROAD (SOUTH BOUND)",
-          "url": "https://www.trafficwatchni.com/twni/"
-        },
-        {
-          "id": "roadworks:c8d0fd69d8eedb6ca1fa68bc",
-          "title": "M0002, M2 MOTORWAY (NORTH BOUND), NEWTOWNABBEY - Lane closure, M0002, M2 MOTORWAY (NORTH BOUND), NEWTOWNABBEY",
-          "summary": "M2 NB L2 Roadworks will operate from 23:00 on Mon 23rd Nov 2026 to 06:00 on Sat 28th Nov 2026. Reason: DBFO1 Routine Maintenance",
           "url": "https://www.trafficwatchni.com/twni/"
         },
         {
@@ -6683,24 +6665,6 @@
           "url": "https://www.trafficwatchni.com/twni/"
         },
         {
-          "id": "roadworks:9e0c6617128f87d42ca23c63",
-          "title": "U1556, MARKET STREET, LONDONDERRY - Road closure, U1556, MARKET STREET, LONDONDERRY",
-          "summary": "Road Closure Roadworks will operate from 23:00 on Mon 23rd Nov 2026 to 06:00 on Sat 28th Nov 2026. Reason: Shot blasting Diversion in place. Alternative Route Via: Diversion 1: C0578 FERRYQUAY STREET, C0578 THE DIAMOND, C0578 SHIPQUAY STREET, C0578 WHITTAKER STREET, U0528 SHIPQUAY STREET, U0528 SHIPQUAY PLACE, U0528 WHITTAKER STREET, A1002 FOYLE EMBANKMENT, C0578 WATER STREET",
-          "url": "https://www.trafficwatchni.com/twni/"
-        },
-        {
-          "id": "roadworks:2f22e2722061db6fbc57b1c8",
-          "title": "U1556, NEWMARKET STREET, LONDONDERRY - Road closure, U1556, NEWMARKET STREET, LONDONDERRY",
-          "summary": "Road Closure Roadworks will operate from 23:00 on Mon 23rd Nov 2026 to 06:00 on Sat 28th Nov 2026. Reason: Shot blasting Diversion in place. Alternative Route Via: Diversion 1: C0578 ORCHARD STREET, U1556 FOYLE STREET, U0528 SHIPQUAY PLACE, U0528 SHIPQUAY STREET, C0578 WHITTAKER STREET, C0578 SHIPQUAY STREET, C0578 THE DIAMOND, C0578 FERRYQUAY STREET",
-          "url": "https://www.trafficwatchni.com/twni/"
-        },
-        {
-          "id": "roadworks:c7817a82da3cd3000e3cdb6c",
-          "title": "C0578, ORCHARD STREET, LONDONDERRY - Road closure, C0578, ORCHARD STREET, LONDONDERRY",
-          "summary": "One way closure Roadworks will operate from 23:00 on Mon 23rd Nov 2026 to 06:00 on Sat 28th Nov 2026. Reason: Shot Blasting Diversion in place. Alternative Route Via: Diversion 1: U1556 FOYLE STREET, U0528 SHIPQUAY PLACE, U0528 SHIPQUAY STREET, C0578 WHITTAKER STREET, C0578 SHIPQUAY STREET, C0578 THE DIAMOND, C0578 FERRYQUAY STREET",
-          "url": "https://www.trafficwatchni.com/twni/"
-        },
-        {
           "id": "roadworks:f6e832882e1467d8b03dfc97",
           "title": "C0254, BALLYBLACK ROAD, NEWTOWNARDS - Lane closure, C0254, BALLYBLACK ROAD, NEWTOWNARDS",
           "summary": "Works Location Roadworks will operate from 09:30 on Mon 30th Nov 2026 to 16:30 on Mon 30th Nov 2026. Reason: Fibre install to customers house",
@@ -7967,12 +7931,6 @@
           "url": "https://www.trafficwatchni.com/twni/"
         },
         {
-          "id": "roadworks:85af44c2995c18c808178e94",
-          "title": "C0003, UPPER DUNMURRY LANE, BELFAST - Road closure, C0003, UPPER DUNMURRY LANE, BELFAST",
-          "summary": "Work location Roadworks will operate from 23:00 on Mon 16th Nov 2026 to 06:00 on Sat 28th Nov 2026. Reason: NI Railway bridge maintenance and repairs Diversion in place. Alternative Route Via: Diversion 1: C0003 UPPER DUNMURRY LANE, U7106 GLEBE ROAD, A0001 KINGSWAY",
-          "url": "https://www.trafficwatchni.com/twni/"
-        },
-        {
           "id": "roadworks:904b48c815dbd00f56d1ed01",
           "title": "U7108, LAGMORE DALE, BELFAST - Lane closure, U7108, LAGMORE DALE, BELFAST",
           "summary": "Lane Closure Roadworks will operate from 09:30 on Tue 1st Dec 2026 to 16:30 on Tue 1st Dec 2026. Reason: Defective apparatus",
@@ -8920,13 +8878,13 @@
   "security": {
     "threat": {
       "status": "unavailable",
-      "checked_at": "2026-11-28T04:58:11.863876+00:00",
+      "checked_at": "2026-11-28T07:07:38.267552+00:00",
       "verified_at": null,
       "levels": null
     },
     "police": {
       "status": "ok",
-      "checked_at": "2026-11-28T04:58:11.863876+00:00",
+      "checked_at": "2026-11-28T07:07:38.267552+00:00",
       "items": [
         {
           "title": "Appeal for information following Co Down burglary series",
