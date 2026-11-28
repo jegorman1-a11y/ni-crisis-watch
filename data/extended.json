@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T01:01:45.528424+00:00",
+  "generated_at": "2026-11-28T01:08:10.813772+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T01:01:45.528424+00:00",
+      "checked_at": "2026-11-28T01:08:10.813772+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T01:01:45.528424+00:00",
+      "checked_at": "2026-11-28T01:08:10.813772+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -279,6 +279,18 @@
   "news": {
     "stories": {
       "UK": [
+        {
+          "title": "Should I get a flu vaccine now?",
+          "url": "https://www.bbc.co.uk/news/articles/cq8e018jyjngo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-28T01:03:11+00:00"
+        },
+        {
+          "title": "The Papers: 'Catherine on cancer fight' and 'Benefits and pensions chaos'",
+          "url": "https://www.bbc.co.uk/news/articles/ck792l9q07xro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-28T00:38:55+00:00"
+        },
         {
           "title": "What we know about Department for Work and Pensions 'cyber incident'",
           "url": "https://www.bbc.co.uk/news/articles/ck1l0e946dqmo?at_medium=RSS&at_campaign=rss",
@@ -296,18 +308,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-27T20:42:44+00:00"
-        },
-        {
-          "title": "NHS Grampian publishes leaked report at centre of hospital scandal",
-          "url": "https://www.bbc.co.uk/news/articles/cq36gjdkdn2xo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T20:07:45+00:00"
-        },
-        {
-          "title": "Chicken Shop Date: The perfect end or a disappointing send-off?",
-          "url": "https://www.bbc.co.uk/news/articles/ckz74123x2jvo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T18:02:25+00:00"
         }
       ],
       "Northern Ireland": [
@@ -362,16 +362,16 @@
           "published_at": "2026-11-28T00:23:41+00:00"
         },
         {
+          "title": "Ireland player ratings v Australia: Composed Sam Prendergast stands out - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQThYdWxUaFl6cTV4SnJqaFYwR1pXc3VkWU5Lc2prbnRSNXJmQWdRaFBIRWcyRTczVWFRY2VlLWZha1EwQkUyeXowcjlUTkJRUVZCcFpFWTJ3cV9tYmt1eDVvRzVwRE1UTmk4SDE3OEo2NU5TaU4zLWQ2OWcxc1hBM180U09MTHdwMmZGSnVPRlhMZGJoSjluRlVJRFFXc0pDM19sNUVRbU5fOU1GbTIzV28tdWxUN0lGT24wdkZn?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-27T22:20:58+00:00"
+        },
+        {
           "title": "Comedian and presenter PJ Gallagher dies aged 51",
           "url": "https://www.rte.ie/entertainment/2026/1127/1600964-pj-gallagher/",
           "source": "RTÉ News",
           "published_at": "2026-11-27T22:13:32+00:00"
-        },
-        {
-          "title": "Behind The Story: Sacking of HSE boss still rattles Government and nitrous oxide on the playing field - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQTmtYLVJhcDAwbnJMNmRLallfZFRLTjN6ZlIzN3FVdkZVeHhEMGxiallWSWdJUEFldzR2d1c5WE82eHduVFdpLXMwY0VYZ185RDVPdG43U1ptUWZjMTJPYm9PMGg2OVRpX0FhbVlnN3k5REJSeWoyakdqNElqZlY4VUd5QVozbnQtVjk0aWE0UGZxMkJjT0Y4d2tKTnJmY2I4a3ZVZW9WeFlKdm4yc2RBVXJtcF9ocG5EUmdPaWU2ODA1ZGc4V3FiV1JRRjNNempLUWlpUXVXWm9xT28?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T22:09:57+00:00"
         }
       ]
     },
@@ -9182,13 +9182,13 @@
   "security": {
     "threat": {
       "status": "unavailable",
-      "checked_at": "2026-11-28T01:01:45.528424+00:00",
+      "checked_at": "2026-11-28T01:08:10.813772+00:00",
       "verified_at": null,
       "levels": null
     },
     "police": {
       "status": "ok",
-      "checked_at": "2026-11-28T01:01:45.528424+00:00",
+      "checked_at": "2026-11-28T01:08:10.813772+00:00",
       "items": [
         {
           "title": "Appeal for information following Co Down burglary series",

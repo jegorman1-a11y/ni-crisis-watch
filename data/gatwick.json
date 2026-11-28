@@ -2,7 +2,7 @@
   "airport": "London Gatwick",
   "iata": "LGW",
   "icao": "EGKK",
-  "checked_at": "2026-11-28T01:01:45.347333Z",
+  "checked_at": "2026-11-28T01:08:10.685399Z",
   "source": "NOAA Aviation Weather Center METAR",
   "source_url": "https://aviationweather.gov/data/api/",
   "official_flights_url": "https://www.gatwickairport.com/flights",
@@ -20,5 +20,5 @@
     "visibility_miles": "6+",
     "flight_category": "MVFR"
   },
-  "last_success": "2026-11-28T01:01:45.347333Z"
+  "last_success": "2026-11-28T01:08:10.685399Z"
 }
