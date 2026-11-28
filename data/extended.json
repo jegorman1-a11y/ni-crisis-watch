@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:40:07.468195+00:00",
+  "generated_at": "2026-11-28T00:54:53.315101+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T00:40:07.468195+00:00",
+      "checked_at": "2026-11-28T00:54:53.315101+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T00:40:07.468195+00:00",
+      "checked_at": "2026-11-28T00:54:53.315101+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -9182,13 +9182,13 @@
   "security": {
     "threat": {
       "status": "unavailable",
-      "checked_at": "2026-11-28T00:40:07.468195+00:00",
+      "checked_at": "2026-11-28T00:54:53.315101+00:00",
       "verified_at": null,
       "levels": null
     },
     "police": {
       "status": "ok",
-      "checked_at": "2026-11-28T00:40:07.468195+00:00",
+      "checked_at": "2026-11-28T00:54:53.315101+00:00",
       "items": [
         {
           "title": "Appeal for information following Co Down burglary series",
