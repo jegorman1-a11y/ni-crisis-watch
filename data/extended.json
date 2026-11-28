@@ -1,128 +1,128 @@
 {
-  "generated_at": "2026-11-28T08:50:22.500598+00:00",
+  "generated_at": "2026-11-28T10:50:27.733830+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
       "days": [
         {
           "date": "2026-11-28",
-          "max_c": 10.2,
-          "min_c": 3.2,
+          "max_c": 9.8,
+          "min_c": 3.9,
           "rain_pct": 55,
           "wind_kmh": 25.9,
-          "weather_code": 63
+          "weather_code": 61
         },
         {
           "date": "2026-11-29",
-          "max_c": 9.4,
-          "min_c": 5.0,
+          "max_c": 10.1,
+          "min_c": 4.8,
           "rain_pct": 86,
-          "wind_kmh": 22.7,
+          "wind_kmh": 25.6,
           "weather_code": 51
         },
         {
           "date": "2026-11-30",
-          "max_c": 13.1,
-          "min_c": 9.4,
+          "max_c": 12.6,
+          "min_c": 10.1,
           "rain_pct": 100,
-          "wind_kmh": 33.0,
+          "wind_kmh": 33.1,
           "weather_code": 61
         },
         {
           "date": "2026-12-01",
-          "max_c": 13.7,
-          "min_c": 5.5,
+          "max_c": 13.4,
+          "min_c": 5.2,
           "rain_pct": 70,
-          "wind_kmh": 31.0,
-          "weather_code": 51
+          "wind_kmh": 35.6,
+          "weather_code": 55
         },
         {
           "date": "2026-12-02",
-          "max_c": 7.8,
-          "min_c": 5.1,
+          "max_c": 8.1,
+          "min_c": 4.6,
           "rain_pct": 39,
-          "wind_kmh": 28.4,
-          "weather_code": 3
+          "wind_kmh": 22.7,
+          "weather_code": 2
         },
         {
           "date": "2026-12-03",
-          "max_c": 8.4,
-          "min_c": 4.0,
+          "max_c": 8.5,
+          "min_c": 4.6,
           "rain_pct": 9,
-          "wind_kmh": 19.8,
+          "wind_kmh": 15.1,
           "weather_code": 3
         },
         {
           "date": "2026-12-04",
-          "max_c": 11.4,
-          "min_c": 3.9,
+          "max_c": 10.1,
+          "min_c": 4.8,
           "rain_pct": 36,
-          "wind_kmh": 22.8,
-          "weather_code": 53
+          "wind_kmh": 16.0,
+          "weather_code": 3
         },
         {
           "date": "2026-12-05",
-          "max_c": 11.4,
-          "min_c": 3.0,
+          "max_c": 10.0,
+          "min_c": 7.9,
           "rain_pct": 61,
-          "wind_kmh": 19.8,
-          "weather_code": 53
+          "wind_kmh": 20.1,
+          "weather_code": 51
         },
         {
           "date": "2026-12-06",
-          "max_c": 9.7,
-          "min_c": 0.1,
+          "max_c": 8.7,
+          "min_c": 6.0,
           "rain_pct": 29,
-          "wind_kmh": 16.4,
+          "wind_kmh": 14.0,
           "weather_code": 51
         },
         {
           "date": "2026-12-07",
-          "max_c": 10.7,
-          "min_c": 9.0,
+          "max_c": 7.3,
+          "min_c": 3.4,
           "rain_pct": 42,
-          "wind_kmh": 24.1,
-          "weather_code": 51
+          "wind_kmh": 21.4,
+          "weather_code": 45
         },
         {
           "date": "2026-12-08",
-          "max_c": 10.8,
-          "min_c": 6.7,
+          "max_c": 8.8,
+          "min_c": 4.9,
           "rain_pct": 43,
-          "wind_kmh": 22.2,
-          "weather_code": 51
+          "wind_kmh": 22.9,
+          "weather_code": 3
         },
         {
           "date": "2026-12-09",
-          "max_c": 9.2,
-          "min_c": 7.0,
+          "max_c": 10.1,
+          "min_c": 6.8,
           "rain_pct": 29,
-          "wind_kmh": 16.9,
+          "wind_kmh": 23.3,
           "weather_code": 3
         },
         {
           "date": "2026-12-10",
-          "max_c": 10.4,
+          "max_c": 9.6,
           "min_c": 7.8,
           "rain_pct": 20,
-          "wind_kmh": 18.4,
+          "wind_kmh": 15.8,
           "weather_code": 3
         },
         {
           "date": "2026-12-11",
-          "max_c": 9.9,
-          "min_c": 7.2,
+          "max_c": 10.4,
+          "min_c": 5.2,
           "rain_pct": 23,
-          "wind_kmh": 20.1,
-          "weather_code": 3
+          "wind_kmh": 28.5,
+          "weather_code": 53
         },
         {
           "date": "2026-12-12",
-          "max_c": 10.7,
-          "min_c": 1.8,
+          "max_c": 6.8,
+          "min_c": 2.2,
           "rain_pct": null,
-          "wind_kmh": 21.6,
-          "weather_code": 51
+          "wind_kmh": 24.2,
+          "weather_code": 3
         },
         {
           "date": "2026-12-13",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T08:50:22.500598+00:00",
+      "checked_at": "2026-11-28T10:50:27.733830+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -143,123 +143,123 @@
       "days": [
         {
           "date": "2026-11-28",
-          "max_c": 10.6,
+          "max_c": 10.5,
           "min_c": 5.1,
           "rain_pct": 100,
-          "wind_kmh": 16.9,
-          "weather_code": 61
+          "wind_kmh": 17.6,
+          "weather_code": 63
         },
         {
           "date": "2026-11-29",
-          "max_c": 10.3,
-          "min_c": 6.4,
+          "max_c": 10.4,
+          "min_c": 6.6,
           "rain_pct": 25,
-          "wind_kmh": 10.4,
-          "weather_code": 45
+          "wind_kmh": 9.4,
+          "weather_code": 3
         },
         {
           "date": "2026-11-30",
-          "max_c": 12.4,
-          "min_c": 6.8,
+          "max_c": 12.2,
+          "min_c": 7.2,
           "rain_pct": 47,
-          "wind_kmh": 22.7,
-          "weather_code": 51
+          "wind_kmh": 19.1,
+          "weather_code": 3
         },
         {
           "date": "2026-12-01",
           "max_c": 13.0,
-          "min_c": 10.7,
+          "min_c": 10.1,
           "rain_pct": 65,
-          "wind_kmh": 23.8,
-          "weather_code": 61
+          "wind_kmh": 22.7,
+          "weather_code": 53
         },
         {
           "date": "2026-12-02",
-          "max_c": 11.2,
-          "min_c": 5.3,
+          "max_c": 13.5,
+          "min_c": 5.9,
           "rain_pct": 67,
-          "wind_kmh": 13.0,
+          "wind_kmh": 21.2,
           "weather_code": 61
         },
         {
           "date": "2026-12-03",
-          "max_c": 7.2,
-          "min_c": 4.4,
+          "max_c": 7.1,
+          "min_c": 2.1,
           "rain_pct": 8,
-          "wind_kmh": 11.5,
-          "weather_code": 3
+          "wind_kmh": 10.4,
+          "weather_code": 2
         },
         {
           "date": "2026-12-04",
-          "max_c": 6.0,
-          "min_c": 2.1,
+          "max_c": 2.1,
+          "min_c": -0.0,
           "rain_pct": 6,
-          "wind_kmh": 6.9,
+          "wind_kmh": 3.2,
           "weather_code": 45
         },
         {
           "date": "2026-12-05",
-          "max_c": 9.3,
-          "min_c": 3.4,
+          "max_c": 5.3,
+          "min_c": 1.5,
           "rain_pct": 22,
-          "wind_kmh": 9.4,
-          "weather_code": 51
+          "wind_kmh": 4.9,
+          "weather_code": 45
         },
         {
           "date": "2026-12-06",
-          "max_c": 9.6,
-          "min_c": 7.8,
+          "max_c": 6.1,
+          "min_c": 1.2,
           "rain_pct": 29,
-          "wind_kmh": 10.2,
-          "weather_code": 80
+          "wind_kmh": 5.8,
+          "weather_code": 3
         },
         {
           "date": "2026-12-07",
-          "max_c": 10.2,
-          "min_c": 6.2,
+          "max_c": 6.1,
+          "min_c": 1.7,
           "rain_pct": 29,
-          "wind_kmh": 12.3,
-          "weather_code": 80
+          "wind_kmh": 6.8,
+          "weather_code": 51
         },
         {
           "date": "2026-12-08",
-          "max_c": 9.0,
-          "min_c": 2.8,
+          "max_c": 7.8,
+          "min_c": 3.6,
           "rain_pct": 27,
-          "wind_kmh": 6.6,
+          "wind_kmh": 13.2,
           "weather_code": 3
         },
         {
           "date": "2026-12-09",
-          "max_c": 3.4,
-          "min_c": 1.1,
+          "max_c": 8.7,
+          "min_c": 4.2,
           "rain_pct": 24,
-          "wind_kmh": 5.8,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-10",
-          "max_c": 7.8,
-          "min_c": 2.1,
-          "rain_pct": 18,
-          "wind_kmh": 9.0,
-          "weather_code": 45
-        },
-        {
-          "date": "2026-12-11",
-          "max_c": 9.1,
-          "min_c": 5.7,
-          "rain_pct": 18,
-          "wind_kmh": 7.4,
+          "wind_kmh": 11.6,
           "weather_code": 3
         },
         {
+          "date": "2026-12-10",
+          "max_c": 7.2,
+          "min_c": 4.9,
+          "rain_pct": 18,
+          "wind_kmh": 8.3,
+          "weather_code": 3
+        },
+        {
+          "date": "2026-12-11",
+          "max_c": 9.9,
+          "min_c": 6.4,
+          "rain_pct": 18,
+          "wind_kmh": 16.9,
+          "weather_code": 51
+        },
+        {
           "date": "2026-12-12",
-          "max_c": 7.3,
+          "max_c": 8.8,
           "min_c": 4.3,
           "rain_pct": null,
-          "wind_kmh": 14.2,
-          "weather_code": 45
+          "wind_kmh": 16.1,
+          "weather_code": 51
         },
         {
           "date": "2026-12-13",
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T08:50:22.500598+00:00",
+      "checked_at": "2026-11-28T10:50:27.733830+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -279,6 +279,24 @@
   "news": {
     "stories": {
       "UK": [
+        {
+          "title": "Stalker who moved house to be closer to his victim is jailed",
+          "url": "https://www.bbc.co.uk/news/articles/cmj4rw9evznpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-28T09:52:29+00:00"
+        },
+        {
+          "title": "Set time aside for children to read for pleasure, schools to be told",
+          "url": "https://www.bbc.co.uk/news/articles/c65y1vp4ndqjo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-28T08:27:17+00:00"
+        },
+        {
+          "title": "Pharmacies get new powers to swap prescriptions during shortages",
+          "url": "https://www.bbc.co.uk/news/articles/cw5y1pelzm8ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-28T06:00:11+00:00"
+        },
         {
           "title": "The Papers: 'Catherine on cancer fight' and 'Benefits and pensions chaos'",
           "url": "https://www.bbc.co.uk/news/articles/ck792l9q07xro?at_medium=RSS&at_campaign=rss",
@@ -290,24 +308,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c65y1l9j7j9ko?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-28T01:12:28+00:00"
-        },
-        {
-          "title": "Should I get a flu vaccine now?",
-          "url": "https://www.bbc.co.uk/news/articles/cq8e018jyjngo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-28T01:03:11+00:00"
-        },
-        {
-          "title": "What we know about Department for Work and Pensions 'cyber incident'",
-          "url": "https://www.bbc.co.uk/news/articles/ck1l0e946dqmo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T22:01:04+00:00"
-        },
-        {
-          "title": "Police officers discovered Chloe Mitchell's remains in bins, court hears",
-          "url": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T21:37:15+00:00"
         }
       ],
       "Northern Ireland": [
@@ -315,7 +315,13 @@
           "title": "Actor and comedian PJ Gallagher dies aged 51",
           "url": "https://www.bbc.co.uk/news/articles/cwp83j2k31g3o?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
-          "published_at": "2026-11-28T08:34:16+00:00"
+          "published_at": "2026-11-28T10:17:01+00:00"
+        },
+        {
+          "title": "Pensions and benefits services still down after 'cyber incident'",
+          "url": "https://www.bbc.co.uk/news/articles/cm1wrgqyq4d8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-28T09:10:32+00:00"
         },
         {
           "title": "Jamie-Lee O'Donnell: I'd love to know what the Derry Girls characters are up to now",
@@ -334,15 +340,21 @@
           "url": "https://www.bbc.co.uk/news/articles/cq20xdml47dxo?at_medium=RSS&at_campaign=rss",
           "source": "BBC Northern Ireland",
           "published_at": "2026-11-28T00:07:34+00:00"
-        },
-        {
-          "title": "Councils publishing housing lists 'could increase danger for migrants', says campaigner",
-          "url": "https://www.bbc.co.uk/news/articles/c64gnzxlxk7ro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC Northern Ireland",
-          "published_at": "2026-11-28T00:02:31+00:00"
         }
       ],
       "Republic of Ireland": [
+        {
+          "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-28T10:24:42+00:00"
+        },
+        {
+          "title": "From tinned food to paper maps: Survivalism is going mainstream in Europe - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM2lxOGh5VkU2Y0hwVkV6YXRfcFgweXh3SXFrWHRhWmFFX19ETGY2MFRZaDVEMWFoU2g3ZmNRejFodHFieXczQVg2MklyNFNFcWF5WjFNTjBVSjdwSGJBbC04Rjlnc2d0S285cDVSV1lvNWV6WVU4a21JaUVTMFNFOUdZa1UybmdrX2dIVENDaFE4UmNSMno5WjljaGkyRGtxcTNGS1pLOVN4THJ4bGZjQTRpVU9QME1rNlc5WA?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-28T09:00:43+00:00"
+        },
         {
           "title": "Grants for Northern Ireland artists withheld amid financial uncertainty - The Irish Times",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONXhKZGtpd0U1SWV6Zi15eGNpSUFxaV9nazRZck5NbnljWGpEY3l6OUlVU1FaVzg2TTM3QURtQ29VTGxfWngxYWk3U1NMQ2o2VnhTNURmUzgySEVqQWxLRG9sdTk2empzY2c3OTRkMlhyOEZ3UkxTanV2SUJnQ0RObHB5S1pmN0xhWWx0WW1aNHJKbUdIR0thZVZKYXNrbWxDeUlvelZwUV9OYmhLLTdMclBmWklNOWNweEE?oc=5",
@@ -350,28 +362,16 @@
           "published_at": "2026-11-28T08:07:26+00:00"
         },
         {
-          "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
+          "title": "Talk of a united Ireland is ludicrous, given the state of northern politics - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBnaDVpZ3BobzBfWFZ4bDdhdXhTY29LNWVTcURxeW1ReU0xa2hvWVlNSzRHZUs3Rjg5TlVzSlVvdmJ3X2hHRkVLOHdjNFhhb0JURjlhNkI2SEhCMHBlOUhTcWo0b21fVlhQaXRPMmhRZDdMaS1PaFpGM0JB?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-28T07:53:41+00:00"
+          "published_at": "2026-11-28T07:46:13+00:00"
         },
         {
-          "title": "Bikes, trains, or both? Future of Sligo Greenway elusive",
-          "url": "https://www.rte.ie/news/analysis-and-comment/2026/1128/1600955-analysis-comment-western-rail-corridor/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-28T07:01:02+00:00"
-        },
-        {
-          "title": "Storing wind: Why are we losing renewable energy?",
-          "url": "https://www.rte.ie/news/business/2026/1128/1600865-battery-storage-wind/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-28T07:00:02+00:00"
-        },
-        {
-          "title": "'Historic landmark' - calls to save derelict mansion",
-          "url": "https://www.rte.ie/news/dublin/2026/1128/1600947-aldborough-house-heritage/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-28T07:00:00+00:00"
+          "title": "‘Fought and fought’: Andy Farrell hails Ireland’s character in victory over Australia - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSVFKems1bDJzcU13blA0OTladlRheEhtSm9obnAwNnU0SFRuOXBvZGFqRHg1NVZEWThabWF5TU8zNFN1LTZhMEpQSnAzY2ZGTmRoZ0U4bVRLUXFYazRSX3c1RjlJeGd5aEloeVFUeks4cmFmc05ibng2UEp5ek5qeWRleHJWb1RfbzZ6dnJnOUJtZUpJRjM0clo5OFdfMldWeFotajExZi1waW9uanlxQkNBYjRvaU0yLXJxZ2Y0eGhYTlU3?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-28T07:33:38+00:00"
         }
       ]
     },
@@ -390,7 +390,14 @@
           "published_at": "2026-11-27T20:42:44+00:00"
         }
       ],
-      "Northern Ireland": [],
+      "Northern Ireland": [
+        {
+          "title": "Pensions and benefits services still down after 'cyber incident'",
+          "url": "https://www.bbc.co.uk/news/articles/cm1wrgqyq4d8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC Northern Ireland",
+          "published_at": "2026-11-28T09:10:32+00:00"
+        }
+      ],
       "Republic of Ireland": [
         {
           "title": "Leo Varadkar plays British prime minister in ‘fun and interesting’ cyberattack simulation - The Irish Times",
@@ -411,7 +418,7 @@
         {
           "source": "BBC UK",
           "status": "ok",
-          "count": 22
+          "count": 25
         },
         {
           "source": "BBC Politics",
@@ -9140,13 +9147,13 @@
   "security": {
     "threat": {
       "status": "unavailable",
-      "checked_at": "2026-11-28T08:50:22.500598+00:00",
+      "checked_at": "2026-11-28T10:50:27.733830+00:00",
       "verified_at": null,
       "levels": null
     },
     "police": {
       "status": "ok",
-      "checked_at": "2026-11-28T08:50:22.500598+00:00",
+      "checked_at": "2026-11-28T10:50:27.733830+00:00",
       "items": [
         {
           "title": "Appeal for information following Co Down burglary series",
