@@ -61,24 +61,24 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
 .security-notices p{margin:3px 0}
 .security-panel details{margin-top:7px}
 </style>
+<link rel="stylesheet" href="overview.css">
 </head>
 <body>
 <header class="top"><div class="wrap nav"><div class="brand"><span class="logo">⌁</span><div>NI CRISIS WATCH<small>UK & Northern Ireland</small></div></div><nav class="menu"><a href="#overview">Overview</a><a href="#forecast">Forecast</a><a href="#analysis">Analysis</a><a href="#archive">Archive</a><a href="#risks">Risk register</a><a href="#preparedness">Preparedness</a><a href="#evidence">Sources</a></nav><span class="stamp">● SOURCE FEEDS + DATED FORECAST</span></div></header>
 <main class="wrap">
 <section class="hero"><div><div class="eyebrow">Five-year resilience intelligence • County Down focus</div><h1>Know the risk.<br/><span>Not the rumour.</span></h1><p class="lead">A clear, evidence-led view of public-health threats, infrastructure resilience, geopolitical tensions and preparedness measures affecting Northern Ireland.</p></div><aside class="hero-aside"><div class="label">Overall UK / NI lockdown outlook</div><div class="risk-heading">Low assessed likelihood</div><span class="pill">No confirmed activation</span><p>Forecasts remain a dated editorial snapshot. Last editorial assessment: <strong id="updated">25 November 2026</strong>.</p><div class="note">Always check linked official agencies for immediate warnings.</div></aside></section>
-<section id="overview" aria-label="Single-screen situation overview" class="command-screen">
+<section id="overview" aria-label="Situation overview" class="command-screen">
   <div class="command-title"><div><span class="eyebrow">OPERATIONS OVERVIEW · UNITED KINGDOM / NORTHERN IRELAND</span><h2>Situation at a glance</h2></div><div class="command-actions"><span id="overviewFresh" class="tag">Checking feeds…</span><button class="btn" id="toggleDetail" type="button" aria-expanded="false">Full intelligence ↓</button></div></div>
   <div class="command-row probabilities" aria-label="Forecasts"><div class="command-stat"><span>National lockdown</span><strong id="quickLock">3% <small>12 mo</small></strong><em id="quickLock5">10% · 5 yr</em></div><div class="command-stat"><span>Targeted restrictions</span><strong id="quickRestrict">9% <small>12 mo</small></strong><em id="quickRestrict5">27% · 5 yr</em></div><div class="command-stat"><span>Household disruption</span><strong id="quickInfra">27% <small>12 mo</small></strong><em id="quickInfra5">67% · 5 yr</em></div><div class="command-stat"><span>Candidate escalation signals</span><strong id="quickSignals">—</strong><em>Connected feeds only</em></div></div>
-  <div class="command-row lower">
+  <div class="dashboard-grid">
     <article class="command-panel watch-panel security-panel" aria-labelledby="securityTitle">
       <div class="mini-heading"><h3 id="securityTitle">Security Watch</h3><a class="mini-link" href="https://www.mi5.gov.uk/threats-and-advice/terrorism-threat-levels">MI5 source</a></div>
       <p class="mini-note" id="securityCheck" role="status">Showing the MI5 assessment verified 28 November 2026.</p>
       <dl class="security-levels">
         <div data-security-level="ni"><dt>NI-related terrorism in Northern Ireland</dt><dd><strong data-level="SUBSTANTIAL">SUBSTANTIAL</strong><span>An attack is likely · Changed 6 Mar 2024</span></dd></div>
         <div data-security-level="uk"><dt>UK national terrorism threat</dt><dd><strong data-level="SEVERE">SEVERE</strong><span>An attack is highly likely · Changed 30 Apr 2026</span></dd></div>
-        <div><dt>Republic of Ireland</dt><dd><a href="https://www.garda.ie/en/about-us/publications/general-reports/annual-security-services-plan-2025.pdf">Moderate in Garda’s 2025 security plan</a><span>Historical assessment · Current rating unverified</span></dd></div>
       </dl>
-      <p class="mini-note">The UK level also covers Northern Ireland. NI-related terrorism in NI has its own assessment.</p>
+      <p class="mini-note">The UK level applies in NI alongside the separate NI-related assessment.</p>
       <div class="security-notices">
         <h4>Official notices</h4>
         <p class="mini-note" id="securityLocalStatus">Checking the latest PSNI listing…</p>
@@ -96,6 +96,7 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
         </ul>
         <div class="local-links"><a href="https://www.mi5.gov.uk/news">MI5 statements</a><a href="https://www.sis.gov.uk/about-us/news/">MI6 statements</a><a href="https://www.psni.police.uk/official-statistics/security-situation-statistics">PSNI security statistics</a></div>
       </details>
+      <details><summary>Ireland’s historical assessment</summary><p class="mini-note"><a href="https://www.garda.ie/en/about-us/publications/general-reports/annual-security-services-plan-2025.pdf">Moderate in Garda’s 2025 security plan</a> · Current rating unverified</p></details>
     </article>
     <article class="command-panel watch-panel" id="localDisruptions"><div class="mini-heading"><h3>County Down disruptions</h3></div>
       <p class="local-status" id="localStatus" role="status">Checking weather warnings and road notices…</p>
@@ -111,13 +112,7 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
       <details id="plannedWorks" hidden><summary id="plannedTitle">Planned roadworks</summary><ul class="local-notices" id="plannedNotices"></ul></details>
       <details><summary>Changes since your last visit</summary><ul class="local-notices" id="localChanges"><li>Waiting for a source check.</li></ul></details>
       <details><summary>Latest source checks</summary><div id="quickSources" class="quick-sources">Checking official public feeds…</div><div id="quickHeadlines" class="quick-headlines" aria-label="Recent linked announcements"></div><p id="quickCheck" class="mini-note">Automated refresh checks every five minutes while this tab is open.</p></details></article>
-  </div>
-  <div class="command-row extended-row">
-    <article class="command-panel weather-panel"><div class="mini-heading"><h3>☁ 16-day weather outlook</h3><span class="tag" id="weatherStamp">Checking…</span></div><div class="weather-twocol"><div><strong>County Down</strong><div id="downForecast" class="forecast-mini">Loading forecast…</div></div><div><strong>London</strong><div id="londonForecast" class="forecast-mini">Loading forecast…</div></div></div><details><summary>Full 16-day outlook (days 8–16 less certain)</summary><div class="weather-twocol"><div id="down16"></div><div id="london16"></div></div></details><div class="tiny-note">Model-based forecasts, not official warnings. Check <a href="https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings" target="_blank" rel="noopener">Met Office warnings</a>.</div></article>
-    <article class="command-panel news-panel"><div class="mini-heading"><h3>📰 News & politics</h3><span class="tag" id="newsStamp">Checking…</span></div><div class="news-tabs"><button class="news-tab active" type="button" data-news="UK">UK</button><button class="news-tab" type="button" data-news="Northern Ireland">Northern Ireland</button><button class="news-tab" type="button" data-news="Republic of Ireland">Republic of Ireland</button></div><label class="news-mode"><input id="priorityNews" type="checkbox" checked> Crisis-relevant only</label><ol id="newsFive" class="news-five"><li>Loading dated headlines…</li></ol><span class="tiny-note">Crisis-relevant headlines are matched by topic. Clear the filter for general news.</span></article>
-  </div>
-  <div class="command-row fuel-row"><article class="command-panel fuel-panel"><div class="mini-heading"><h3>⛽ Latest NI fuel prices</h3><span class="tag" id="fuelStamp">Checking…</span></div><div class="fuel-metrics"><div><small>Heating oil · 900 L</small><strong id="oilPrice">—</strong><small class="fuel-reading" id="oilReading"></small></div><div><small>Unleaded petrol · litre</small><strong id="petrolPrice">—</strong><small class="fuel-reading" id="petrolReading"></small></div><div><small>Diesel · litre</small><strong id="dieselPrice">—</strong><small class="fuel-reading" id="dieselReading"></small></div></div><div class="tiny-note" id="fuelNote">Consumer Council NI averages; not quotes for an individual supplier or forecourt.</div><div class="flight-links"><a href="https://www.consumercouncil.org.uk/home-heating/price-checker" target="_blank" rel="noopener">Heating oil checker ↗</a><a href="https://www.consumercouncil.org.uk/ni-fuel-checker" target="_blank" rel="noopener">Petrol & diesel checker ↗</a></div></article></div>
-  <article class="command-panel" aria-labelledby="healthTitle">
+    <article class="command-panel" aria-labelledby="healthTitle">
     <div class="mini-heading"><h3 id="healthTitle">Public Health Watch</h3><a class="mini-link" href="#healthReports">Full report table</a></div>
     <div class="flight-controls health-tabs" role="group" aria-label="Public Health Watch region">
 <button type="button" data-health-region="ni" aria-pressed="true">NI</button>
@@ -129,6 +124,10 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
     <ul class="health-list" id="healthSummary"></ul>
     <div class="local-links" id="healthLinks"><a href="https://www.publichealth.hscni.net/protecting-our-health/alerts-outbreaks-and-emergencies">PHA alerts and advice</a></div>
   </article>
+    <article class="command-panel weather-panel"><div class="mini-heading"><h3>☁ 16-day weather outlook</h3><span class="tag" id="weatherStamp">Checking…</span></div><div class="weather-twocol"><div><strong>County Down</strong><div id="downForecast" class="forecast-mini">Loading forecast…</div></div><div><strong>London</strong><div id="londonForecast" class="forecast-mini">Loading forecast…</div></div></div><details><summary>Full 16-day outlook (days 8–16 less certain)</summary><div class="weather-twocol"><div id="down16"></div><div id="london16"></div></div></details><div class="tiny-note">Model-based forecasts, not official warnings. Check <a href="https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings" target="_blank" rel="noopener">Met Office warnings</a>.</div></article>
+    <article class="command-panel news-panel"><div class="mini-heading"><h3>📰 News & politics</h3><span class="tag" id="newsStamp">Checking…</span></div><div class="news-tabs"><button class="news-tab active" type="button" data-news="UK">UK</button><button class="news-tab" type="button" data-news="Northern Ireland">Northern Ireland</button><button class="news-tab" type="button" data-news="Republic of Ireland">Republic of Ireland</button></div><label class="news-mode"><input id="priorityNews" type="checkbox" checked> Crisis-relevant only</label><ol id="newsFive" class="news-five"><li>Loading dated headlines…</li></ol><span class="tiny-note">Crisis-relevant headlines are matched by topic. Clear the filter for general news.</span></article>
+    <article class="command-panel fuel-panel"><div class="mini-heading"><h3>⛽ Latest NI fuel prices</h3><span class="tag" id="fuelStamp">Checking…</span></div><div class="fuel-metrics"><div><small>Heating oil · 900 L</small><strong id="oilPrice">—</strong><small class="fuel-reading" id="oilReading"></small></div><div><small>Unleaded petrol · litre</small><strong id="petrolPrice">—</strong><small class="fuel-reading" id="petrolReading"></small></div><div><small>Diesel · litre</small><strong id="dieselPrice">—</strong><small class="fuel-reading" id="dieselReading"></small></div></div><div class="tiny-note" id="fuelNote">Consumer Council NI averages; not quotes for an individual supplier or forecourt.</div><div class="flight-links"><a href="https://www.consumercouncil.org.uk/home-heating/price-checker" target="_blank" rel="noopener">Heating oil checker ↗</a><a href="https://www.consumercouncil.org.uk/ni-fuel-checker" target="_blank" rel="noopener">Petrol & diesel checker ↗</a></div></article>
+  </div>
   <div class="command-foot"><span>Estimates are subjective and uncalibrated; no automatic movement restrictions inferred from planning documents.</span></div>
 </section>
 

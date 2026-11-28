@@ -1,0 +1,203 @@
+#overview {
+  gap: 12px;
+  margin-top: 18px;
+}
+
+#overview .command-title {
+  padding: 1px 0 3px;
+}
+
+#overview .command-title h2 {
+  font-size: clamp(1.6rem, 2.5vw, 2rem);
+  line-height: 1.2;
+  letter-spacing: -.035em;
+}
+
+#overview .command-title .eyebrow {
+  font-size: .6875rem;
+  letter-spacing: .12em;
+}
+
+#overview .command-actions .tag,
+#overview .command-actions .btn {
+  font-size: .8125rem;
+}
+
+#overview .command-stat {
+  background: linear-gradient(145deg, #142a3a, var(--panel));
+  border-radius: 12px;
+  padding: 10px 14px;
+}
+
+#overview .command-stat span,
+#overview .command-stat em {
+  font-size: .8125rem;
+}
+
+#overview .command-stat strong {
+  font-size: 1.65rem;
+  line-height: 1.1;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  align-items: stretch;
+}
+
+.dashboard-grid > .command-panel {
+  min-width: 0;
+  padding: 14px 15px;
+  border-radius: 12px;
+}
+
+.dashboard-grid > .fuel-panel {
+  padding: 14px 15px !important;
+}
+
+.dashboard-grid .mini-heading {
+  gap: 6px 10px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.dashboard-grid h3 {
+  font-size: 1.0625rem;
+  line-height: 1.3;
+}
+
+.dashboard-grid .mini-note,
+.dashboard-grid .tiny-note,
+.dashboard-grid .tag,
+.dashboard-grid .fuel-reading,
+.dashboard-grid .health-list span {
+  color: #b0c3cf;
+  font-size: .8125rem;
+}
+
+.dashboard-grid .mini-note {
+  margin: 6px 0;
+}
+
+.dashboard-grid :is(.mini-link, .local-links, .local-notices, .health-list, .news-five li, .news-mode, details summary, .mini-day) {
+  font-size: .875rem;
+}
+
+.dashboard-grid .local-links {
+  gap: 5px 12px;
+  margin-top: 8px;
+}
+
+.dashboard-grid .local-notices,
+.dashboard-grid .health-list {
+  margin-block: 6px 9px;
+}
+
+.dashboard-grid .local-notices:empty {
+  display: none;
+}
+
+.dashboard-grid .local-notices a,
+.dashboard-grid .health-list a,
+.dashboard-grid .news-five a {
+  overflow-wrap: anywhere;
+}
+
+.dashboard-grid .news-five {
+  gap: 7px;
+}
+
+.dashboard-grid .news-five li {
+  line-height: 1.4;
+}
+
+.dashboard-grid .news-five small {
+  color: #b0c3cf;
+}
+
+.dashboard-grid .weather-twocol {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.dashboard-grid .mini-day {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 6px;
+  row-gap: 0;
+}
+
+.dashboard-grid .mini-day em {
+  grid-column: 1 / -1;
+  font-size: .75rem;
+}
+
+.dashboard-grid .security-levels dt {
+  font-size: .875rem;
+}
+
+.dashboard-grid .security-levels dd {
+  font-size: .8125rem;
+}
+
+.dashboard-grid .fuel-metrics {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 5px;
+}
+
+.dashboard-grid .fuel-metrics > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 0 9px;
+  padding: 6px 9px;
+}
+
+.dashboard-grid .fuel-metrics small {
+  font-size: .8125rem;
+}
+
+.dashboard-grid .fuel-metrics strong {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.dashboard-grid .fuel-reading {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.dashboard-grid .fuel-reading:empty {
+  display: none;
+}
+
+.dashboard-grid .flight-links a {
+  font-size: .8125rem;
+}
+
+#overview :is(a, button, summary, input):focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 3px;
+}
+
+@media (max-width: 1150px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .dashboard-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  #overview .command-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  #overview .command-stat {
+    padding: 8px 10px;
+  }
+}
