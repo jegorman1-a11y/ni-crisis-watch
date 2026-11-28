@@ -104,3 +104,12 @@ An unavailable or stale feed never removes notices from the comparison baseline.
 The news filter matches crisis-related topics within the regional feeds. Fuel
 prices show their individual reporting dates, saved status and the difference
 from the previous dated reading when one is available.
+
+### Public Health Watch
+
+The regional tabs show curated, dated official reports from
+data/public-health.json. Update the file after checking the original bulletin.
+Record a count only when the bulletin reports it for the named area and period.
+Use omitted fields for unpublished counts and retain explicit zeroes. Keep
+seasonal surveillance and mortality registrations in the seasonal section.
+Regional source links provide current advice and bulletins between manual updates.

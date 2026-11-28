@@ -50,6 +50,15 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
 .news-mode{display:inline-flex;align-items:center;gap:4px;font-size:.8125rem;margin-top:5px}
 .fuel-metrics .fuel-reading{margin-top:4px;font-size:.75rem}
 </style>
+<style>
+.health-tabs{justify-content:flex-start;gap:5px}
+.health-list{padding-left:18px;margin:6px 0;font-size:.8125rem}
+.health-list a,#healthReports a{color:#9ce8f6}
+.health-list span,#healthRows small{display:block;color:var(--muted);font-size:.75rem}
+#healthRows th{white-space:normal;min-width:130px}
+.health-seasonal{margin-top:10px}
+.health-seasonal summary{cursor:pointer}
+</style>
 </head>
 <body>
 <header class="top"><div class="wrap nav"><div class="brand"><span class="logo">⌁</span><div>NI CRISIS WATCH<small>UK & Northern Ireland</small></div></div><nav class="menu"><a href="#overview">Overview</a><a href="#forecast">Forecast</a><a href="#analysis">Analysis</a><a href="#archive">Archive</a><a href="#risks">Risk register</a><a href="#preparedness">Preparedness</a><a href="#evidence">Sources</a></nav><span class="stamp">● SOURCE FEEDS + DATED FORECAST</span></div></header>
@@ -97,6 +106,7 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
         <a href="https://www.niwater.com/current-service-updates/">Water by postcode</a>
       </div>
       <p class="mini-note">Roads matched by place name and may include planned works. Weather coverage is NI-wide. Check bus, rail, power and water on the official sites.</p>
+      <details id="plannedWorks" hidden><summary id="plannedTitle">Planned roadworks</summary><ul class="local-notices" id="plannedNotices"></ul></details>
       <details><summary>Changes since your last visit</summary><ul class="local-notices" id="localChanges"><li>Waiting for a source check.</li></ul></details>
       <details><summary>Latest source checks</summary><div id="quickSources" class="quick-sources">Checking official public feeds…</div><div id="quickHeadlines" class="quick-headlines" aria-label="Recent linked announcements"></div><p id="quickCheck" class="mini-note">Automated refresh checks every five minutes while this tab is open.</p></details></article>
   </div>
@@ -105,10 +115,38 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
     <article class="command-panel news-panel"><div class="mini-heading"><h3>📰 News & politics</h3><span class="tag" id="newsStamp">Checking…</span></div><div class="news-tabs"><button class="news-tab active" type="button" data-news="UK">UK</button><button class="news-tab" type="button" data-news="Northern Ireland">Northern Ireland</button><button class="news-tab" type="button" data-news="Republic of Ireland">Republic of Ireland</button></div><label class="news-mode"><input id="priorityNews" type="checkbox" checked> Crisis-relevant only</label><ol id="newsFive" class="news-five"><li>Loading dated headlines…</li></ol><span class="tiny-note">Crisis-relevant headlines are matched by topic. Clear the filter for general news.</span></article>
   </div>
   <div class="command-row fuel-row"><article class="command-panel fuel-panel"><div class="mini-heading"><h3>⛽ Latest NI fuel prices</h3><span class="tag" id="fuelStamp">Checking…</span></div><div class="fuel-metrics"><div><small>Heating oil · 900 L</small><strong id="oilPrice">—</strong><small class="fuel-reading" id="oilReading"></small></div><div><small>Unleaded petrol · litre</small><strong id="petrolPrice">—</strong><small class="fuel-reading" id="petrolReading"></small></div><div><small>Diesel · litre</small><strong id="dieselPrice">—</strong><small class="fuel-reading" id="dieselReading"></small></div></div><div class="tiny-note" id="fuelNote">Consumer Council NI averages; not quotes for an individual supplier or forecourt.</div><div class="flight-links"><a href="https://www.consumercouncil.org.uk/home-heating/price-checker" target="_blank" rel="noopener">Heating oil checker ↗</a><a href="https://www.consumercouncil.org.uk/ni-fuel-checker" target="_blank" rel="noopener">Petrol & diesel checker ↗</a></div></article></div>
+  <article class="command-panel" aria-labelledby="healthTitle">
+    <div class="mini-heading"><h3 id="healthTitle">Public Health Watch</h3><a class="mini-link" href="#healthReports">Full report table</a></div>
+    <div class="flight-controls health-tabs" role="group" aria-label="Public Health Watch region">
+<button type="button" data-health-region="ni" aria-pressed="true">NI</button>
+<button type="button" data-health-region="gb" aria-pressed="false">Great Britain</button>
+<button type="button" data-health-region="ie" aria-pressed="false">Republic of Ireland</button>
+<button type="button" data-health-region="world" aria-pressed="false">International</button>
+</div>
+    <p class="mini-note" id="healthStatus" role="status">Loading selected reports…</p>
+    <ul class="health-list" id="healthSummary"></ul>
+    <div class="local-links" id="healthLinks"><a href="https://www.publichealth.hscni.net/protecting-our-health/alerts-outbreaks-and-emergencies">PHA alerts and advice</a></div>
+  </article>
   <div class="command-foot"><span>Estimates are subjective and uncalibrated; no automatic movement restrictions inferred from planning documents.</span><span>For flight decisions check the airport or airline’s official board.</span></div>
 </section>
 
 <div class="alert"><strong>Important:</strong> Source headlines below refresh automatically once the scheduled workflow is enabled and hosted. The forecasts below combine dated baseline estimates with limited, rules-based adjustments only when two independent official feeds report matching explicit developments. These forecasts are subjective, uncalibrated, and are not emergency warnings. Source headlines do not establish that an emergency has occurred.</div>
+<section id="healthReports" class="section" aria-labelledby="healthReportsTitle">
+  <div class="section-head"><div><h2 id="healthReportsTitle">Public Health Watch reports</h2><p>Selected reports by area. Each row gives the source’s reporting period and definitions.</p></div></div>
+  <div class="flight-controls health-tabs" role="group" aria-label="Public Health Watch region">
+<button type="button" data-health-region="ni" aria-pressed="true">NI</button>
+<button type="button" data-health-region="gb" aria-pressed="false">Great Britain</button>
+<button type="button" data-health-region="ie" aria-pressed="false">Republic of Ireland</button>
+<button type="button" data-health-region="world" aria-pressed="false">International</button>
+</div>
+  <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable table of official outbreak reports">
+    <table aria-label="Official outbreak reports">
+      <thead><tr><th scope="col">Report</th><th scope="col">Affected area</th><th scope="col">Reporting period</th><th scope="col">Cases</th><th scope="col">Hospital admissions</th><th scope="col">Reported deaths</th><th scope="col">Official bulletin</th></tr></thead>
+      <tbody id="healthRows"></tbody>
+    </table>
+  </div>
+  <details class="panel health-seasonal"><summary>Seasonal respiratory surveillance</summary><ul class="health-list" id="healthSeasonal"></ul></details>
+</section>
 <section id="live" class="section" aria-labelledby="live-title"><div class="section-head"><div><h2 id="live-title">Automatic source updates</h2><p>Direct source headlines, not independently verified incidents · select original links for details</p></div><span class="tag" id="liveStamp">Checking feed state…</span></div><div class="panel"><p class="note" id="liveNote" role="status">Loading collected public-source updates…</p><div id="feedHealth" class="feed-health" aria-label="Source retrieval status"></div><div id="liveHeadlines" class="feed-grid"></div><p class="subnote">Met Office warnings are regional and can cover only some areas within Northern Ireland. Confirm whether a warning specifically covers County Down before taking action. A missing or failed feed is never an all-clear.</p></div></section>
 <section id="forecast" class="section"><div class="section-head"><div><h2>Probability outlook</h2><p>Estimated chance of at least one event within the stated period</p></div><span class="tag" id="forecastStamp">Baseline · 25 Nov 2026</span></div><div class="cards" id="forecastCards"></div></section>
 <section class="section"><div class="layout"><div class="panel"><h3>Five-year risk comparison</h3><div id="bars"></div><div class="subnote">Scenario categories overlap and should not be added together. “Serious local disruption” includes a substantial interruption of essential household services.</div></div><div class="panel"><h3>What has changed?</h3><div id="timeline" class="timeline"></div></div></div></section>
@@ -167,6 +205,7 @@ body:not(.detail-view) main>.section, body:not(.detail-view) main>.alert {displa
 }
 </script>
 <script src="local-watch.js"></script>
+<script src="public-health.js"></script>
 <script>
 const data=JSON.parse(document.querySelector('#snapshot').textContent);
 const el=(tag,cls,text)=>{const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x};

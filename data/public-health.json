@@ -1,0 +1,87 @@
+{
+  "outbreaks": [
+    {
+      "region": "ni",
+      "area": "Northern Ireland",
+      "title": "COVID-19 care home outbreak",
+      "period": "2–8 November 2026",
+      "source": "PHA week 45 report",
+      "url": "https://www.publichealth.hscni.net/sites/default/files/reports/2026-11/Respiratory-Surveillance-Report-w45_2026.html#community-surveillance",
+      "note": "PHA recorded one confirmed care home outbreak in this week. Its bulletin gives no case, admission or death count for that outbreak.",
+      "published": "2026-11-11",
+      "dateLabel": "Data extracted"
+    },
+    {
+      "region": "gb",
+      "area": "Canterbury, Kent, England",
+      "title": "Invasive meningococcal disease",
+      "period": "Since outbreak began, through 23 March 2026",
+      "published": "2026-05-12",
+      "dateLabel": "Updated",
+      "source": "UKHSA technical briefing",
+      "url": "https://www.gov.uk/government/publications/invasive-meningococcal-disease-outbreak-2026-technical-briefings/invasive-meningococcal-disease-outbreak-2026-technical-briefing-1",
+      "cases": 23,
+      "casesLabel": "confirmed and probable",
+      "deaths": 2,
+      "note": "Historical report snapshot."
+    },
+    {
+      "region": "ie",
+      "area": "Republic of Ireland",
+      "title": "Respiratory outbreaks in health and care settings",
+      "period": "2–8 November 2026",
+      "source": "HPSC week 45 bulletin",
+      "url": "https://file.hpsc.ie/uploads/acuterespiratoryinfection/surveillancereports/1794477189.html",
+      "note": "HPSC recorded 35 outbreaks across multiple settings. The figures describe outbreak notifications across Ireland."
+    },
+    {
+      "region": "world",
+      "area": "Democratic Republic of the Congo",
+      "title": "Ebola disease (Bundibugyo virus)",
+      "period": "Since outbreak began, through 17 November 2026",
+      "published": "2026-11-20",
+      "source": "WHO outbreak bulletin",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
+      "cases": 11613,
+      "casesLabel": "confirmed",
+      "deaths": 5678
+    },
+    {
+      "region": "world",
+      "area": "Kenya",
+      "title": "Ebola disease (Bundibugyo virus)",
+      "period": "Since outbreak began, through 17 November 2026",
+      "published": "2026-11-20",
+      "source": "WHO outbreak bulletin",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
+      "cases": 9,
+      "casesLabel": "confirmed",
+      "admissions": 7,
+      "deaths": 2
+    }
+  ],
+  "seasonal": [
+    {
+      "region": "ni",
+      "area": "Northern Ireland",
+      "title": "Community-acquired emergency hospital admissions",
+      "period": "2–8 November 2026",
+      "note": "Influenza A 78 · RSV 30 · COVID-19 38",
+      "source": "PHA week 45 report",
+      "url": "https://www.publichealth.hscni.net/sites/default/files/reports/2026-11/Respiratory-Surveillance-Report-w45_2026.html",
+      "published": "2026-11-11",
+      "dateLabel": "Data extracted"
+    },
+    {
+      "region": "ni",
+      "area": "Northern Ireland",
+      "title": "Death registrations mentioning respiratory illness",
+      "period": "Week ending 30 October 2026",
+      "note": "Influenza and/or pneumonia 55 · COVID-19 6. These are death certificate mentions and categories may overlap.",
+      "source": "PHA week 45 report, using NISRA data",
+      "url": "https://www.publichealth.hscni.net/sites/default/files/reports/2026-11/Respiratory-Surveillance-Report-w45_2026.html",
+      "published": "2026-11-11",
+      "dateLabel": "Data extracted"
+    }
+  ]
+}
