@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:18:31.485884+00:00",
+  "generated_at": "2026-11-28T00:30:23.547553+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T00:18:31.485884+00:00",
+      "checked_at": "2026-11-28T00:30:23.547553+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T00:18:31.485884+00:00",
+      "checked_at": "2026-11-28T00:30:23.547553+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -347,7 +347,13 @@
           "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
           "source": "Google News / Ireland",
-          "published_at": "2026-11-27T22:53:41+00:00"
+          "published_at": "2026-11-28T00:23:41+00:00"
+        },
+        {
+          "title": "Ireland player ratings v Australia: Composed Sam Prendergast stands out - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQThYdWxUaFl6cTV4SnJqaFYwR1pXc3VkWU5Lc2prbnRSNXJmQWdRaFBIRWcyRTczVWFRY2VlLWZha1EwQkUyeXowcjlUTkJRUVZCcFpFWTJ3cV9tYmt1eDVvRzVwRE1UTmk4SDE3OEo2NU5TaU4zLWQ2OWcxc1hBM180U09MTHdwMmZGSnVPRlhMZGJoSjluRlVJRFFXc0pDM19sNUVRbU5fOU1GbTIzV28tdWxUN0lGT24wdkZn?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-27T22:20:58+00:00"
         },
         {
           "title": "Comedian and presenter PJ Gallagher dies aged 51",
@@ -366,12 +372,6 @@
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16TkwtNlEyd1FsaF9HVXhWYjlEUzRldWJycnVqNHlVTlZsal9qMXhIV1F6eFZCVk1tcFBVWWlnUlRVVTZNMFNMaDRmdGhSWjNIS1hDVDU1VnJwRmNfanliNVZlc2dRT1JBWTNzZjVRY2lYVHpXVXp3?oc=5",
           "source": "Google News / Ireland",
           "published_at": "2026-11-27T21:27:30+00:00"
-        },
-        {
-          "title": "Minister for Health never wanted me as HSE chief, Anne O’Connor says in explosive letter - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSGRlcHVqZDZhRjZTSUVLaWNmQ1RjRkc0TUVFelpTYjhNWG53WkxnTkpGM0x5Yl94LW50V3R6VjNrdS1GT0d3cXNjQnlsTEIyY2VDQzIydzF4UjFNUWQ3MGlxVUZMd2htNUlreVVTNlhLaGlvWGdVRDdTbWNfa2JsY0ZaLU5JWFAzcld5Z2s2V05pemtMVjJPeVN0eU5FVU81TTFyTFgyX2JPZXpGeXVUQXR1S0I2ZUlfYWROZnVGYks1aDJsMU5QLUdPZnN5UQ?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T21:05:57+00:00"
         }
       ]
     },
