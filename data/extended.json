@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28T00:30:23.547553+00:00",
+  "generated_at": "2026-11-28T00:40:07.468195+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T00:30:23.547553+00:00",
+      "checked_at": "2026-11-28T00:40:07.468195+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T00:30:23.547553+00:00",
+      "checked_at": "2026-11-28T00:40:07.468195+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -344,16 +344,16 @@
       ],
       "Republic of Ireland": [
         {
+          "title": "US military says it fired on ship violating Iran blockade",
+          "url": "https://www.rte.ie/news/2026/1128/1600973-us-military/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-28T00:33:19+00:00"
+        },
+        {
           "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
           "source": "Google News / Ireland",
           "published_at": "2026-11-28T00:23:41+00:00"
-        },
-        {
-          "title": "Ireland player ratings v Australia: Composed Sam Prendergast stands out - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQThYdWxUaFl6cTV4SnJqaFYwR1pXc3VkWU5Lc2prbnRSNXJmQWdRaFBIRWcyRTczVWFRY2VlLWZha1EwQkUyeXowcjlUTkJRUVZCcFpFWTJ3cV9tYmt1eDVvRzVwRE1UTmk4SDE3OEo2NU5TaU4zLWQ2OWcxc1hBM180U09MTHdwMmZGSnVPRlhMZGJoSjluRlVJRFFXc0pDM19sNUVRbU5fOU1GbTIzV28tdWxUN0lGT24wdkZn?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T22:20:58+00:00"
         },
         {
           "title": "Comedian and presenter PJ Gallagher dies aged 51",
@@ -9175,6 +9175,28 @@
           "title": "U5501, Shamble Lane, Newtownhamilton, - Road Closure, U5501, Shamble Lane, Newtownhamilton",
           "summary": "Road closure required to facilitate work by R Heatrick Ltd. Closure to operate: From 08:00 on Monday 08 December 2025 to 18:00 on Sunday 06 December 2026. Diversion in place, delays expected. Alternative Route Via : B78 Markethill Road, B78 Cladymilltown Road, B134 Mowhan Road, B134 Tullyah Road. ﻿",
           "url": "https://www.trafficwatchni.com/twni/"
+        }
+      ]
+    }
+  },
+  "security": {
+    "threat": {
+      "status": "unavailable",
+      "checked_at": "2026-11-28T00:40:07.468195+00:00",
+      "verified_at": null,
+      "levels": null
+    },
+    "police": {
+      "status": "ok",
+      "checked_at": "2026-11-28T00:40:07.468195+00:00",
+      "items": [
+        {
+          "title": "Appeal for information following Co Down burglary series",
+          "url": "https://www.psni.police.uk/latest-news/appeal-information-following-co-down-burglary-series"
+        },
+        {
+          "title": "Appeal for information following aggravated burglary in Bangor",
+          "url": "https://www.psni.police.uk/latest-news/appeal-information-following-aggravated-burglary-bangor-1"
         }
       ]
     }
