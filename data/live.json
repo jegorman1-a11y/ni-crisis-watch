@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-28T01:08:09.433424Z",
+  "generated_at": "2026-11-28T02:50:30.792603Z",
   "mode": "automatic source headlines, not independently verified emergency alerts",
   "sources": [
     {
@@ -8,9 +8,9 @@
       "name": "Met Office · Northern Ireland warnings",
       "site": "https://weather.metoffice.gov.uk/warnings-and-advice/uk-warnings",
       "kind": "warnings",
-      "checked_at": "2026-11-28T01:08:09.433424Z",
+      "checked_at": "2026-11-28T02:50:30.792603Z",
       "status": "ok",
-      "last_success": "2026-11-28T01:08:09.433424Z",
+      "last_success": "2026-11-28T02:50:30.792603Z",
       "item_count": 0
     },
     {
@@ -18,9 +18,9 @@
       "name": "UK Health Security Agency announcements",
       "site": "https://www.gov.uk/government/organisations/uk-health-security-agency",
       "kind": "news",
-      "checked_at": "2026-11-28T01:08:09.433424Z",
+      "checked_at": "2026-11-28T02:50:30.792603Z",
       "status": "ok",
-      "last_success": "2026-11-28T01:08:09.433424Z",
+      "last_success": "2026-11-28T02:50:30.792603Z",
       "item_count": 20
     },
     {
@@ -28,9 +28,9 @@
       "name": "NI Department of Health announcements",
       "site": "https://www.health-ni.gov.uk/news",
       "kind": "news",
-      "checked_at": "2026-11-28T01:08:09.433424Z",
+      "checked_at": "2026-11-28T02:50:30.792603Z",
       "status": "ok",
-      "last_success": "2026-11-28T01:08:09.433424Z",
+      "last_success": "2026-11-28T02:50:30.792603Z",
       "item_count": 30
     },
     {
@@ -38,9 +38,9 @@
       "name": "NI Department of Education announcements",
       "site": "https://www.education-ni.gov.uk/news",
       "kind": "news",
-      "checked_at": "2026-11-28T01:08:09.433424Z",
+      "checked_at": "2026-11-28T02:50:30.792603Z",
       "status": "ok",
-      "last_success": "2026-11-28T01:08:09.433424Z",
+      "last_success": "2026-11-28T02:50:30.792603Z",
       "item_count": 30
     }
   ],

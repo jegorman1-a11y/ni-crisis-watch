@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-11-28T01:08:10.813772+00:00",
+  "generated_at": "2026-11-28T02:50:32.175124+00:00",
   "weather": {
     "County Down": {
       "status": "ok",
       "days": [
         {
           "date": "2026-11-28",
-          "max_c": 10.1,
-          "min_c": 3.9,
+          "max_c": 10.0,
+          "min_c": 3.0,
           "rain_pct": 75,
-          "wind_kmh": 29.5,
+          "wind_kmh": 27.4,
           "weather_code": 61
         },
         {
           "date": "2026-11-29",
-          "max_c": 10.4,
-          "min_c": 4.7,
+          "max_c": 9.5,
+          "min_c": 4.2,
           "rain_pct": 86,
-          "wind_kmh": 22.5,
+          "wind_kmh": 25.6,
           "weather_code": 53
         },
         {
           "date": "2026-11-30",
           "max_c": 13.1,
-          "min_c": 10.6,
+          "min_c": 9.7,
           "rain_pct": 100,
-          "wind_kmh": 36.7,
+          "wind_kmh": 33.8,
           "weather_code": 53
         },
         {
@@ -133,7 +133,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T01:08:10.813772+00:00",
+      "checked_at": "2026-11-28T02:50:32.175124+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -143,24 +143,24 @@
       "days": [
         {
           "date": "2026-11-28",
-          "max_c": 11.0,
+          "max_c": 10.6,
           "min_c": 5.1,
           "rain_pct": 100,
-          "wind_kmh": 19.4,
-          "weather_code": 63
+          "wind_kmh": 18.4,
+          "weather_code": 61
         },
         {
           "date": "2026-11-29",
-          "max_c": 11.0,
-          "min_c": 6.2,
+          "max_c": 10.3,
+          "min_c": 7.1,
           "rain_pct": 20,
-          "wind_kmh": 13.0,
-          "weather_code": 63
+          "wind_kmh": 10.4,
+          "weather_code": 53
         },
         {
           "date": "2026-11-30",
           "max_c": 12.4,
-          "min_c": 7.6,
+          "min_c": 7.1,
           "rain_pct": 31,
           "wind_kmh": 22.7,
           "weather_code": 51
@@ -270,7 +270,7 @@
           "weather_code": null
         }
       ],
-      "checked_at": "2026-11-28T01:08:10.813772+00:00",
+      "checked_at": "2026-11-28T02:50:32.175124+00:00",
       "source": "Open-Meteo composite forecast",
       "source_url": "https://open-meteo.com/",
       "note": "Model-based 16-day outlook; especially uncertain beyond day 7. Not an official Met Office warning."
@@ -279,6 +279,12 @@
   "news": {
     "stories": {
       "UK": [
+        {
+          "title": "'I don't know what I'd do without it': Why shoppers and staff fear losing Poundland",
+          "url": "https://www.bbc.co.uk/news/articles/c65y1l9j7j9ko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC UK",
+          "published_at": "2026-11-28T01:12:28+00:00"
+        },
         {
           "title": "Should I get a flu vaccine now?",
           "url": "https://www.bbc.co.uk/news/articles/cq8e018jyjngo?at_medium=RSS&at_campaign=rss",
@@ -302,12 +308,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cqevr2ly00g9o?at_medium=RSS&at_campaign=rss",
           "source": "BBC UK",
           "published_at": "2026-11-27T21:37:15+00:00"
-        },
-        {
-          "title": "Millions lose access to benefits and pensions services after 'cyber incident'",
-          "url": "https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC UK",
-          "published_at": "2026-11-27T20:42:44+00:00"
         }
       ],
       "Northern Ireland": [
@@ -344,6 +344,24 @@
       ],
       "Republic of Ireland": [
         {
+          "title": "Fourteen found dead on migrant boat off Canary Islands",
+          "url": "https://www.rte.ie/news/2026/1128/1600975-canary-islands-boat/",
+          "source": "RTÉ News",
+          "published_at": "2026-11-28T01:54:07+00:00"
+        },
+        {
+          "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-28T01:53:41+00:00"
+        },
+        {
+          "title": "Post match reaction with Gerry Thornley; Ireland beat Australia - The Irish Times",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQb2hRYS14OGxjaWVWekxWd3AtaWl3Z2ktMVhLTzROVkJjS1ExLU56VHF0a3dKSHJCRThGVzcyQnlJV3BndmhfWjZSX1dmcWQ1SkRRbnh4QjNOWFJoTWNHclJhdVdJLWRKUDRCOFM1ZXR2TDMtSUFSZTkybGJLd3RsX0d3eXFpX0szRU1VamcyTlpteGFGLXpFOFJlLXNwNUVibkVENGhpN2hBOUIwNkFGNThnRmxwUTQ?oc=5",
+          "source": "Google News / Ireland",
+          "published_at": "2026-11-28T01:26:09+00:00"
+        },
+        {
           "title": "Tributes paid to comedian PJ Gallagher",
           "url": "https://www.rte.ie/entertainment/2026/1128/1600976-tributes-pj-gallagher/",
           "source": "RTÉ News",
@@ -354,24 +372,6 @@
           "url": "https://www.rte.ie/news/2026/1128/1600973-us-military/",
           "source": "RTÉ News",
           "published_at": "2026-11-28T00:33:19+00:00"
-        },
-        {
-          "title": "Eight months: What we know about the sacking of a HSE CEO - RTE.ie",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mM0ZtWXk4S2ttWGh3OWZfbjZhSjUtbVdHUTZibDMwTDJaN0pZUWxjNGszX0pwQmJxZnJmYl9MN0I1UldSNkh4V1pvdTlTU1I2NjFyY2ZKblhZdDd5a0NzZFlVVEN6TjFBeU13ZkVBMS1FN200ZUVDVWdnMzhLTVU?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-28T00:23:41+00:00"
-        },
-        {
-          "title": "Ireland player ratings v Australia: Composed Sam Prendergast stands out - The Irish Times",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQThYdWxUaFl6cTV4SnJqaFYwR1pXc3VkWU5Lc2prbnRSNXJmQWdRaFBIRWcyRTczVWFRY2VlLWZha1EwQkUyeXowcjlUTkJRUVZCcFpFWTJ3cV9tYmt1eDVvRzVwRE1UTmk4SDE3OEo2NU5TaU4zLWQ2OWcxc1hBM180U09MTHdwMmZGSnVPRlhMZGJoSjluRlVJRFFXc0pDM19sNUVRbU5fOU1GbTIzV28tdWxUN0lGT24wdkZn?oc=5",
-          "source": "Google News / Ireland",
-          "published_at": "2026-11-27T22:20:58+00:00"
-        },
-        {
-          "title": "Comedian and presenter PJ Gallagher dies aged 51",
-          "url": "https://www.rte.ie/entertainment/2026/1127/1600964-pj-gallagher/",
-          "source": "RTÉ News",
-          "published_at": "2026-11-27T22:13:32+00:00"
         }
       ]
     },
@@ -9182,13 +9182,13 @@
   "security": {
     "threat": {
       "status": "unavailable",
-      "checked_at": "2026-11-28T01:08:10.813772+00:00",
+      "checked_at": "2026-11-28T02:50:32.175124+00:00",
       "verified_at": null,
       "levels": null
     },
     "police": {
       "status": "ok",
-      "checked_at": "2026-11-28T01:08:10.813772+00:00",
+      "checked_at": "2026-11-28T02:50:32.175124+00:00",
       "items": [
         {
           "title": "Appeal for information following Co Down burglary series",
